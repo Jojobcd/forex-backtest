@@ -1,0 +1,16 @@
+{
+ "analyse_id": "2026-10-08",
+ "catalyseurs": "Emploi australien du 15 octobre, banque d'Australie le 3 novembre, Banque d'Angleterre le 5 novembre.",
+ "confiance": "faible",
+ "cree_le": "2026-10-08T08:02:00Z",
+ "ecart": 3.2,
+ "faible": "GBP",
+ "forte": "AUD",
+ "invalidation": "Une panique sur les marchés, car le dollar australien chute quand la peur monte, ou un net ralentissement de la Chine.",
+ "paire": "GBPAUD",
+ "sens": "VENTE",
+ "source": "analyse",
+ "statut": "idee",
+ "suit_modele": true,
+ "these": "L'Australie a le taux le plus élevé des dix pays et vient encore de le monter, alors que la Banque d'Angleterre hésite. La paire est assez fiable dans le backtest depuis 2013."
+}

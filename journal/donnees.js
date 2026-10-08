@@ -1,0 +1,250 @@
+/* Généré par maj_donnees.py : ne pas modifier à la main. */
+window.JOURNAL_DATA = {
+ "analyses": [
+  {
+   "calendrier": [
+    {
+     "date": "14 oct.",
+     "devises": "USD",
+     "evenement": "Inflation américaine de septembre"
+    },
+    {
+     "date": "15 oct.",
+     "devises": "AUD, USD",
+     "evenement": "Emploi australien, prix à la production et ventes au détail américains"
+    },
+    {
+     "date": "27-28 oct.",
+     "devises": "USD",
+     "evenement": "Décision de la Fed"
+    },
+    {
+     "date": "28 oct.",
+     "devises": "CAD, NZD",
+     "evenement": "Décisions des banques du Canada et de Nouvelle-Zélande"
+    },
+    {
+     "date": "29-30 oct.",
+     "devises": "JPY",
+     "evenement": "Décision de la Banque du Japon"
+    },
+    {
+     "date": "3 nov.",
+     "devises": "AUD",
+     "evenement": "Décision de la banque d'Australie"
+    },
+    {
+     "date": "5 nov.",
+     "devises": "GBP",
+     "evenement": "Décision de la Banque d'Angleterre"
+    },
+    {
+     "date": "En continu",
+     "devises": "NOK, CAD, JPY, EUR",
+     "evenement": "Détroit d'Ormuz et prix du pétrole"
+    }
+   ],
+   "classement": [
+    {
+     "devise": "NOK",
+     "modele": 2.21,
+     "pourquoi": "La Norvège a monté ses taux en septembre (4,50 %) et le pétrole à 100 dollars profite à ce grand exportateur.",
+     "score": 2.8
+    },
+    {
+     "devise": "AUD",
+     "modele": 2.65,
+     "pourquoi": "L'Australie a monté ses taux pour la quatrième fois cette année (4,60 %), le taux le plus élevé des dix pays. Point faible : sa monnaie baisse quand les marchés ont peur.",
+     "score": 2.4
+    },
+    {
+     "devise": "USD",
+     "modele": -0.27,
+     "pourquoi": "La Fed a monté ses taux en septembre et en prévoit d'autres. Le dollar sert aussi de refuge pendant la crise. Point faible : l'emploi américain ralentit.",
+     "score": 1.3
+    },
+    {
+     "devise": "NZD",
+     "modele": 0.68,
+     "pourquoi": "Hausse de taux en septembre (2,75 %), mais un taux encore bas comparé à l'Australie.",
+     "score": 0.8
+    },
+    {
+     "devise": "JPY",
+     "modele": 0.13,
+     "pourquoi": "La Banque du Japon a monté ses taux à 1,25 %, au plus haut depuis 1995, et pourrait recommencer fin octobre. Point faible : le Japon importe tout son pétrole.",
+     "score": 0.7
+    },
+    {
+     "devise": "CAD",
+     "modele": 1.53,
+     "pourquoi": "Le pétrole cher aide le Canada, mais la guerre commerciale avec les États-Unis pèse sur l'économie et la banque centrale n'a pas encore monté ses taux.",
+     "score": 0.3
+    },
+    {
+     "devise": "EUR",
+     "modele": 0.38,
+     "pourquoi": "La BCE a monté ses taux en septembre (2,50 %), mais l'Europe importe son énergie et les spéculateurs parient contre l'euro.",
+     "score": -0.2
+    },
+    {
+     "devise": "GBP",
+     "modele": -1.05,
+     "pourquoi": "La Banque d'Angleterre n'a pas bougé malgré une inflation qui remonte. Une hausse est possible le 5 novembre. Le Royaume-Uni importe son énergie.",
+     "score": -0.8
+    },
+    {
+     "devise": "SEK",
+     "modele": -3.56,
+     "pourquoi": "Taux bas et couronne faible. Mais l'inflation remonte et les marchés attendent des hausses de taux dès novembre, donc la couronne pourrait se redresser.",
+     "score": -2.2
+    },
+    {
+     "devise": "CHF",
+     "modele": -2.7,
+     "pourquoi": "Taux à 0 %, le plus bas des dix pays, et inflation sous 1 %. Le franc reste une valeur refuge, ce qui limite sa baisse quand les marchés ont peur.",
+     "score": -2.4
+    }
+   ],
+   "confiance": "moyen",
+   "date": "2026-10-08",
+   "en_bref": "Les banques centrales remontent leurs taux pour contrer l'inflation causée par le pétrole cher, lui-même lié à la guerre avec l'Iran et aux attaques dans le détroit d'Ormuz. Les monnaies des pays qui exportent du pétrole ou qui montent le plus leurs taux sont les plus solides : Norvège, Australie, États-Unis. Le franc suisse et la couronne suédoise, aux taux les plus bas, sont les plus fragiles.",
+   "resume": [
+    "Fait : en septembre, la Fed (3,75 à 4 %), la BCE (2,50 %), la Banque du Japon (1,25 %), la Norvège (4,50 %), l'Australie (4,60 %) et la Nouvelle-Zélande (2,75 %) ont monté leurs taux.",
+    "Fait : la Banque d'Angleterre (3,75 %), la Suisse (0 %), la Suède (1,75 %) et le Canada (2,25 %) n'ont pas bougé.",
+    "Fait : le pétrole Brent est autour de 100 dollars le baril, avec de nouvelles attaques contre des pétroliers dans le détroit d'Ormuz.",
+    "Fait : l'emploi américain a fortement ralenti en septembre, avec 29 000 créations d'emplois et un chômage à 4,2 %.",
+    "Interprétation : le modèle automatique ne voit pas encore les hausses de septembre. Le dollar américain et le yen remontent donc au classement, et le dollar canadien recule à cause de la guerre commerciale avec les États-Unis.",
+    "Scénarios : tensions qui durent (50 %), accord sur Ormuz et chute du pétrole (25 %), escalade militaire (25 %).",
+    "Risque principal : un accord sur Ormuz ferait chuter le pétrole et annulerait l'avantage de la couronne norvégienne."
+   ],
+   "sources": [
+    {
+     "date": "16/09/2026",
+     "titre": "CNBC : la Fed monte ses taux à 3,75-4 %",
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+    },
+    {
+     "date": "10/09/2026",
+     "titre": "BCE : décisions de politique monétaire",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+    },
+    {
+     "date": "17/09/2026",
+     "titre": "Banque d'Angleterre : taux maintenu à 3,75 %",
+     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+    },
+    {
+     "date": "18/09/2026",
+     "titre": "Banque du Japon : décision du 18 septembre",
+     "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf"
+    },
+    {
+     "date": "23/09/2026",
+     "titre": "Norges Bank : décision de septembre",
+     "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/september-2026/"
+    },
+    {
+     "date": "24/09/2026",
+     "titre": "Riksbank : décision de septembre",
+     "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/2026/monetary-policy-decision-september-2026/"
+    },
+    {
+     "date": "24/09/2026",
+     "titre": "BNS : appréciation du 24 septembre",
+     "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
+    },
+    {
+     "date": "29/09/2026",
+     "titre": "Banque d'Australie : décision de septembre",
+     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
+    },
+    {
+     "date": "02/09/2026",
+     "titre": "Banque du Canada : annonce de taux",
+     "url": "https://www.bankofcanada.ca/2026/09/bank-of-canada-interest-rate-announcement-2026-09-2/"
+    },
+    {
+     "date": "02/10/2026",
+     "titre": "CNBC : emploi américain de septembre",
+     "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+    },
+    {
+     "date": "07/10/2026",
+     "titre": "Bloomberg : tensions à Ormuz, pétrole et dollar en hausse",
+     "url": "https://bloomberg.com/news/articles/2026-10-07/emerging-stocks-halt-advance-as-hormuz-tensions-come-into-focus"
+    },
+    {
+     "date": "07/10/2026",
+     "titre": "Bloomberg : inflation suédoise et Riksbank",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-07/sweden-s-steady-inflation-rate-keeps-riksbank-rate-hike-in-play"
+    },
+    {
+     "date": "22/08/2026",
+     "titre": "CNBC : rupture des négociations commerciales Canada-États-Unis",
+     "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html"
+    },
+    {
+     "date": "04/10/2026",
+     "titre": "FXStreet : rapport COT du 2 octobre",
+     "url": "https://www.fxstreet.com/analysis/cot-report-october-2-2026-202610041905"
+    }
+   ],
+   "titre": "Semaine du 8 octobre 2026",
+   "id": "2026-10-08"
+  }
+ ],
+ "idees": [
+  {
+   "analyse_id": "2026-10-08",
+   "catalyseurs": "Emploi australien du 15 octobre, banque d'Australie le 3 novembre, Banque d'Angleterre le 5 novembre.",
+   "confiance": "faible",
+   "cree_le": "2026-10-08T08:02:00Z",
+   "ecart": 3.2,
+   "faible": "GBP",
+   "forte": "AUD",
+   "invalidation": "Une panique sur les marchés, car le dollar australien chute quand la peur monte, ou un net ralentissement de la Chine.",
+   "paire": "GBPAUD",
+   "sens": "VENTE",
+   "source": "analyse",
+   "statut": "idee",
+   "suit_modele": true,
+   "these": "L'Australie a le taux le plus élevé des dix pays et vient encore de le monter, alors que la Banque d'Angleterre hésite. La paire est assez fiable dans le backtest depuis 2013.",
+   "id": "2026-10-08-GBPAUD"
+  },
+  {
+   "analyse_id": "2026-10-08",
+   "catalyseurs": "Prix du pétrole, inflation britannique, décision de la Banque d'Angleterre le 5 novembre.",
+   "confiance": "moyenne",
+   "cree_le": "2026-10-08T08:00:00Z",
+   "ecart": 3.6,
+   "faible": "GBP",
+   "forte": "NOK",
+   "invalidation": "Un accord sur Ormuz qui fait chuter le pétrole sous 85 dollars, ou une forte hausse de taux surprise au Royaume-Uni.",
+   "paire": "GBPNOK",
+   "sens": "VENTE",
+   "source": "analyse",
+   "statut": "idee",
+   "suit_modele": true,
+   "these": "La Norvège monte ses taux et le pétrole cher l'enrichit. La Banque d'Angleterre attend, et le Royaume-Uni paie son énergie plus cher. Dans le backtest, cette paire suit bien les écarts de notes, surtout depuis 2013. L'écart le plus grand du classement oppose la couronne norvégienne au franc suisse, mais cette paire a un historique négatif.",
+   "id": "2026-10-08-GBPNOK"
+  },
+  {
+   "analyse_id": "2026-10-08",
+   "catalyseurs": "Inflation américaine du 14 octobre, décision de la Fed fin octobre.",
+   "confiance": "moyenne",
+   "cree_le": "2026-10-08T08:01:00Z",
+   "ecart": 3.7,
+   "faible": "CHF",
+   "forte": "USD",
+   "invalidation": "Une inflation américaine qui recule nettement et pousse la Fed à arrêter les hausses, ou un signal de hausse de taux suisse avant décembre.",
+   "paire": "USDCHF",
+   "sens": "ACHAT",
+   "source": "analyse",
+   "statut": "idee",
+   "suit_modele": true,
+   "these": "La Fed monte ses taux et en annonce d'autres, la Suisse reste à 0 %. L'écart de taux dépasse 3,75 points en faveur du dollar. Dans cette crise, c'est le dollar qui joue le rôle de refuge principal.",
+   "id": "2026-10-08-USDCHF"
+  }
+ ]
+};

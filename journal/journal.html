@@ -1,0 +1,372 @@
+<title>Journal Forex G10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Sora:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Mise en page : colonne de lecture unique, du bilan vers le détail ; cartes réservées aux idées et aux trades. */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --ink:#14202b; --ink2:#4a5866; --muted:#7b8794; --line:#dfe4e9;
+  --accent:#0b6a86; --accent-soft:#e3f1f5; --gain:#1a7f37; --gain-soft:#e6f4ea; --loss:#b8372a; --loss-soft:#fbe9e6;
+  --warn:#9a6700; --warn-soft:#fff4d6;
+  --f-display:"Sora",system-ui,sans-serif; --f-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1418; --surface:#161e24; --ink:#eef2f5; --ink2:#b4c0ca; --muted:#84919c; --line:#26313a;
+  --accent:#4fb3cf; --accent-soft:#11303a; --gain:#3fb950; --gain-soft:#12301b; --loss:#f0796b; --loss-soft:#3a1915;
+  --warn:#e3b341; --warn-soft:#33290f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1418; --surface:#161e24; --ink:#eef2f5; --ink2:#b4c0ca; --muted:#84919c; --line:#26313a;
+  --accent:#4fb3cf; --accent-soft:#11303a; --gain:#3fb950; --gain-soft:#12301b; --loss:#f0796b; --loss-soft:#3a1915;
+  --warn:#e3b341; --warn-soft:#33290f; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-body);margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-inline:16px;padding-block:28px 72px;display:flex;flex-direction:column;gap:36px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.25}
+h1{font-size:30px;font-weight:700}h2{font-size:21px;font-weight:600}h3{font-size:16px;font-weight:600}
+p{margin:0}.lead{color:var(--ink2);max-width:65ch}.small{font-size:14px;color:var(--ink2)}.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+section{display:flex;flex-direction:column;gap:14px;min-width:0}
+.eyebrow{font:600 12px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.status{padding:12px 16px;border-radius:10px;background:var(--warn-soft);color:var(--ink)}
+.bilan{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:18px}
+.phrase{font-size:19px;max-width:65ch}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.kpi{display:flex;flex-direction:column;gap:2px;padding-top:10px;border-top:2px solid var(--line)}
+.kpi b{font:600 26px/1.2 var(--f-display);font-variant-numeric:tabular-nums}.kpi span{font-size:13px;color:var(--ink2)}
+.pos{color:var(--gain)}.neg{color:var(--loss)}
+.chart{position:relative;min-width:0}.chart svg{width:100%;height:220px;display:block}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+.meteo{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+.mrow{display:grid;grid-template-columns:minmax(120px,190px) 1fr 92px;gap:12px;align-items:center;font-size:14px}
+.mrow .nom{display:flex;flex-direction:column;line-height:1.2}.mrow .nom small{color:var(--muted);font-family:var(--f-mono);font-size:12px}
+.track{position:relative;height:14px;border-radius:7px;background:var(--bg)}
+.track::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted)}
+.bar{position:absolute;top:2px;bottom:2px;border-radius:5px}
+.mrow .lab{font-size:13px;color:var(--ink2);text-align:right}
+.scale{display:grid;grid-template-columns:minmax(120px,190px) 1fr 92px;gap:12px;font-size:12px;color:var(--muted)}.scale div:nth-child(2){display:flex;justify-content:space-between}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.pair{font:600 20px/1.1 var(--f-mono)}
+.pill{display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--f-body);padding:5px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.pill.gain{background:var(--gain-soft);color:var(--gain)}.pill.loss{background:var(--loss-soft);color:var(--loss)}.pill.warn{background:var(--warn-soft);color:var(--warn)}.pill.mute{background:var(--bg);color:var(--ink2)}
+.plain{font-size:17px}
+dl{display:grid;grid-template-columns:1fr;gap:2px;margin:0;font-size:14px}dt{color:var(--muted);font-size:12px;letter-spacing:.03em;text-transform:uppercase;margin-top:8px}dt:first-child{margin-top:0}dd{margin:0;color:var(--ink2)}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+button{font:600 14px/1 var(--f-body);border-radius:8px;padding:10px 14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+button.danger{color:var(--loss)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+button:disabled{opacity:.5;cursor:not-allowed}
+form.inline{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;padding:12px;border-radius:10px;background:var(--bg)}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--ink2)}
+input,select,textarea{font:15px var(--f-body);padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);min-width:0}
+textarea{min-height:64px;resize:vertical}.full{grid-column:1/-1}
+.tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-weight:700;color:var(--ink2);font-size:13px}td.num{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}tr:last-child td{border-bottom:none}
+.empty{padding:22px;border:1px dashed var(--line);border-radius:14px;color:var(--ink2);text-align:center}
+.cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.cmp .card b{font:600 22px var(--f-display)}
+details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 18px}
+summary{cursor:pointer;font:600 16px var(--f-display)}
+.gloss{display:grid;grid-template-columns:minmax(110px,170px) 1fr;gap:10px 16px;margin-top:12px;font-size:15px}.gloss dt{color:var(--ink);font-weight:700}.gloss dd{color:var(--ink2)}
+ul.clean{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.cal{display:flex;flex-direction:column;gap:0}.cal div{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}.cal div:last-child{border-bottom:none}
+.confirm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:14px;padding:10px;border-radius:8px;background:var(--loss-soft)}
+@media (max-width:560px){.mrow,.scale{grid-template-columns:110px 1fr 70px}.gloss{grid-template-columns:1fr}.gloss dt{margin-top:6px}}
+@media (prefers-reduced-motion:no-preference){.bar{transition:width .4s ease,left .4s ease}}
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:8px">
+    <span class="eyebrow">Carnet de trading · 10 grandes devises</span>
+    <h1>Journal Forex G10</h1>
+    <p class="lead">Ce journal suit des paris sur les devises : on achète une monnaie qu'on juge solide contre une monnaie qu'on juge fragile. Chaque semaine, une analyse propose des idées. Le journal note ce qui a été pris, ce que ça a donné, et si la méthode tient ses promesses.</p>
+  </header>
+
+  <p id="status" class="status" hidden></p>
+
+  <section aria-labelledby="h-bilan">
+    <h2 id="h-bilan">Le bilan</h2>
+    <div class="bilan">
+      <p id="phrase" class="phrase">Aucun trade terminé pour l'instant. Le bilan apparaîtra ici dès le premier trade clôturé.</p>
+      <div class="kpis">
+        <div class="kpi"><b id="k-n">0</b><span>trades terminés</span></div>
+        <div class="kpi"><b id="k-win">—</b><span>part de trades gagnants</span></div>
+        <div class="kpi"><b id="k-r">—</b><span>bilan total, en mises risquées (R)</span></div>
+        <div class="kpi"><b id="k-rr">—</b><span>gain moyen ÷ perte moyenne</span></div>
+      </div>
+      <div class="chart" id="chart-wrap" hidden>
+        <p class="small">Évolution du bilan, trade après trade. Au-dessus de zéro, le journal est gagnant.</p>
+        <svg id="chart" role="img" aria-label="Bilan cumulé en R après chaque trade terminé"></svg>
+        <div id="tip" class="tip" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-analyse">
+    <h2 id="h-analyse">La dernière analyse</h2>
+    <div id="analyse"><p class="empty">La première analyse hebdomadaire apparaîtra ici. Elle est ajoutée par Claude après chaque point de la semaine.</p></div>
+  </section>
+
+  <section aria-labelledby="h-meteo">
+    <h2 id="h-meteo">La météo des devises</h2>
+    <p class="lead">Chaque monnaie reçoit une note de -5 (très fragile) à +5 (très solide), selon les taux d'intérêt, la croissance, l'inflation et le contexte mondial. Une bonne idée de trade oppose une monnaie en haut de la liste à une monnaie en bas.</p>
+    <div id="meteo"><p class="empty">Le classement apparaîtra avec la première analyse.</p></div>
+  </section>
+
+  <section aria-labelledby="h-idees">
+    <h2 id="h-idees">Idées à étudier</h2>
+    <p class="lead">Ce sont des propositions, pas des ordres. Le trader décide de les prendre ou non, avec son analyse graphique pour le point d'entrée et la limite de perte.</p>
+    <div id="idees" class="cards"></div>
+  </section>
+
+  <section aria-labelledby="h-cours">
+    <h2 id="h-cours">Trades en cours</h2>
+    <div id="encours" class="cards"></div>
+  </section>
+
+  <section aria-labelledby="h-hist">
+    <h2 id="h-hist">Historique</h2>
+    <div id="hist"></div>
+  </section>
+
+  <section aria-labelledby="h-cmp">
+    <h2 id="h-cmp">La méthode aide-t-elle vraiment ?</h2>
+    <p class="lead">On compare les trades qui suivent le classement des devises à ceux qui vont contre. Si les premiers rapportent nettement plus, la méthode apporte quelque chose. Il faut au moins une vingtaine de trades terminés pour conclure.</p>
+    <div id="cmp" class="cmp"></div>
+  </section>
+
+  <section aria-labelledby="h-add">
+    <h2 id="h-add">Ajouter un trade</h2>
+    <form id="f-add" class="inline">
+      <label>Paire<input id="a-paire" required placeholder="ex. EURUSD" maxlength="6" pattern="[A-Za-z]{6}" autocomplete="off"></label>
+      <label>Sens<select id="a-sens"><option value="ACHAT">Achat</option><option value="VENTE">Vente</option></select></label>
+      <label>Statut<select id="a-statut"><option value="ouvert">En cours</option><option value="idee">Idée à étudier</option></select></label>
+      <label>Prix d'entrée<input id="a-entree" type="number" step="any" inputmode="decimal"></label>
+      <label>Limite de perte (stop)<input id="a-stop" type="number" step="any" inputmode="decimal"></label>
+      <label>Objectif<input id="a-obj" type="number" step="any" inputmode="decimal"></label>
+      <label class="full">Pourquoi ce trade ?<textarea id="a-these" placeholder="En une ou deux phrases"></textarea></label>
+      <div class="actions full"><button class="primary" type="submit" id="a-submit">Ajouter au journal</button><span id="a-msg" class="small"></span></div>
+    </form>
+  </section>
+
+  <details>
+    <summary>Comment lire ce journal (lexique)</summary>
+    <dl class="gloss">
+      <dt>Paire</dt><dd>Deux monnaies comparées. Dans EURUSD, la première (l'euro) est mesurée en la seconde (le dollar). EURUSD à 1,10 veut dire qu'un euro vaut 1,10 dollar.</dd>
+      <dt>Achat / Vente</dt><dd>Acheter EURUSD, c'est parier que l'euro va monter face au dollar. Vendre, c'est parier qu'il va baisser.</dd>
+      <dt>Stop</dt><dd>Le prix auquel on coupe le trade si on s'est trompé. Il fixe la perte maximale acceptée.</dd>
+      <dt>Objectif</dt><dd>Le prix auquel on prévoit d'encaisser le gain.</dd>
+      <dt>R (mise risquée)</dt><dd>La somme qu'on accepte de perdre sur un trade, celle que le stop protège. Un résultat de +2 R veut dire qu'on a gagné deux fois cette somme. -1 R veut dire que le stop a été touché. Parler en R permet de comparer les trades quelle que soit la taille du compte.</dd>
+      <dt>Part gagnante</dt><dd>Le pourcentage de trades qui ont rapporté. Elle ne suffit pas seule : 40 % de trades gagnants peut être très rentable si les gains sont trois fois plus gros que les pertes.</dd>
+      <dt>Gain ÷ perte moyens</dt><dd>Combien rapporte un trade gagnant comparé à ce que coûte un trade perdant. Au-dessus de 1, les gains sont plus gros que les pertes.</dd>
+      <dt>Note de devise</dt><dd>De -5 à +5. Elle combine cinq critères : la banque centrale (30 %), la croissance et l'emploi (20 %), l'inflation (20 %), l'écart de taux d'intérêt (15 %) et le contexte mondial (15 %).</dd>
+      <dt>Écart</dt><dd>La différence de note entre les deux monnaies d'une paire. Plus il est grand, plus le pari est soutenu par les fondamentaux. Sur 26 ans de données, un écart supérieur à 5 points a donné raison dans environ 56 % des cas.</dd>
+      <dt>Banque centrale « hawkish »</dt><dd>Qui veut monter ses taux pour freiner l'inflation. Cela soutient généralement sa monnaie. « Dovish » est l'inverse.</dd>
+    </dl>
+  </details>
+  <p class="small">Étude personnelle, pas un conseil financier. Trader des devises peut faire perdre plus que prévu.</p>
+</div>
+
+<script>
+const NOMS={USD:"dollar américain",EUR:"euro",GBP:"livre sterling",JPY:"yen japonais",CHF:"franc suisse",AUD:"dollar australien",NZD:"dollar néo-zélandais",CAD:"dollar canadien",NOK:"couronne norvégienne",SEK:"couronne suédoise"};
+const ART={USD:"le ",EUR:"l'",GBP:"la ",JPY:"le ",CHF:"le ",AUD:"le ",NZD:"le ",CAD:"le ",NOK:"la ",SEK:"la "};
+const DE={USD:"du ",EUR:"de l'",GBP:"de la ",JPY:"du ",CHF:"du ",AUD:"du ",NZD:"du ",CAD:"du ",NOK:"de la ",SEK:"de la "};
+const FACE={USD:"au ",EUR:"à l'",GBP:"à la ",JPY:"au ",CHF:"au ",AUD:"au ",NZD:"au ",CAD:"au ",NOK:"à la ",SEK:"à la "};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtR=r=>(r>0?"+":"")+r.toFixed(2).replace(".",",")+" R";
+const fmtP=x=>Math.round(x*100)+" %";
+const fdate=d=>{if(!d)return"—";const p=String(d).slice(0,10).split("-");return p.length===3?`${p[2]}/${p[1]}/${p[0]}`:d};
+const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
+let db=null, canWrite=true, trades=[], analyse=null, confirmId=null, openForm=null;
+
+function plain(t){
+  const b=t.paire.slice(0,3), q=t.paire.slice(3,6);
+  if(!NOMS[b]||!NOMS[q]) return "";
+  const up=t.sens==="ACHAT"?b:q, dn=t.sens==="ACHAT"?q:b;
+  return `Pari que ${ART[up]}${NOMS[up]} va se renforcer face ${FACE[dn]}${NOMS[dn]}.`;
+}
+function computeR(t){
+  if(typeof t.resultat_r==="number") return t.resultat_r;
+  const e=+t.entree,s=+t.stop,x=+t.sortie;
+  if(!e||!s||!x||e===s) return null;
+  return t.sens==="ACHAT"?(x-e)/(e-s):(e-x)/(s-e);
+}
+function suitModele(t){
+  const cl=t.classement||analyse?.classement; if(typeof t.suit_modele==="boolean") return t.suit_modele;
+  if(!cl) return null; const m={}; cl.forEach(c=>m[c.devise]=c.score);
+  const b=t.paire.slice(0,3),q=t.paire.slice(3,6); if(m[b]==null||m[q]==null) return null;
+  return t.sens==="ACHAT"?m[b]>m[q]:m[b]<m[q];
+}
+function label(s){return s>=3?"Très solide":s>=1?"Solide":s>-1?"Neutre":s>-3?"Fragile":"Très fragile"}
+
+function renderBilan(){
+  const done=trades.filter(t=>t.statut==="ferme").map(t=>({...t,R:computeR(t)})).filter(t=>t.R!=null).sort((a,b)=>String(a.date_sortie||a.cree_le).localeCompare(String(b.date_sortie||b.cree_le)));
+  const n=done.length; $("k-n").textContent=n;
+  if(!n){$("k-win").textContent="—";$("k-r").textContent="—";$("k-rr").textContent="—";$("chart-wrap").hidden=true;
+    $("phrase").textContent="Aucun trade terminé pour l'instant. Le bilan apparaîtra ici dès le premier trade clôturé.";return}
+  const wins=done.filter(t=>t.R>0), losses=done.filter(t=>t.R<0), tot=done.reduce((a,t)=>a+t.R,0);
+  const aw=wins.length?wins.reduce((a,t)=>a+t.R,0)/wins.length:0, al=losses.length?-losses.reduce((a,t)=>a+t.R,0)/losses.length:0;
+  $("k-win").textContent=fmtP(wins.length/n);
+  $("k-r").textContent=fmtR(tot); $("k-r").className=tot>=0?"pos":"neg";
+  $("k-rr").textContent=al?(aw/al).toFixed(2).replace(".",","):"—";
+  const sens=tot>=0?`au total, le journal a gagné ${fmtR(tot).replace("+","")}, soit ${Math.abs(tot).toFixed(1).replace(".",",")} fois la somme risquée sur un trade`:`au total, le journal a perdu ${fmtR(-tot).replace("+","")}, soit ${Math.abs(tot).toFixed(1).replace(".",",")} fois la somme risquée sur un trade`;
+  $("phrase").textContent=`Sur ${n} trade${n>1?"s":""} terminé${n>1?"s":""}, ${wins.length} ${wins.length>1?"ont":"a"} gagné. ${cap(sens)}.`+(n<20?" C'est encore trop peu pour juger la méthode.":"");
+  drawChart(done);
+}
+function drawChart(done){
+  $("chart-wrap").hidden=false; const svg=$("chart"); const W=svg.clientWidth||800,H=220,pl=44,pr=16,pt=12,pb=28;
+  let c=0; const pts=[{i:0,v:0,t:null}].concat(done.map((t,i)=>({i:i+1,v:(c+=t.R),t})));
+  const vs=pts.map(p=>p.v), mn=Math.min(0,...vs), mx=Math.max(0,...vs), span=(mx-mn)||1;
+  const x=i=>pl+(W-pl-pr)*(i/Math.max(1,pts.length-1)), y=v=>pt+(H-pt-pb)*(1-(v-mn)/span);
+  const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const step=span>8?2:span>3?1:0.5; let grid="";
+  for(let g=Math.ceil(mn/step)*step; g<=mx+1e-9; g+=step){grid+=`<line x1="${pl}" x2="${W-pr}" y1="${y(g)}" y2="${y(g)}" stroke="${g===0?css("--muted"):css("--line")}" stroke-width="1"${g===0?' stroke-dasharray="4 3"':""}/><text x="${pl-8}" y="${y(g)+4}" text-anchor="end" font-size="11" fill="${css("--muted")}" font-family="IBM Plex Mono,monospace">${(g>0?"+":"")+(+g.toFixed(1))}</text>`}
+  const d=pts.map((p,k)=>(k?"L":"M")+x(p.i)+","+y(p.v)).join(" ");
+  const last=pts[pts.length-1], col=last.v>=0?css("--gain"):css("--loss");
+  const area=d+` L${x(last.i)},${y(0)} L${x(0)},${y(0)} Z`;
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  svg.innerHTML=grid+`<path d="${area}" fill="${col}" opacity=".10"/><path d="${d}" fill="none" stroke="${col}" stroke-width="2" stroke-linejoin="round"/>`+
+    `<circle cx="${x(last.i)}" cy="${y(last.v)}" r="4.5" fill="${col}" stroke="${css("--surface")}" stroke-width="2"/>`+
+    `<text x="${pl}" y="${H-8}" font-size="11" fill="${css("--muted")}">Départ</text><text x="${W-pr}" y="${H-8}" font-size="11" text-anchor="end" fill="${css("--muted")}">Trade n° ${last.i}</text>`+
+    `<circle id="hov" r="5" fill="none" stroke="${css("--ink")}" stroke-width="1.5" visibility="hidden"/>`;
+  const tip=$("tip"), hov=svg.querySelector("#hov");
+  svg.onmousemove=e=>{const r=svg.getBoundingClientRect(); const mxp=(e.clientX-r.left)*(W/r.width);
+    let best=pts[0]; pts.forEach(p=>{if(Math.abs(x(p.i)-mxp)<Math.abs(x(best.i)-mxp))best=p});
+    hov.setAttribute("cx",x(best.i));hov.setAttribute("cy",y(best.v));hov.setAttribute("visibility","visible");
+    tip.hidden=false; tip.innerHTML=best.t?`<b>${esc(best.t.paire)}</b> · ${fmtR(best.t.R)}<br>Bilan : ${fmtR(best.v)}`:"Départ · 0 R";
+    const px=x(best.i)*(r.width/W), py=y(best.v)*(r.height/H)+20; tip.style.left=Math.min(px+12,r.width-170)+"px"; tip.style.top=py+"px"};
+  svg.onmouseleave=()=>{tip.hidden=true;hov.setAttribute("visibility","hidden")};
+}
+
+function renderAnalyse(){
+  const el=$("analyse"), me=$("meteo");
+  if(!analyse){return}
+  const a=analyse;
+  const res=(a.resume||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  const cal=(a.calendrier||[]).map(c=>`<div><span class="mono">${esc(c.date)}</span><span>${esc(c.evenement)}${c.devises?` <span class="small">(${esc(c.devises)})</span>`:""}</span></div>`).join("");
+  const src=(a.sources||[]).map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titre)}</a>${s.date?` <span class="small">${esc(s.date)}</span>`:""}</li>`).join("");
+  el.innerHTML=`<div class="card" style="gap:14px">
+    <div class="top"><h3>${esc(a.titre||"Analyse de la semaine")}</h3><span class="pill mute">${fdate(a.date)}</span></div>
+    ${a.en_bref?`<p class="plain">${esc(a.en_bref)}</p>`:""}
+    ${res?`<ul class="clean">${res}</ul>`:""}
+    ${a.confiance?`<p class="small">Niveau de confiance : <b>${esc(a.confiance)}</b>.</p>`:""}
+    ${cal?`<h3>À surveiller</h3><div class="cal">${cal}</div>`:""}
+    ${src?`<details style="border:none;padding:0"><summary class="small" style="font:600 14px var(--f-body)">Sources (${(a.sources||[]).length})</summary><ul class="clean small" style="margin-top:8px">${src}</ul></details>`:""}
+  </div>`;
+  const cl=[...(a.classement||[])].sort((x,y)=>y.score-x.score);
+  if(cl.length){
+    const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+    me.innerHTML=`<div class="meteo">${cl.map(c=>{const s=Math.max(-5,Math.min(5,c.score)); const w=Math.abs(s)/10*100; const left=s>=0?50:50-w;
+      return `<div class="mrow"><span class="nom">${cap(NOMS[c.devise]||c.devise)}<small>${esc(c.devise)} · ${(s>0?"+":"")+s.toFixed(1).replace(".",",")}</small></span>
+      <span class="track" title="${esc(c.pourquoi||"")}"><span class="bar" style="left:${left}%;width:${w}%;background:${s>=0?"var(--gain)":"var(--loss)"}"></span></span>
+      <span class="lab">${label(s)}</span></div>`}).join("")}
+      <div class="scale"><span></span><div><span>-5 fragile</span><span>0</span><span>+5 solide</span></div><span></span></div>
+      ${cl.some(c=>c.pourquoi)?`<details style="border:none;padding:0;margin-top:6px"><summary class="small" style="font:600 14px var(--f-body)">Pourquoi ces notes ?</summary><ul class="clean small" style="margin-top:8px">${cl.map(c=>c.pourquoi?`<li><b>${esc(c.devise)}</b> : ${esc(c.pourquoi)}</li>`:"").join("")}</ul></details>`:""}
+    </div>`;
+  }
+}
+
+function cardTrade(t){
+  const R=computeR(t), sm=suitModele(t);
+  const pillMap={idee:["Idée à étudier",""],ouvert:["En cours","warn"],ecarte:["Écartée","mute"]};
+  const [pl,pc]=pillMap[t.statut]||["",""];
+  const det=[["Écart de notes",t.ecart!=null?String(t.ecart).replace(".",",")+" points":null],["Confiance",t.confiance],["Pourquoi",t.these],["Ce qui peut le déclencher",t.catalyseurs],["Ce qui l'annulerait",t.invalidation],
+    ["Entrée",t.entree],["Stop",t.stop],["Objectif",t.objectif],["Ouvert le",t.date_entree?fdate(t.date_entree):null]].filter(r=>r[1]!=null&&r[1]!=="");
+  let form="";
+  if(openForm&&openForm.id===t.id){
+    if(openForm.kind==="ouvrir") form=`<form class="inline" data-act="ouvrir" data-id="${t.id}">
+      <label>Prix d'entrée<input id="o-e-${t.id}" type="number" step="any" required inputmode="decimal"></label>
+      <label>Stop<input id="o-s-${t.id}" type="number" step="any" required inputmode="decimal"></label>
+      <label>Objectif<input id="o-o-${t.id}" type="number" step="any" inputmode="decimal"></label>
+      <div class="actions full"><button class="primary" type="submit">Enregistrer l'ouverture</button><button type="button" data-cancel>Annuler</button></div></form>`;
+    if(openForm.kind==="fermer") form=`<form class="inline" data-act="fermer" data-id="${t.id}">
+      <label>Prix de sortie<input id="c-x-${t.id}" type="number" step="any" inputmode="decimal"></label>
+      <label>ou résultat en R<input id="c-r-${t.id}" type="number" step="any" inputmode="decimal" placeholder="ex. -1 ou 2,5"></label>
+      <label class="full">Ce qu'on retient<textarea id="c-n-${t.id}"></textarea></label>
+      <div class="actions full"><button class="primary" type="submit">Clôturer le trade</button><button type="button" data-cancel>Annuler</button></div></form>`;
+  }
+  const conf=confirmId===t.id?`<div class="confirm">Supprimer définitivement ce trade ?<button class="danger" data-del-yes="${t.id}">Oui, supprimer</button><button data-del-no>Non</button></div>`:"";
+  const btns=!canWrite?"":t.statut==="idee"?`<button class="primary" data-open="${t.id}">Je prends ce trade</button><button data-ecarte="${t.id}">J'écarte</button>`
+    :t.statut==="ouvert"?`<button class="primary" data-close="${t.id}">Clôturer</button>`:"";
+  return `<article class="card"><div class="top"><span class="pair">${esc(t.paire)}</span><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="pill ${t.sens==="ACHAT"?"gain":"loss"}">${t.sens==="ACHAT"?"Achat":"Vente"}</span>${pl?`<span class="pill ${pc}">${pl}</span>`:""}</span></div>
+    <p class="plain">${esc(plain(t))}</p>
+    ${sm===false?`<p class="small"><span class="pill warn">Contre le classement</span> Ce trade va à l'encontre des notes de la dernière analyse.</p>`:""}
+    ${det.length?`<dl>${det.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>`:""}
+    ${form}${conf}
+    ${!form&&!conf&&canWrite?`<div class="actions">${btns}<button class="danger" data-del="${t.id}" aria-label="Supprimer ${esc(t.paire)}">Supprimer</button></div>`:""}
+  </article>`;
+}
+function renderLists(){
+  const by=s=>trades.filter(t=>t.statut===s).sort((a,b)=>String(b.cree_le).localeCompare(String(a.cree_le)));
+  const id=by("idee"), oc=by("ouvert");
+  $("idees").innerHTML=id.length?id.map(cardTrade).join(""):`<p class="empty">Pas d'idée en attente. Les prochaines arriveront avec l'analyse de la semaine.</p>`;
+  $("encours").innerHTML=oc.length?oc.map(cardTrade).join(""):`<p class="empty">Aucun trade en cours. Pour en ouvrir un, cliquez « Je prends ce trade » sur une idée, ou utilisez le formulaire plus bas.</p>`;
+  const h=trades.filter(t=>t.statut==="ferme"||t.statut==="ecarte").sort((a,b)=>String(b.date_sortie||b.cree_le).localeCompare(String(a.date_sortie||a.cree_le)));
+  $("hist").innerHTML=h.length?`<div class="tw"><table><thead><tr><th>Date</th><th>Paire</th><th>Sens</th><th>Statut</th><th style="text-align:right">Résultat</th><th>En clair</th><th>Ce qu'on retient</th><th></th></tr></thead><tbody>${h.map(t=>{const R=computeR(t);
+    return `<tr><td class="mono">${fdate(t.date_sortie||t.cree_le)}</td><td class="mono">${esc(t.paire)}</td><td>${t.sens==="ACHAT"?"Achat":"Vente"}</td>
+    <td>${t.statut==="ecarte"?'<span class="pill mute">Écartée</span>':R==null?'<span class="pill mute">Sans résultat</span>':R>0?'<span class="pill gain">✓ Gagné</span>':R<0?'<span class="pill loss">✕ Perdu</span>':'<span class="pill mute">= Neutre</span>'}</td>
+    <td class="num ${R>0?"pos":R<0?"neg":""}">${R==null?"—":fmtR(R)}</td><td>${esc(plain(t))}</td><td>${esc(t.note||"")}</td>
+    <td>${canWrite?(confirmId===t.id?`<button class="danger" data-del-yes="${t.id}">Confirmer</button> <button data-del-no>Non</button>`:`<button class="danger" data-del="${t.id}" aria-label="Supprimer">Supprimer</button>`):""}</td></tr>`}).join("")}</tbody></table></div>`
+    :`<p class="empty">Les trades terminés et les idées écartées s'afficheront ici.</p>`;
+  const done=trades.filter(t=>t.statut==="ferme").map(t=>({R:computeR(t),sm:suitModele(t)})).filter(t=>t.R!=null);
+  const grp=(arr,title,desc)=>{const n=arr.length,tot=arr.reduce((a,t)=>a+t.R,0);
+    return `<div class="card"><h3>${title}</h3><p class="small">${desc}</p><b class="${n?(tot>=0?"pos":"neg"):""}">${n?fmtR(tot/n)+" par trade":"—"}</b><p class="small">${n} trade${n>1?"s":""} terminé${n>1?"s":""}${n?` · ${fmtP(arr.filter(t=>t.R>0).length/n)} gagnants`:""}</p></div>`};
+  $("cmp").innerHTML=grp(done.filter(t=>t.sm===true),"Avec le classement","Achat de la monnaie la mieux notée")+grp(done.filter(t=>t.sm===false),"Contre le classement","Achat de la monnaie la moins bien notée");
+}
+function render(){renderBilan();renderAnalyse();renderLists()}
+
+async function save(id,patch){
+  try{await db.doc("trades/"+id).update(patch)}catch(e){showErr(e)}
+}
+function showErr(e){const s=$("status");s.hidden=false;
+  s.textContent=e&&e.code==="quota_exceeded"?"Le journal est plein : supprimez d'anciens trades pour en ajouter.":e&&e.code==="invalid_argument"?"Ce compte peut lire le journal mais pas le modifier.":"L'enregistrement n'a pas abouti. Réessayez dans un instant.";
+  if(e&&e.code==="invalid_argument"){canWrite=false;render()}}
+
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.open){openForm={id:b.dataset.open,kind:"ouvrir"};confirmId=null;renderLists();return}
+  if(b.dataset.close){openForm={id:b.dataset.close,kind:"fermer"};confirmId=null;renderLists();return}
+  if("cancel" in b.dataset){openForm=null;renderLists();return}
+  if(b.dataset.ecarte){await save(b.dataset.ecarte,{statut:"ecarte",date_sortie:new Date().toISOString().slice(0,10)});return}
+  if(b.dataset.del){confirmId=b.dataset.del;openForm=null;renderLists();return}
+  if("delNo" in b.dataset){confirmId=null;renderLists();return}
+  if(b.dataset.delYes){const id=b.dataset.delYes;confirmId=null;try{await db.doc("trades/"+id).delete()}catch(err){showErr(err)}}
+});
+document.addEventListener("submit",async e=>{
+  const f=e.target; e.preventDefault();
+  if(f.id==="f-add"){
+    const paire=$("a-paire").value.trim().toUpperCase(); const msg=$("a-msg");
+    if(!/^[A-Z]{6}$/.test(paire)||!NOMS[paire.slice(0,3)]||!NOMS[paire.slice(3)]){msg.textContent="Paire inconnue : utilisez deux codes parmi USD, EUR, GBP, JPY, CHF, AUD, NZD, CAD, NOK, SEK.";return}
+    const num=id=>{const v=$(id).value;return v===""?null:+v};
+    const st=$("a-statut").value, today=new Date().toISOString().slice(0,10);
+    const doc={paire,sens:$("a-sens").value,statut:st,entree:num("a-entree"),stop:num("a-stop"),objectif:num("a-obj"),these:$("a-these").value.trim()||null,
+      source:"perso",cree_le:new Date().toISOString(),date_entree:st==="ouvert"?today:null};
+    const sm=suitModele(doc); if(sm!=null) doc.suit_modele=sm;
+    $("a-submit").disabled=true;
+    try{await db.collection("trades").add(doc);f.reset();msg.textContent="Trade ajouté."}catch(err){showErr(err)}finally{$("a-submit").disabled=false}
+    return}
+  const id=f.dataset.id;
+  if(f.dataset.act==="ouvrir"){
+    const t=trades.find(x=>x.id===id); const patch={statut:"ouvert",entree:+$("o-e-"+id).value,stop:+$("o-s-"+id).value,date_entree:new Date().toISOString().slice(0,10)};
+    const o=$("o-o-"+id).value; if(o!=="") patch.objectif=+o; const sm=t?suitModele(t):null; if(sm!=null) patch.suit_modele=sm;
+    openForm=null; await save(id,patch)}
+  if(f.dataset.act==="fermer"){
+    const x=$("c-x-"+id).value, r=$("c-r-"+id).value.replace(",","."), patch={statut:"ferme",date_sortie:new Date().toISOString().slice(0,10),note:$("c-n-"+id).value.trim()||null};
+    if(r!=="") patch.resultat_r=+r; else if(x!=="") patch.sortie=+x; else {return}
+    openForm=null; await save(id,patch)}
+});
+
+(async()=>{
+  const s=$("status");
+  if(!window.claude||!claude.use){s.hidden=false;s.textContent="Ouvrez ce journal depuis claude.ai pour voir et enregistrer les trades.";return}
+  db=await claude.use("db");
+  if(!db){s.hidden=false;s.textContent="Le journal n'est pas accessible dans cette vue. Connectez-vous à claude.ai pour le consulter.";$("f-add").hidden=true;return}
+  try{const u=await claude.use("user"); const w=u?await u.can("data.write"):null; if(w===false){canWrite=false;$("f-add").hidden=true}}catch(_){}
+  db.collection("trades").onSnapshot(q=>{trades=q.docs.map(d=>({id:d.id,...d.data()}));render()},err=>{s.hidden=false;s.textContent="La connexion au journal s'est interrompue. Rechargez la page."});
+  db.collection("analyses").orderBy("date","desc").limit(1).onSnapshot(q=>{analyse=q.empty?null:q.docs[0].data();render()},()=>{});
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change",render);
+  addEventListener("resize",()=>{clearTimeout(window.__rz);window.__rz=setTimeout(renderBilan,150)});
+})();
+</script>

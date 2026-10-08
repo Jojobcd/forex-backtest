@@ -1,0 +1,15 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données téléchargées (se régénèrent avec fetch_data.py)
+data/
+
+# Sauvegardes personnelles du journal (tes trades)
+journal_forex_sauvegarde_*.json
+journal/export/
+
+# Divers
+*.png
+.DS_Store

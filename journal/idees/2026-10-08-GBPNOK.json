@@ -1,0 +1,16 @@
+{
+ "analyse_id": "2026-10-08",
+ "catalyseurs": "Prix du pétrole, inflation britannique, décision de la Banque d'Angleterre le 5 novembre.",
+ "confiance": "moyenne",
+ "cree_le": "2026-10-08T08:00:00Z",
+ "ecart": 3.6,
+ "faible": "GBP",
+ "forte": "NOK",
+ "invalidation": "Un accord sur Ormuz qui fait chuter le pétrole sous 85 dollars, ou une forte hausse de taux surprise au Royaume-Uni.",
+ "paire": "GBPNOK",
+ "sens": "VENTE",
+ "source": "analyse",
+ "statut": "idee",
+ "suit_modele": true,
+ "these": "La Norvège monte ses taux et le pétrole cher l'enrichit. La Banque d'Angleterre attend, et le Royaume-Uni paie son énergie plus cher. Dans le backtest, cette paire suit bien les écarts de notes, surtout depuis 2013. L'écart le plus grand du classement oppose la couronne norvégienne au franc suisse, mais cette paire a un historique négatif."
+}

@@ -1,0 +1,16 @@
+{
+ "analyse_id": "2026-10-08",
+ "catalyseurs": "Inflation américaine du 14 octobre, décision de la Fed fin octobre.",
+ "confiance": "moyenne",
+ "cree_le": "2026-10-08T08:01:00Z",
+ "ecart": 3.7,
+ "faible": "CHF",
+ "forte": "USD",
+ "invalidation": "Une inflation américaine qui recule nettement et pousse la Fed à arrêter les hausses, ou un signal de hausse de taux suisse avant décembre.",
+ "paire": "USDCHF",
+ "sens": "ACHAT",
+ "source": "analyse",
+ "statut": "idee",
+ "suit_modele": true,
+ "these": "La Fed monte ses taux et en annonce d'autres, la Suisse reste à 0 %. L'écart de taux dépasse 3,75 points en faveur du dollar. Dans cette crise, c'est le dollar qui joue le rôle de refuge principal."
+}
