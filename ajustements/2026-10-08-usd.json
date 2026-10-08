@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-08 (mise à jour USD)",
+ "ajustements": {
+  "USD": {
+   "delta": -0.1,
+   "raison": "Les inscriptions au chômage restent très basses (197 000 contre 200 000 attendues), ce qui nuance la faiblesse des créations d emplois de septembre. La Fed reste prête à monter ses taux."
+  },
+  "EUR": {
+   "delta": 0.2,
+   "raison": "L'inflation de la zone euro a bondi à 3,8 % en septembre, ce qui pousse la BCE à continuer. Le modèle ne voit encore que le chiffre d'août."
+  },
+  "GBP": {
+   "delta": 0.5,
+   "raison": "Trois membres sur neuf de la Banque d'Angleterre voulaient déjà monter les taux en septembre : une hausse en novembre devient probable."
+  },
+  "JPY": {
+   "delta": -0.2,
+   "raison": "L'inflation japonaise ralentit (1,9 %) et reste sous l'objectif, ce qui rend une nouvelle hausse rapide moins sûre."
+  },
+  "CHF": {
+   "delta": 0.4,
+   "raison": "L'inflation suisse remonte à 1,0 % et la banque centrale laisse entendre une hausse possible en décembre."
+  },
+  "AUD": {
+   "delta": -0.5,
+   "raison": "Le chômage monte (4,6 %), les marchés ne croient plus beaucoup à une hausse en novembre et les spéculateurs vendent l'AUD."
+  },
+  "NZD": {
+   "delta": -0.6,
+   "raison": "Chômage au plus haut depuis 11 ans (5,6 %) et banque centrale prudente qui annonce une pause en octobre."
+  },
+  "CAD": {
+   "delta": -0.4,
+   "raison": "La guerre commerciale avec les États-Unis s'aggrave (interdiction d'importations américaine le 29 septembre) et l'économie a perdu 42 000 emplois en août."
+  },
+  "NOK": {
+   "delta": 0.0,
+   "raison": "Rien de nouveau que le modèle ne voie déjà : hausse de taux en septembre, inflation à 3,3 %, pétrole cher."
+  },
+  "SEK": {
+   "delta": 0.6,
+   "raison": "L'inflation suédoise a doublé en septembre (1,5 %) et les marchés attendent une hausse de taux en novembre. Le chômage reste très élevé (8,9 %)."
+  }
+ }
+}

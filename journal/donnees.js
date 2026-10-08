@@ -74,9 +74,9 @@ window.JOURNAL_DATA = {
     },
     {
      "devise": "USD",
-     "score": 1.0,
+     "score": 1.1,
      "modele": 1.17,
-     "pourquoi": "La Fed a monté ses taux et pourrait recommencer, mais l'emploi américain cale."
+     "pourquoi": "La Fed a monté ses taux et pourrait recommencer. Les créations d'emplois ont calé en septembre, mais les inscriptions au chômage restent très basses : le marché du travail ralentit sans s'effondrer."
     },
     {
      "devise": "EUR",
@@ -132,7 +132,8 @@ window.JOURNAL_DATA = {
     "Fait : l'emploi faiblit presque partout. 29 000 créations aux États-Unis en septembre, 42 000 emplois perdus au Canada en août, chômage à 4,6 % en Australie, 5,6 % en Nouvelle-Zélande et 8,9 % en Suède.",
     "Fait : le pétrole Brent est autour de 100 dollars, avec de nouvelles attaques contre des pétroliers dans le détroit d'Ormuz.",
     "Attention : deux des trois idées parient contre la couronne suédoise. Si les deux sont prises, il faut réduire la taille de chacune, car une hausse de taux suédoise les toucherait ensemble.",
-    "Scénarios : tensions qui durent (50 %), accord sur Ormuz et chute du pétrole (25 %), escalade militaire (25 %)."
+    "Scénarios : tensions qui durent (50 %), accord sur Ormuz et chute du pétrole (25 %), escalade militaire (25 %).",
+    "Mise à jour du 8 octobre : les inscriptions au chômage américaines sont restées basses (197 000, contre 200 000 attendues). Le dollar se renforce légèrement, et l'idée USDCHF aussi."
    ],
    "sources": [
     {
@@ -284,6 +285,11 @@ window.JOURNAL_DATA = {
      "titre": "RBNZ : hausse à 2,75 %",
      "url": "https://blog.orbitremit.com/rbnz-ocr-september-2026/",
      "date": "02/09/2026"
+    },
+    {
+     "titre": "FXStreet : inscriptions au chômage américaines à 197 000",
+     "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-dropped-to-197k-last-week-202610081232",
+     "date": "08/10/2026"
     }
    ],
    "titre": "Semaine du 8 octobre 2026 (version corrigée)",
@@ -368,7 +374,7 @@ window.JOURNAL_DATA = {
    "catalyseurs": "Inflation américaine du 14 octobre, décision de la Fed fin octobre.",
    "confiance": "moyenne",
    "cree_le": "2026-10-08T08:01:00Z",
-   "ecart": 3.54,
+   "ecart": 3.64,
    "faible": "CHF",
    "forte": "USD",
    "invalidation": "Une inflation américaine qui recule nettement et pousse la Fed à arrêter les hausses, ou un signal de hausse de taux suisse avant décembre.",
