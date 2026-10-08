@@ -10,7 +10,9 @@
  "paire": "GBPAUD",
  "sens": "VENTE",
  "source": "analyse",
- "statut": "idee",
+ "statut": "ecarte",
  "suit_modele": true,
- "these": "L'Australie a le taux le plus élevé des dix pays et vient encore de le monter, alors que la Banque d'Angleterre hésite. La paire est assez fiable dans le backtest depuis 2013."
+ "these": "L'Australie a le taux le plus élevé des dix pays et vient encore de le monter, alors que la Banque d'Angleterre hésite. La paire est assez fiable dans le backtest depuis 2013.",
+ "date_sortie": "2026-10-08",
+ "note": "Idée retirée le jour même : avec les données de septembre, l'écart de notes entre le dollar australien et la livre est tombé sous 2 points."
 }

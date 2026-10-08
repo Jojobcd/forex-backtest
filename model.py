@@ -8,7 +8,7 @@ Règle anti-biais d'anticipation : à la date de décision t (dernier jour ouvr�
 on n'utilise QUE ce qui était publié à t. Les séries macro sont décalées de leur délai
 de publication (voir LAG_*). Les prix et le VIX sont connus en temps réel.
 """
-import numpy as np, pandas as pd
+import json, numpy as np, pandas as pd
 from pathlib import Path
 D = Path(__file__).parent / "data"
 CCY = ["USD", "EUR", "GBP", "JPY", "CHF", "AUD", "NZD", "CAD", "NOK", "SEK"]
@@ -44,6 +44,13 @@ def load():
     pol = bis("cbpol")
     jp3m = _me(fred("IR3TIB01JPM156N"))
     pol["JPY"] = pol["JPY"].fillna(jp3m.reindex(pol.index)).fillna(0.0)   # trous BIS pendant le QE japonais
+    manuels = Path(__file__).parent / "taux_manuels.json"   # taux confirmés sur le web, absents de la BIS
+    if manuels.exists():
+        for c, vals in json.loads(manuels.read_text(encoding="utf-8")).items():
+            if c in pol.columns:
+                for m, v in vals.items():
+                    pol.loc[pd.Period(m, freq="M").to_timestamp("M"), c] = float(v)
+        pol = pol.sort_index()
     pol = pol.ffill()
     cpi = bis("cpi")
     u = pd.read_csv(D / "oecd_unemp.csv")

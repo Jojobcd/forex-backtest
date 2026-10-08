@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "CAD",
+ "faible": "SEK",
+ "confiance": "faible",
+ "these": "La paire la plus fiable du backtest depuis 2013. Le Canada a un taux plus élevé et profite du pétrole, face à une Suède aux taux bas. Mais la guerre commerciale avec les États-Unis fragilise le dollar canadien.",
+ "catalyseurs": "Emploi canadien de septembre, décision de la Banque du Canada le 28 octobre, prix du pétrole.",
+ "invalidation": "De nouvelles sanctions américaines contre le Canada, ou un emploi canadien qui continue de chuter. Avec NOKSEK, ce trade double le pari contre la couronne suédoise : réduire la taille si les deux sont pris.",
+ "cree_le": "2026-10-08T12:00:00Z",
+ "analyse_id": "2026-10-08",
+ "paire": "CADSEK",
+ "ecart": 3.34,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

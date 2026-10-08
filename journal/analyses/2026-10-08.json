@@ -1,119 +1,135 @@
 {
  "calendrier": [
   {
+   "date": "9 oct.",
+   "evenement": "Emploi canadien de septembre (date à confirmer)",
+   "devises": "CAD"
+  },
+  {
+   "date": "vers le 10 oct.",
+   "evenement": "Inflation norvégienne de septembre",
+   "devises": "NOK"
+  },
+  {
    "date": "14 oct.",
-   "devises": "USD",
-   "evenement": "Inflation américaine de septembre"
+   "evenement": "Inflation américaine de septembre",
+   "devises": "USD"
   },
   {
    "date": "15 oct.",
-   "devises": "AUD, USD",
-   "evenement": "Emploi australien, prix à la production et ventes au détail américains"
+   "evenement": "Emploi australien, ventes au détail américaines",
+   "devises": "AUD, USD"
   },
   {
    "date": "27-28 oct.",
-   "devises": "USD",
-   "evenement": "Décision de la Fed"
+   "evenement": "Décision de la Fed",
+   "devises": "USD"
   },
   {
    "date": "28 oct.",
-   "devises": "CAD, NZD",
-   "evenement": "Décisions des banques du Canada et de Nouvelle-Zélande"
+   "evenement": "Décisions des banques du Canada et de Nouvelle-Zélande",
+   "devises": "CAD, NZD"
   },
   {
    "date": "29-30 oct.",
-   "devises": "JPY",
-   "evenement": "Décision de la Banque du Japon"
+   "evenement": "Décision de la Banque du Japon",
+   "devises": "JPY"
   },
   {
    "date": "3 nov.",
-   "devises": "AUD",
-   "evenement": "Décision de la banque d'Australie"
+   "evenement": "Décision de la banque d'Australie",
+   "devises": "AUD"
   },
   {
    "date": "5 nov.",
-   "devises": "GBP",
-   "evenement": "Décision de la Banque d'Angleterre"
+   "evenement": "Décision de la Banque d'Angleterre",
+   "devises": "GBP"
+  },
+  {
+   "date": "novembre",
+   "evenement": "Décision de la banque de Suède : hausse attendue",
+   "devises": "SEK"
   },
   {
    "date": "En continu",
-   "devises": "NOK, CAD, JPY, EUR",
-   "evenement": "Détroit d'Ormuz et prix du pétrole"
+   "evenement": "Détroit d'Ormuz et prix du pétrole",
+   "devises": "NOK, CAD, JPY, EUR"
   }
  ],
  "classement": [
   {
    "devise": "NOK",
-   "modele": 2.21,
-   "pourquoi": "La Norvège a monté ses taux en septembre (4,50 %) et le pétrole à 100 dollars profite à ce grand exportateur.",
-   "score": 2.8
+   "score": 2.3,
+   "modele": 2.25,
+   "pourquoi": "Taux relevé à 4,50 % en septembre, inflation à 3,3 % et pétrole cher : tout soutient la couronne norvégienne."
   },
   {
    "devise": "AUD",
-   "modele": 2.65,
-   "pourquoi": "L'Australie a monté ses taux pour la quatrième fois cette année (4,60 %), le taux le plus élevé des dix pays. Point faible : sa monnaie baisse quand les marchés ont peur.",
-   "score": 2.4
+   "score": 1.1,
+   "modele": 1.59,
+   "pourquoi": "Taux le plus élevé (4,60 %), mais le chômage monte et une nouvelle hausse en novembre devient incertaine."
   },
   {
    "devise": "USD",
-   "modele": -0.27,
-   "pourquoi": "La Fed a monté ses taux en septembre et en prévoit d'autres. Le dollar sert aussi de refuge pendant la crise. Point faible : l'emploi américain ralentit.",
-   "score": 1.3
-  },
-  {
-   "devise": "NZD",
-   "modele": 0.68,
-   "pourquoi": "Hausse de taux en septembre (2,75 %), mais un taux encore bas comparé à l'Australie.",
-   "score": 0.8
-  },
-  {
-   "devise": "JPY",
-   "modele": 0.13,
-   "pourquoi": "La Banque du Japon a monté ses taux à 1,25 %, au plus haut depuis 1995, et pourrait recommencer fin octobre. Point faible : le Japon importe tout son pétrole.",
-   "score": 0.7
-  },
-  {
-   "devise": "CAD",
-   "modele": 1.53,
-   "pourquoi": "Le pétrole cher aide le Canada, mais la guerre commerciale avec les États-Unis pèse sur l'économie et la banque centrale n'a pas encore monté ses taux.",
-   "score": 0.3
+   "score": 1.0,
+   "modele": 1.17,
+   "pourquoi": "La Fed a monté ses taux et pourrait recommencer, mais l'emploi américain cale."
   },
   {
    "devise": "EUR",
-   "modele": 0.38,
-   "pourquoi": "La BCE a monté ses taux en septembre (2,50 %), mais l'Europe importe son énergie et les spéculateurs parient contre l'euro.",
-   "score": -0.2
+   "score": 0.9,
+   "modele": 0.71,
+   "pourquoi": "L'inflation a bondi à 3,8 % en septembre et la BCE a monté ses taux. L'Europe paie toutefois son énergie plus cher."
+  },
+  {
+   "devise": "NZD",
+   "score": 0.9,
+   "modele": 1.48,
+   "pourquoi": "Taux en hausse (2,75 %) et inflation forte, mais chômage au plus haut depuis 11 ans et banque centrale prudente."
+  },
+  {
+   "devise": "CAD",
+   "score": 0.2,
+   "modele": 0.61,
+   "pourquoi": "Le pétrole cher aide, mais la guerre commerciale avec les États-Unis s'aggrave et l'emploi recule."
+  },
+  {
+   "devise": "JPY",
+   "score": -0.2,
+   "modele": -0.01,
+   "pourquoi": "Taux au plus haut depuis 1995 (1,25 %), mais l'inflation ralentit sous l'objectif et le Japon importe son pétrole."
   },
   {
    "devise": "GBP",
-   "modele": -1.05,
-   "pourquoi": "La Banque d'Angleterre n'a pas bougé malgré une inflation qui remonte. Une hausse est possible le 5 novembre. Le Royaume-Uni importe son énergie.",
-   "score": -0.8
-  },
-  {
-   "devise": "SEK",
-   "modele": -3.56,
-   "pourquoi": "Taux bas et couronne faible. Mais l'inflation remonte et les marchés attendent des hausses de taux dès novembre, donc la couronne pourrait se redresser.",
-   "score": -2.2
+   "score": -0.6,
+   "modele": -1.1,
+   "pourquoi": "Taux inchangé à 3,75 %, mais trois membres de la Banque d'Angleterre voulaient déjà monter : une hausse en novembre est probable."
   },
   {
    "devise": "CHF",
-   "modele": -2.7,
-   "pourquoi": "Taux à 0 %, le plus bas des dix pays, et inflation sous 1 %. Le franc reste une valeur refuge, ce qui limite sa baisse quand les marchés ont peur.",
-   "score": -2.4
+   "score": -2.5,
+   "modele": -2.97,
+   "pourquoi": "Taux à 0 %, le plus bas des dix pays. L'inflation remonte un peu (1,0 %) et une hausse en décembre devient possible."
+  },
+  {
+   "devise": "SEK",
+   "score": -3.1,
+   "modele": -3.73,
+   "pourquoi": "Taux bas (1,75 %) et chômage très élevé (8,9 %). L'inflation remonte et une hausse en novembre est attendue, ce qui peut redresser la couronne."
   }
  ],
  "confiance": "moyen",
  "date": "2026-10-08",
- "en_bref": "Les banques centrales remontent leurs taux pour contrer l'inflation causée par le pétrole cher, lui-même lié à la guerre avec l'Iran et aux attaques dans le détroit d'Ormuz. Les monnaies des pays qui exportent du pétrole ou qui montent le plus leurs taux sont les plus solides : Norvège, Australie, États-Unis. Le franc suisse et la couronne suédoise, aux taux les plus bas, sont les plus fragiles.",
+ "en_bref": "Le pétrole cher, lié à la guerre avec l'Iran, pousse presque toutes les banques centrales à monter leurs taux. Comme tout le monde monte, ce qui compte est l'écart entre pays. La couronne norvégienne reste la plus solide. Le franc suisse et la couronne suédoise, aux taux les plus bas, restent les plus fragiles. Le dollar australien est moins fort qu'annoncé dans la première version.",
  "resume": [
-  "Fait : en septembre, la Fed (3,75 à 4 %), la BCE (2,50 %), la Banque du Japon (1,25 %), la Norvège (4,50 %), l'Australie (4,60 %) et la Nouvelle-Zélande (2,75 %) ont monté leurs taux.",
-  "Fait : la Banque d'Angleterre (3,75 %), la Suisse (0 %), la Suède (1,75 %) et le Canada (2,25 %) n'ont pas bougé.",
-  "Fait : le pétrole Brent est autour de 100 dollars le baril, avec de nouvelles attaques contre des pétroliers dans le détroit d'Ormuz.",
-  "Fait : l'emploi américain a fortement ralenti en septembre, avec 29 000 créations d'emplois et un chômage à 4,2 %.",
-  "Interprétation : le modèle automatique ne voit pas encore les hausses de septembre. Le dollar américain et le yen remontent donc au classement, et le dollar canadien recule à cause de la guerre commerciale avec les États-Unis.",
-  "Scénarios : tensions qui durent (50 %), accord sur Ormuz et chute du pétrole (25 %), escalade militaire (25 %).",
-  "Risque principal : un accord sur Ormuz ferait chuter le pétrole et annulerait l'avantage de la couronne norvégienne."
+  "Correction : la première version surestimait le dollar australien. La hausse de taux australienne de septembre manquait dans les données, et les hausses des autres pays n'avaient pas été comparées entre elles.",
+  "Fait : en septembre, les États-Unis (3,75 à 4 %), la zone euro (2,50 %), le Japon (1,25 %), la Norvège (4,50 %), l'Australie (4,60 %) et la Nouvelle-Zélande (2,75 %) ont monté leurs taux.",
+  "Fait : le Royaume-Uni (3,75 %), la Suisse (0 %), la Suède (1,75 %) et le Canada (2,25 %) n'ont pas bougé.",
+  "Fait : en septembre, l'inflation atteint 3,8 % en zone euro, 1,5 % en Suède (le double d'août) et 1,0 % en Suisse. En août : 3,4 % aux États-Unis, 4,0 % en Australie, 3,3 % en Norvège, 1,9 % au Japon.",
+  "Fait : l'emploi faiblit presque partout. 29 000 créations aux États-Unis en septembre, 42 000 emplois perdus au Canada en août, chômage à 4,6 % en Australie, 5,6 % en Nouvelle-Zélande et 8,9 % en Suède.",
+  "Fait : le pétrole Brent est autour de 100 dollars, avec de nouvelles attaques contre des pétroliers dans le détroit d'Ormuz.",
+  "Attention : deux des trois idées parient contre la couronne suédoise. Si les deux sont prises, il faut réduire la taille de chacune, car une hausse de taux suédoise les toucherait ensemble.",
+  "Scénarios : tensions qui durent (50 %), accord sur Ormuz et chute du pétrole (25 %), escalade militaire (25 %)."
  ],
  "sources": [
   {
@@ -185,7 +201,87 @@
    "date": "04/10/2026",
    "titre": "FXStreet : rapport COT du 2 octobre",
    "url": "https://www.fxstreet.com/analysis/cot-report-october-2-2026-202610041905"
+  },
+  {
+   "titre": "ABS : inflation d'août 2026",
+   "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
+   "date": "30/09/2026"
+  },
+  {
+   "titre": "ABS : emploi d'août 2026",
+   "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
+   "date": "24/09/2026"
+  },
+  {
+   "titre": "Exchangerates.org.uk : prochaine inflation australienne et prévisions RBA",
+   "url": "https://www.exchangerates.org.uk/news/47348/2026-10-04-aud-usd-forecast-australias-next-inflation-report-will-test-westpacs-outlook.html",
+   "date": "04/10/2026"
+  },
+  {
+   "titre": "FXStreet : le dollar australien recule après le compte rendu de la Fed",
+   "url": "https://www.fxstreet.com/news/australian-dollar-declines-to-near-06950-on-hawkish-fed-minutes-202610080250",
+   "date": "08/10/2026"
+  },
+  {
+   "titre": "CNBC : inflation américaine d'août",
+   "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+   "date": "11/09/2026"
+  },
+  {
+   "titre": "Eurostat : inflation de septembre (estimation rapide)",
+   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
+   "date": "02/10/2026"
+  },
+  {
+   "titre": "Eurostat : chômage d'août",
+   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01102026-ap",
+   "date": "01/10/2026"
+  },
+  {
+   "titre": "ONS : marché du travail britannique",
+   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
+   "date": "09/2026"
+  },
+  {
+   "titre": "Inflation japonaise d'août",
+   "url": "https://forexfundamentals.com/economic-calendar/jp-cpi/2026-09-17",
+   "date": "17/09/2026"
+  },
+  {
+   "titre": "Inflation suisse de septembre",
+   "url": "https://investinglive.com/news/switzerland-september-cpi-1-0-vs-1-0-y-y-expected/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Stats NZ : chômage du 2e trimestre",
+   "url": "https://www.stats.govt.nz/news/unemployment-rate-at-5-6-percent-in-the-june-2026-quarter/",
+   "date": "05/08/2026"
+  },
+  {
+   "titre": "Statistique Canada : emploi d'août",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260904/dq260904a-eng.htm",
+   "date": "04/09/2026"
+  },
+  {
+   "titre": "Inflation norvégienne",
+   "url": "https://tradingeconomics.com/norway/inflation-cpi",
+   "date": "09/2026"
+  },
+  {
+   "titre": "Chômage suédois",
+   "url": "https://tradingeconomics.com/sweden/unemployment-rate/news/493881",
+   "date": "09/2026"
+  },
+  {
+   "titre": "Babypips : compte rendu de la Fed",
+   "url": "https://www.babypips.com/news/headline-sept-fomc-minutes-support-hawkish-stance-2026-10-08",
+   "date": "08/10/2026"
+  },
+  {
+   "titre": "RBNZ : hausse à 2,75 %",
+   "url": "https://blog.orbitremit.com/rbnz-ocr-september-2026/",
+   "date": "02/09/2026"
   }
  ],
- "titre": "Semaine du 8 octobre 2026"
+ "titre": "Semaine du 8 octobre 2026 (version corrigée)"
 }

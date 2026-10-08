@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "NOK",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "C'est le plus grand écart du classement. La Norvège a des taux élevés, une inflation forte et profite du pétrole. La Suède a des taux bas et un chômage très élevé. Dans le backtest, la paire réagit modestement mais dans le bon sens.",
+ "catalyseurs": "Inflation norvégienne vers le 10 octobre, prix du pétrole, décision suédoise de novembre.",
+ "invalidation": "Une hausse de taux suédoise plus forte que prévu, ou un accord sur Ormuz qui fait chuter le pétrole.",
+ "cree_le": "2026-10-08T12:00:00Z",
+ "analyse_id": "2026-10-08",
+ "paire": "NOKSEK",
+ "ecart": 5.38,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

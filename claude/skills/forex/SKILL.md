@@ -33,11 +33,18 @@ Si l'argument est « mensuel », ou si on est dans les 7 premiers jours du mois,
 Note les dates des données affichées. Les taux BIS ont souvent 1 à 2 mois de retard :
 toute décision de banque centrale plus récente doit venir de la recherche web.
 
+CORRECTION 1 — TOUJOURS PARTIR DES TAUX LES PLUS RÉCENTS.
+Après la recherche web (étape 2), compare le dernier taux de chaque banque centrale au taux BIS
+(`data/bis_cbpol.csv`, dernier mois). Pour toute décision confirmée absente de la BIS, ajoute-la dans
+`taux_manuels.json` (devise -> mois AAAA-MM -> taux) puis RELANCE `signal_actuel.py`.
+Retire les lignes de `taux_manuels.json` que la BIS a intégrées. Ne jamais ajuster à la main
+un score pour une décision de taux : elle passe par ce fichier, pour que le modèle la compare aux autres pays.
+
 ## Étape 2 — Recherche web (WebSearch, envoyer les recherches en parallèle)
 
 1. Dernière décision et prochain rendez-vous de chaque banque centrale : Fed, BCE, BoE, BoJ, BNS, RBA, RBNZ, BoC, Norges Bank, Riksbank. Ton hawkish/neutre/dovish et CHANGEMENT de ton depuis la réunion précédente. Votes, dissidences, guidance.
 2. Discours récents des gouverneurs ET des dirigeants politiques ou ministres des Finances qui touchent les devises : droits de douane, interventions verbales (Japon, Suisse), budget, élections.
-3. Données macro récentes : inflation, emploi, PIB, PMI, et surprises par rapport au consensus.
+3. CORRECTION 2 — Données macro des DIX pays, sans exception : dernière inflation (et inflation de fond), dernier chiffre de l'emploi ou du chômage, croissance (PIB ou PMI), et surprise par rapport au consensus. Si un chiffre est introuvable pour un pays, le dire dans l'analyse au lieu de passer ce pays.
 4. Anticipations de marché : FedWatch, OIS, rendements à 2 ans.
 5. Géopolitique, pétrole, or. Sentiment de risque : VIX, actions.
 6. Positionnement : dernier rapport COT de la CFTC.
@@ -47,8 +54,20 @@ toute décision de banque centrale plus récente doit venir de la recherche web.
 
 Pour chaque devise, score de -5 à +5 :
 politique monétaire 30 %, croissance/emploi 20 %, inflation 20 %, différentiel de taux 15 %, géopolitique/risque 15 %.
-Pars du score du modèle, puis ajuste avec ce que le modèle ne voit pas (décisions récentes, discours, guerre, tarifs).
-Indique pour chaque devise le score du modèle et ton score ajusté, avec la raison.
+Pars du score du modèle, puis ajuste avec ce que le modèle ne voit pas encore : changements de ton,
+discours, données publiées après celles du modèle, guerre, droits de douane.
+
+CORRECTION 3 — LES AJUSTEMENTS PASSENT PAR LE SCRIPT, JAMAIS À LA MAIN.
+Écris `ajustements/<AAAA-MM-JJ>.json` :
+`{"date": "...", "ajustements": {"USD": {"delta": -0.2, "raison": "..."}, ...}}` (les 10 devises, delta entre -1,5 et +1,5).
+Puis lance `.venv/Scripts/python scores_ajustes.py ajustements/<AAAA-MM-JJ>.json`.
+Le script retire la moyenne des ajustements : un événement qui touche tous les pays (par exemple des hausses
+de taux partout) ne donne de points à personne. Utilise UNIQUEMENT les scores finaux et les candidats qu'il affiche.
+Pour une analyse ciblée sur une devise (par exemple /forex aud), refais quand même le fichier pour les dix devises :
+une devise ne se juge que par rapport aux autres.
+Indique pour chaque devise le score du modèle, l'ajustement et le score final, avec la raison.
+Si un score change de plus de 1 point par rapport à l'analyse précédente, explique pourquoi en une phrase
+(nouvelle donnée, ou correction d'une erreur).
 Rappel du backtest : le prix déjà intégré compte, une décision attendue ne fait pas forcément monter la devise.
 
 ## Étape 4 — Sélection des paires (règles issues du backtest 2000-2026)
@@ -57,6 +76,8 @@ Rappel du backtest : le prix déjà intégré compte, une décision attendue ne 
 - Privilégier les paires fiables historiquement (`results/toutes_les_paires.csv`, Sharpe positif sur 2000-12 et 2013-26) : USDJPY, CADSEK, EURUSD, GBPNOK, GBPSEK, AUDCAD, CADNOK, GBPAUD, GBPJPY, USDCHF, USDNOK...
 - Éviter les paires entre devises proches : AUDNZD, EURCHF, GBPNZD, AUDNOK, CHFNOK, CADCHF.
 - Expliquer pourquoi cette paire plutôt qu'une alternative proche.
+- Écarter les paires dont le Sharpe historique est sous 0,1, même si le script les marque fiables.
+- Concentration : si deux setups partagent la même devise faible ou forte, le signaler et conseiller de réduire la taille.
 - Le facteur croissance/emploi est le plus fiable seul. Les facteurs monétaire et risque arrivent souvent trop tard : chercher les CHANGEMENTS DE TON, pas les décisions déjà prises.
 - La méthode marche le mieux quand le marché est stressé (VIX > 25) et le moins bien en marché calme (VIX < 15) : moduler la confiance.
 

@@ -1,0 +1,4 @@
+{
+ "_note": "Taux directeurs confirmés sur le web mais pas encore dans la base BIS. Format : devise -> mois (AAAA-MM) -> taux en %. Supprimer une ligne quand la BIS l'a intégrée.",
+ "AUD": {"2026-09": 4.60}
+}

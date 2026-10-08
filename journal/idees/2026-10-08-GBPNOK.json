@@ -10,7 +10,9 @@
  "paire": "GBPNOK",
  "sens": "VENTE",
  "source": "analyse",
- "statut": "idee",
+ "statut": "ecarte",
  "suit_modele": true,
- "these": "La Norvège monte ses taux et le pétrole cher l'enrichit. La Banque d'Angleterre attend, et le Royaume-Uni paie son énergie plus cher. Dans le backtest, cette paire suit bien les écarts de notes, surtout depuis 2013. L'écart le plus grand du classement oppose la couronne norvégienne au franc suisse, mais cette paire a un historique négatif."
+ "these": "La Norvège monte ses taux et le pétrole cher l'enrichit. La Banque d'Angleterre attend, et le Royaume-Uni paie son énergie plus cher. Dans le backtest, cette paire suit bien les écarts de notes, surtout depuis 2013. L'écart le plus grand du classement oppose la couronne norvégienne au franc suisse, mais cette paire a un historique négatif.",
+ "date_sortie": "2026-10-08",
+ "note": "Retirée dans la version corrigée : l'écart de notes est tombé à 2,9 points, sous le seuil de 3 pour ouvrir un trade. La Banque d'Angleterre se rapproche d'une hausse."
 }
