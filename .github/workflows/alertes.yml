@@ -1,0 +1,36 @@
+# Alerte le propriétaire (issue assignée = e-mail GitHub) quand quelqu'un fork ou met une étoile au dépôt.
+# Les données venant de l'extérieur passent par des variables d'environnement, jamais directement
+# dans le script : un nom d'utilisateur piégé ne peut pas injecter de commande.
+name: Alertes fork et étoile
+
+on:
+  fork:
+  watch:
+    types: [started]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  alerte:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ouvrir une issue d'alerte
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          EVENT: ${{ github.event_name }}
+          WHO: ${{ github.event.sender.login }}
+          WHO_URL: ${{ github.event.sender.html_url }}
+          FORK: ${{ github.event.forkee.full_name }}
+        run: |
+          if [ "$EVENT" = "fork" ]; then
+            TITLE="Nouveau fork par $WHO"
+            BODY=$(printf 'Le compte [%s](%s) a créé un fork : `%s`.\n\nUn fork est une copie publique du dépôt sur son compte. Il ne peut pas modifier ce dépôt.' "$WHO" "$WHO_URL" "$FORK")
+          else
+            TITLE="Nouvelle étoile de $WHO"
+            BODY=$(printf 'Le compte [%s](%s) a mis une étoile au dépôt.' "$WHO" "$WHO_URL")
+          fi
+          gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY" --assignee "$OWNER"

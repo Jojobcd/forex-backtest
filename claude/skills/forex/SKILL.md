@@ -14,7 +14,7 @@ Rappeler que ce n'est pas un conseil financier.
 
 ## Ressources
 
-- Projet local : `C:\Users\N'DRI Jaures\Desktop\forex-backtest` (venv dans `.venv`).
+- Projet local : le dossier où ce dépôt est cloné (venv dans `.venv`). Remplacer par le chemin réel après copie dans `~/.claude/skills/forex/`.
 - Journal local : `journal/Journal Forex.html` (données : `journal/donnees.js`, construit par `journal/maj_donnees.py`).
 - Rapport du backtest : `results/rapport_backtest.html`.
 

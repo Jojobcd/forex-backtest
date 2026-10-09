@@ -10,7 +10,7 @@ différentiel 15 %, risque 15 %), décision mensuelle, 45 paires, depuis 2000.
 
 La date de fin du backtest se cale toute seule sur le dernier mois complet.
 Dans Claude Code, la commande /forex fait tout : modèle, recherche web, analyse, mise à jour du journal.
-Journal web : https://claude.ai/artifact/EKrxzdCcMZqhwJmTcopqcx (source : journal/journal.html).
+Journal : ouvrir `journal/Journal Forex.html` dans un navigateur.
 
 ## Installation
 

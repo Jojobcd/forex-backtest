@@ -13,3 +13,12 @@ journal/export/
 # Divers
 *.png
 .DS_Store
+
+# Secrets : ne jamais versionner
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets/
+credentials*.json
