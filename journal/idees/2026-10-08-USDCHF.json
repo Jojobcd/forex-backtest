@@ -10,7 +10,9 @@
  "paire": "USDCHF",
  "sens": "ACHAT",
  "source": "analyse",
- "statut": "idee",
+ "statut": "ecarte",
  "suit_modele": true,
- "these": "La Fed monte ses taux et en annonce d'autres, la Suisse reste à 0 %. L'écart de taux dépasse 3,75 points en faveur du dollar. Dans cette crise, c'est le dollar qui joue le rôle de refuge principal."
+ "these": "La Fed monte ses taux et en annonce d'autres, la Suisse reste à 0 %. L'écart de taux dépasse 3,75 points en faveur du dollar. Dans cette crise, c'est le dollar qui joue le rôle de refuge principal.",
+ "date_sortie": "2026-10-12",
+ "note": "Reconduite dans l'analyse du 12 octobre."
 }

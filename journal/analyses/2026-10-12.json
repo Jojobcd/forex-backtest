@@ -1,0 +1,198 @@
+{
+ "date": "2026-10-12",
+ "titre": "Semaine du 12 octobre 2026",
+ "en_bref": "Peu de changements depuis jeudi. La couronne norvégienne reste la plus solide, le franc suisse et la couronne suédoise les plus fragiles. Le dollar canadien recule après de nouvelles pertes d'emplois, et l'euro souffre des inquiétudes sur la dette française. Les marchés sont calmes, une situation où la méthode a historiquement le moins bien marché : prudence sur la taille des positions.",
+ "resume": [
+  "Fait : le Canada a perdu 68 000 emplois en septembre, après 42 000 en août. Le chômage monte à 6,5 %.",
+  "Fait : Christine Lagarde a écarté une hausse de taux de la BCE en octobre. L'écart de taux entre la France et l'Allemagne est au plus haut depuis 2011.",
+  "Fait : le gouverneur de la banque de Suède juge raisonnable de monter les taux dès novembre.",
+  "Fait : le pétrole Brent est remonté au-dessus de 100 dollars avec de nouvelles attaques dans le détroit d'Ormuz. Le dollar est au plus haut depuis 18 mois.",
+  "Fait : le yen est vers 158 pour un dollar, proche des 160 où le Japon et les États-Unis sont intervenus ensemble cet été.",
+  "Interprétation : seulement deux idées remplissent les règles du backtest cette semaine (écart d'au moins 3 points sur une paire fiable). Mieux vaut deux bonnes idées que trois moyennes.",
+  "À surveiller : GBPNOK est juste sous le seuil (2,97 points). Si l'écart dépasse 3 points, ce serait une idée valable.",
+  "Scénarios : tensions qui durent (50 %), accord sur Ormuz et chute du pétrole (25 %), crise de la dette française qui s'aggrave (25 %).",
+  "Donnée non vérifiée : le prix du Brent diffère selon les sources (environ 105 dollars dans la presse, 125 dans la base FRED utilisée par le modèle)."
+ ],
+ "confiance": "moyen",
+ "classement": [
+  {
+   "devise": "NOK",
+   "score": 2.4,
+   "modele": 2.27,
+   "pourquoi": "Taux élevé (4,50 %), inflation vers 3 % et pétrole au-dessus de 100 dollars : la couronne norvégienne reste la plus solide."
+  },
+  {
+   "devise": "USD",
+   "score": 1.2,
+   "modele": 1.19,
+   "pourquoi": "La Fed reste prête à monter ses taux et le dollar a progressé quatre semaines de suite. L'emploi ralentit et les élections du 3 novembre ajoutent de l'incertitude."
+  },
+  {
+   "devise": "AUD",
+   "score": 1.1,
+   "modele": 1.56,
+   "pourquoi": "Taux le plus élevé (4,60 %), mais le chômage monte et les spéculateurs parient massivement contre le dollar australien."
+  },
+  {
+   "devise": "NZD",
+   "score": 1.0,
+   "modele": 1.45,
+   "pourquoi": "Taux en hausse, mais monnaie au plus bas depuis 15 ans et chômage au plus haut depuis 11 ans."
+  },
+  {
+   "devise": "EUR",
+   "score": 0.3,
+   "modele": 0.69,
+   "pourquoi": "L'inflation est forte (3,8 %), mais la BCE a écarté une hausse en octobre et la dette française inquiète les marchés."
+  },
+  {
+   "devise": "CAD",
+   "score": -0.1,
+   "modele": 0.65,
+   "pourquoi": "Le Canada a perdu 110 000 emplois en deux mois et la guerre commerciale avec les États-Unis continue. Le pétrole cher limite la casse."
+  },
+  {
+   "devise": "JPY",
+   "score": -0.2,
+   "modele": -0.0,
+   "pourquoi": "Pas de hausse de taux attendue fin octobre. Le yen est proche du niveau où le Japon est intervenu cet été, ce qui limite sa baisse."
+  },
+  {
+   "devise": "GBP",
+   "score": -0.5,
+   "modele": -1.1,
+   "pourquoi": "Taux inchangé, mais une hausse en novembre reste probable. Le PIB d'août sort le 15 octobre."
+  },
+  {
+   "devise": "CHF",
+   "score": -2.4,
+   "modele": -2.94,
+   "pourquoi": "Taux à 0 %, le plus bas des dix pays. Mais le franc attire les investisseurs inquiets de la dette française."
+  },
+  {
+   "devise": "SEK",
+   "score": -2.9,
+   "modele": -3.75,
+   "pourquoi": "Taux bas et chômage très élevé, mais la banque de Suède prépare une hausse dès novembre : la couronne pourrait se redresser."
+  }
+ ],
+ "calendrier": [
+  {
+   "date": "14 oct.",
+   "evenement": "Inflation américaine de septembre, inflation suédoise définitive",
+   "devises": "USD, SEK"
+  },
+  {
+   "date": "15 oct.",
+   "evenement": "Emploi australien, PIB britannique d'août, ventes au détail américaines, discours de Kevin Warsh (Fed)",
+   "devises": "AUD, GBP, USD"
+  },
+  {
+   "date": "21 oct.",
+   "evenement": "Inflation néo-zélandaise du 3e trimestre",
+   "devises": "NZD"
+  },
+  {
+   "date": "27-28 oct.",
+   "evenement": "Décision de la Fed",
+   "devises": "USD"
+  },
+  {
+   "date": "28 oct.",
+   "evenement": "Décisions des banques du Canada et de Nouvelle-Zélande",
+   "devises": "CAD, NZD"
+  },
+  {
+   "date": "fin oct.",
+   "evenement": "Banque du Japon (date exacte à confirmer)",
+   "devises": "JPY"
+  },
+  {
+   "date": "29 oct.",
+   "evenement": "Décision de la BCE",
+   "devises": "EUR"
+  },
+  {
+   "date": "3 nov.",
+   "evenement": "Banque d'Australie, élections américaines de mi-mandat",
+   "devises": "AUD, USD"
+  },
+  {
+   "date": "4 nov.",
+   "evenement": "Décision de la banque de Suède : hausse attendue",
+   "devises": "SEK"
+  },
+  {
+   "date": "5 nov.",
+   "evenement": "Décision de la Banque d'Angleterre",
+   "devises": "GBP"
+  },
+  {
+   "date": "En continu",
+   "evenement": "Détroit d'Ormuz, prix du pétrole, dette française",
+   "devises": "NOK, CAD, EUR, CHF"
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Statistique Canada : emploi de septembre",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
+   "date": "09/10/2026"
+  },
+  {
+   "titre": "FXStreet : Lagarde écarte une hausse en octobre",
+   "url": "https://www.fxstreet.com/analysis/ecb-october-hike-looks-unlikely-lagarde-strikes-a-surprisingly-dovish-tone-202610080843",
+   "date": "08/10/2026"
+  },
+  {
+   "titre": "Babypips : l'écart OAT-Bund et l'euro",
+   "url": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12",
+   "date": "12/10/2026"
+  },
+  {
+   "titre": "Riksbank : hausse en novembre envisagée",
+   "url": "https://finimize.com/content/riksbank-signals-a-return-to-rate-hikes-as-soon-as-november",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Oilprice : le Brent repasse au-dessus de 105 dollars",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
+   "date": "08/10/2026"
+  },
+  {
+   "titre": "FXStreet : la semaine à venir",
+   "url": "https://www.fxstreet.com/analysis/the-week-ahead-a-critical-week-as-earnings-and-cpi-test-market-202610120715",
+   "date": "12/10/2026"
+  },
+  {
+   "titre": "Trading Economics : yen",
+   "url": "https://tradingeconomics.com/japan/currency",
+   "date": "11/10/2026"
+  },
+  {
+   "titre": "FX Tribune : positions des spéculateurs (COT)",
+   "url": "https://fxtribune.com/cot/",
+   "date": "09/10/2026"
+  },
+  {
+   "titre": "Forex.com : le dollar néo-zélandais avant la RBNZ",
+   "url": "https://www.forex.com/en/news-and-analysis/nzdusd-forecast-the-new-zealand-dollar-maintains-weakness-ahead-of-the-rbnz-decision/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "FX.co : inflation norvégienne de septembre (source secondaire)",
+   "url": "https://www.fx.co/en/forex-news/3216403",
+   "date": "09/10/2026"
+  },
+  {
+   "titre": "Chambre des communes : calendrier du PIB britannique",
+   "url": "https://commonslibrary.parliament.uk/research-briefings/sn02783/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "CNBC : marchés et élections de mi-mandat",
+   "url": "https://www.cnbc.com/2026/09/10/fear-gauge-vix-hedges-volatility-stocks.html",
+   "date": "10/09/2026"
+  }
+ ]
+}

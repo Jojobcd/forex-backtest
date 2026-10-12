@@ -10,7 +10,9 @@
  "analyse_id": "2026-10-08",
  "paire": "CADSEK",
  "ecart": 3.34,
- "statut": "idee",
+ "statut": "ecarte",
  "source": "analyse",
- "suit_modele": true
+ "suit_modele": true,
+ "date_sortie": "2026-10-12",
+ "note": "Retirée le 12 octobre : après 68 000 emplois perdus au Canada, l'écart de notes est tombé à 2,8 points, sous le seuil de 3."
 }

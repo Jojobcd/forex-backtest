@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "faible",
+ "these": "L'écart de taux dépasse 3,75 points en faveur du dollar et la Fed reste prête à monter. Confiance abaissée : le franc suisse profite des inquiétudes sur la dette française.",
+ "catalyseurs": "Inflation américaine du 14 octobre, discours de Kevin Warsh le 15 octobre, décision de la Fed fin octobre.",
+ "invalidation": "Une inflation américaine en baisse qui éloigne une nouvelle hausse de la Fed, ou une crise de la dette française qui fait fuir les investisseurs vers le franc.",
+ "cree_le": "2026-10-12T08:00:00Z",
+ "analyse_id": "2026-10-12",
+ "paire": "USDCHF",
+ "ecart": 3.63,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

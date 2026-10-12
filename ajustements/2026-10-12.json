@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-12",
+ "ajustements": {
+  "USD": {"delta": 0.0, "raison": "Le dollar a progressé quatre semaines de suite et les taux longs américains sont au plus haut depuis 2002. Mais les créations d'emplois calent et les élections de mi-mandat du 3 novembre ajoutent de l'incertitude."},
+  "EUR": {"delta": -0.4, "raison": "Christine Lagarde a écarté une hausse de taux en octobre, et l'écart de taux entre la France et l'Allemagne est au plus haut depuis 2011 : les investisseurs s'inquiètent de la dette française."},
+  "GBP": {"delta": 0.5, "raison": "Trois membres sur neuf de la Banque d'Angleterre voulaient déjà monter les taux en septembre : une hausse en novembre reste probable."},
+  "JPY": {"delta": -0.3, "raison": "Aucune hausse de taux attendue fin octobre et une inflation sous l'objectif. Le yen est proche de 160 pour un dollar, niveau où le Japon est déjà intervenu cet été, ce qui limite sa chute."},
+  "CHF": {"delta": 0.5, "raison": "Les inquiétudes sur la dette française poussent les investisseurs vers le franc suisse, valeur refuge. L'inflation suisse remonte à 1,0 %."},
+  "AUD": {"delta": -0.5, "raison": "Le chômage monte, les marchés doutent d'une hausse en novembre et les spéculateurs n'ont presque jamais autant parié contre le dollar australien."},
+  "NZD": {"delta": -0.5, "raison": "Monnaie au plus bas depuis 15 ans face aux autres devises, chômage au plus haut depuis 11 ans, et les paris sur une hausse de taux en octobre reculent."},
+  "CAD": {"delta": -0.8, "raison": "Le Canada a encore perdu 68 000 emplois en septembre, après 42 000 en août. La guerre commerciale avec les États-Unis continue et la banque centrale devrait rester immobile."},
+  "NOK": {"delta": 0.1, "raison": "Le pétrole est remonté au-dessus de 100 dollars et l'inflation de fond reste vers 3 %. Le chiffre de septembre n'a pas pu être vérifié à la source officielle."},
+  "SEK": {"delta": 0.8, "raison": "Le gouverneur de la banque de Suède juge raisonnable de monter les taux dès novembre, l'économie faisant mieux que prévu. L'inflation hors énergie reste toutefois basse (0,5 %)."}
+ }
+}
