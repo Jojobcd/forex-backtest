@@ -493,6 +493,214 @@ window.JOURNAL_DATA = {
     }
    ],
    "id": "2026-10-12"
+  },
+  {
+   "date": "2026-10-18",
+   "titre": "Semaine du 18 octobre 2026",
+   "en_bref": "Le classement change peu. La couronne norvégienne reste la plus solide, la couronne suédoise et le franc suisse les plus fragiles. L'inflation américaine a surpris à la hausse et le pétrole a grimpé d'environ 10 % sur la semaine. La livre se renforce avec une hausse de taux attendue en novembre, le dollar australien recule avec la montée du chômage.",
+   "resume": [
+    "Fait : l'inflation américaine atteint 3,7 % en septembre (3,6 % attendus), et 2,6 % hors énergie et alimentation (2,5 % attendus).",
+    "Fait : le président de la Fed, Kevin Warsh, n'a rien promis pour octobre. Les marchés voient environ 16 % de chances de hausse en octobre et près de 90 % en décembre. Le dollar a reculé sur la semaine.",
+    "Fait : le pétrole Brent a fini la semaine vers 110 dollars, environ 10 % de plus que la semaine précédente.",
+    "Fait : le chômage australien atteint 4,7 %, son plus haut depuis cinq ans. L'économie britannique a progressé de 0,1 % en août alors qu'une baisse était attendue.",
+    "Fait : le gouverneur de la Banque du Japon promet de continuer à monter les taux. La BCE et la Banque du Canada devraient rester immobiles fin octobre.",
+    "Données manquantes : rien de nouveau trouvé cette semaine pour la Suisse et la Norvège, ni le chiffre définitif de l'inflation suédoise.",
+    "Attention : deux idées sur trois parient contre la couronne suédoise. Si les deux sont prises, réduire la taille de chacune.",
+    "Scénarios : tensions qui durent (50 %), escalade au Moyen-Orient avec pétrole encore plus cher (30 %), accord sur Ormuz et chute du pétrole (20 %)."
+   ],
+   "confiance": "moyen",
+   "classement": [
+    {
+     "devise": "NOK",
+     "score": 2.4,
+     "modele": 2.35,
+     "pourquoi": "Taux élevé (4,50 %) et pétrole autour de 110 dollars : la couronne norvégienne reste la plus solide."
+    },
+    {
+     "devise": "USD",
+     "score": 1.4,
+     "modele": 1.29,
+     "pourquoi": "L'inflation américaine accélère (3,7 %) et une hausse de taux en décembre est très probable. Le président de la Fed n'a rien promis pour octobre."
+    },
+    {
+     "devise": "NZD",
+     "score": 0.8,
+     "modele": 1.3,
+     "pourquoi": "Taux en hausse mais chômage au plus haut depuis 11 ans. L'inflation du 21 octobre décidera de la suite."
+    },
+    {
+     "devise": "AUD",
+     "score": 0.8,
+     "modele": 1.44,
+     "pourquoi": "Taux le plus élevé (4,60 %), mais le chômage atteint 4,7 %, son plus haut depuis cinq ans."
+    },
+    {
+     "devise": "EUR",
+     "score": 0.3,
+     "modele": 0.61,
+     "pourquoi": "La BCE ne devrait pas bouger fin octobre et la dette française inquiète toujours."
+    },
+    {
+     "devise": "CAD",
+     "score": 0.1,
+     "modele": 0.78,
+     "pourquoi": "110 000 emplois perdus en deux mois. Le pétrole cher limite la baisse."
+    },
+    {
+     "devise": "JPY",
+     "score": 0.1,
+     "modele": 0.03,
+     "pourquoi": "La Banque du Japon promet d'autres hausses, plutôt en décembre. Le Japon menace d'intervenir si le yen faiblit encore."
+    },
+    {
+     "devise": "GBP",
+     "score": -0.4,
+     "modele": -1.14,
+     "pourquoi": "L'économie a résisté en août et une hausse de taux en novembre paraît presque certaine."
+    },
+    {
+     "devise": "CHF",
+     "score": -2.4,
+     "modele": -2.81,
+     "pourquoi": "Taux à 0 %, le plus bas des dix pays, mais valeur refuge pendant les tensions."
+    },
+    {
+     "devise": "SEK",
+     "score": -3.0,
+     "modele": -3.86,
+     "pourquoi": "Taux bas et chômage très élevé. Une hausse de taux est attendue le 4 novembre, déjà largement prévue par les marchés."
+    }
+   ],
+   "calendrier": [
+    {
+     "date": "19 oct.",
+     "evenement": "Inflation canadienne, croissance chinoise du 3e trimestre",
+     "devises": "CAD, AUD, NZD"
+    },
+    {
+     "date": "20 oct.",
+     "evenement": "Emploi britannique",
+     "devises": "GBP"
+    },
+    {
+     "date": "21 oct.",
+     "evenement": "Inflation britannique, inflation néo-zélandaise du 3e trimestre",
+     "devises": "GBP, NZD"
+    },
+    {
+     "date": "23 oct.",
+     "evenement": "Indices d'activité (zone euro, Royaume-Uni, États-Unis), inflation japonaise",
+     "devises": "EUR, GBP, USD, JPY"
+    },
+    {
+     "date": "27-28 oct.",
+     "evenement": "Décision de la Fed",
+     "devises": "USD"
+    },
+    {
+     "date": "28 oct.",
+     "evenement": "Décisions des banques du Canada et de Nouvelle-Zélande",
+     "devises": "CAD, NZD"
+    },
+    {
+     "date": "29 oct.",
+     "evenement": "Décision de la BCE",
+     "devises": "EUR"
+    },
+    {
+     "date": "29-30 oct.",
+     "evenement": "Décision de la Banque du Japon",
+     "devises": "JPY"
+    },
+    {
+     "date": "3 nov.",
+     "evenement": "Banque d'Australie, élections américaines de mi-mandat",
+     "devises": "AUD, USD"
+    },
+    {
+     "date": "4 nov.",
+     "evenement": "Décision de la banque de Suède : hausse attendue",
+     "devises": "SEK"
+    },
+    {
+     "date": "5 nov.",
+     "evenement": "Décision de la Banque d'Angleterre : hausse attendue",
+     "devises": "GBP"
+    },
+    {
+     "date": "En continu",
+     "evenement": "Moyen-Orient, prix du pétrole, dette française",
+     "devises": "NOK, CAD, EUR, CHF"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "CNBC : inflation américaine de septembre",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+     "date": "14/10/2026"
+    },
+    {
+     "titre": "ActionForex : le dollar recule après Warsh",
+     "url": "https://www.actionforex.com/action-insight/market-overview/657759-dollar-extends-slide-as-fed-warsh-refuses-to-revive-october-hike-bets/",
+     "date": "16/10/2026"
+    },
+    {
+     "titre": "Benzinga : chances de hausse de la Fed",
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62408879/fed-rate-hike-odds-warsh-ai",
+     "date": "10/2026"
+    },
+    {
+     "titre": "Babypips : bilan de la semaine",
+     "url": "https://www.babypips.com/analysis/financial-forex-market-weekly-recap-october-16-2026",
+     "date": "16/10/2026"
+    },
+    {
+     "titre": "ABC News : chômage australien de septembre",
+     "url": "https://www.abc.net.au/news/2026-10-15/unemployment-rate-september-2026-australia/107268870",
+     "date": "15/10/2026"
+    },
+    {
+     "titre": "CNBC : PIB britannique d'août",
+     "url": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
+     "date": "15/10/2026"
+    },
+    {
+     "titre": "FXStreet : Ueda promet d'autres hausses",
+     "url": "https://www.fxstreet.com/news/bojs-ueda-central-bank-will-continue-to-raise-policy-rates-202610160644",
+     "date": "16/10/2026"
+    },
+    {
+     "titre": "VT Markets : la BCE en pause en octobre",
+     "url": "https://www.vtmarkets.com/en-eu/live-updates/bny-mellons-yu-sees-ecb-october-pause-qt-flexibility-as-sovereign-spreads-and-budget-risks-loom/",
+     "date": "10/2026"
+    },
+    {
+     "titre": "Écart OAT-Bund au 16 octobre",
+     "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+     "date": "16/10/2026"
+    },
+    {
+     "titre": "Wealth Professional : la Banque du Canada et l'emploi",
+     "url": "https://www.wealthprofessional.ca/news/industry-news/job-losses-push-october-bank-of-canada-hike-odds-down-to-25/393757",
+     "date": "10/2026"
+    },
+    {
+     "titre": "CMC Markets : la semaine à venir",
+     "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-uk-cpi-meta-and-tesla-earnings",
+     "date": "10/2026"
+    },
+    {
+     "titre": "Newsquawk : semaine du 19 au 23 octobre",
+     "url": "https://www.newsquawk.com/headlines/week-in-focus-19-23rd-october-2026-highlights-include-uk-japan-and-canada-inflation-china-activity-data-and-global-flash-pmis-",
+     "date": "10/2026"
+    },
+    {
+     "titre": "FXStreet : rapport COT du 9 octobre",
+     "url": "https://www.fxstreet.com/analysis/cot-report-october-09-2026-202610111854",
+     "date": "11/10/2026"
+    }
+   ],
+   "id": "2026-10-18"
   }
  ],
  "idees": [
@@ -603,9 +811,11 @@ window.JOURNAL_DATA = {
    "analyse_id": "2026-10-12",
    "paire": "NOKSEK",
    "ecart": 5.32,
-   "statut": "idee",
+   "statut": "ecarte",
    "source": "analyse",
    "suit_modele": true,
+   "date_sortie": "2026-10-18",
+   "note": "Reconduite dans l'analyse du 18 octobre.",
    "id": "2026-10-12-NOKSEK"
   },
   {
@@ -620,10 +830,63 @@ window.JOURNAL_DATA = {
    "analyse_id": "2026-10-12",
    "paire": "USDCHF",
    "ecart": 3.63,
+   "statut": "ecarte",
+   "source": "analyse",
+   "suit_modele": true,
+   "date_sortie": "2026-10-18",
+   "note": "Reconduite dans l'analyse du 18 octobre.",
+   "id": "2026-10-12-USDCHF"
+  },
+  {
+   "sens": "ACHAT",
+   "forte": "CAD",
+   "faible": "SEK",
+   "confiance": "faible",
+   "these": "L'écart repasse au-dessus du seuil de 3 points. C'est la paire la plus fiable du backtest depuis 2013, et le Canada profite du pétrole cher. Mais l'emploi canadien chute.",
+   "catalyseurs": "Inflation canadienne du 19 octobre, Banque du Canada le 28 octobre, prix du pétrole.",
+   "invalidation": "Encore des pertes d'emplois ou de nouvelles sanctions américaines contre le Canada. Avec NOKSEK, ce trade double le pari contre la couronne suédoise : réduire la taille si les deux sont pris.",
+   "cree_le": "2026-10-18T08:00:00Z",
+   "analyse_id": "2026-10-18",
+   "paire": "CADSEK",
+   "ecart": 3.14,
    "statut": "idee",
    "source": "analyse",
    "suit_modele": true,
-   "id": "2026-10-12-USDCHF"
+   "id": "2026-10-18-CADSEK"
+  },
+  {
+   "sens": "ACHAT",
+   "forte": "NOK",
+   "faible": "SEK",
+   "confiance": "moyenne",
+   "these": "Toujours le plus grand écart du classement. La Norvège a des taux élevés et profite du pétrole à 110 dollars, la Suède a des taux bas et un chômage très élevé.",
+   "catalyseurs": "Prix du pétrole, décision suédoise du 4 novembre.",
+   "invalidation": "Un accord sur Ormuz qui fait chuter le pétrole, ou une hausse de taux suédoise plus forte que prévu le 4 novembre.",
+   "cree_le": "2026-10-18T08:00:00Z",
+   "analyse_id": "2026-10-18",
+   "paire": "NOKSEK",
+   "ecart": 5.41,
+   "statut": "idee",
+   "source": "analyse",
+   "suit_modele": true,
+   "id": "2026-10-18-NOKSEK"
+  },
+  {
+   "sens": "ACHAT",
+   "forte": "USD",
+   "faible": "CHF",
+   "confiance": "moyenne",
+   "these": "L'écart de taux dépasse 3,75 points en faveur du dollar, et l'inflation américaine rend une nouvelle hausse de la Fed probable d'ici décembre. Confiance remontée à moyenne grâce à l'inflation américaine.",
+   "catalyseurs": "Décision de la Fed les 27 et 28 octobre, indices d'activité du 23 octobre.",
+   "invalidation": "Une Fed qui écarte toute hausse d'ici la fin de l'année, ou une forte panique qui ferait fuir les investisseurs vers le franc suisse.",
+   "cree_le": "2026-10-18T08:00:00Z",
+   "analyse_id": "2026-10-18",
+   "paire": "USDCHF",
+   "ecart": 3.8,
+   "statut": "idee",
+   "source": "analyse",
+   "suit_modele": true,
+   "id": "2026-10-18-USDCHF"
   }
  ]
 };

@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "moyenne",
+ "these": "L'écart de taux dépasse 3,75 points en faveur du dollar, et l'inflation américaine rend une nouvelle hausse de la Fed probable d'ici décembre. Confiance remontée à moyenne grâce à l'inflation américaine.",
+ "catalyseurs": "Décision de la Fed les 27 et 28 octobre, indices d'activité du 23 octobre.",
+ "invalidation": "Une Fed qui écarte toute hausse d'ici la fin de l'année, ou une forte panique qui ferait fuir les investisseurs vers le franc suisse.",
+ "cree_le": "2026-10-18T08:00:00Z",
+ "analyse_id": "2026-10-18",
+ "paire": "USDCHF",
+ "ecart": 3.8,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

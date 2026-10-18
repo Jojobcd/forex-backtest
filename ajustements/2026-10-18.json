@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-18",
+ "ajustements": {
+  "USD": {"delta": 0.1, "raison": "L'inflation américaine a accéléré à 3,7 % en septembre, plus que prévu. Mais le président de la Fed n'a pas promis de hausse en octobre et le dollar a reculé sur la semaine. Une hausse en décembre reste très probable."},
+  "EUR": {"delta": -0.3, "raison": "La BCE ne devrait pas bouger le 29 octobre et la dette française continue d'inquiéter. Les spéculateurs parient déjà massivement contre l'euro, ce qui limite la baisse."},
+  "GBP": {"delta": 0.7, "raison": "L'économie britannique a progressé en août alors qu'une baisse était attendue, et les marchés jugent une hausse de taux en novembre presque certaine. L'inflation du 21 octobre pourrait le confirmer."},
+  "JPY": {"delta": 0.0, "raison": "Le gouverneur de la Banque du Japon promet de continuer à monter les taux, plutôt en décembre. Le Japon menace d'intervenir si le yen approche 160 pour un dollar."},
+  "CHF": {"delta": 0.4, "raison": "Rien de nouveau trouvé cette semaine. Le franc reste une valeur refuge pendant les tensions sur la dette française et au Moyen-Orient."},
+  "AUD": {"delta": -0.7, "raison": "Le chômage australien atteint 4,7 %, son plus haut depuis cinq ans. Une hausse de taux en novembre devient peu probable."},
+  "NZD": {"delta": -0.5, "raison": "Rien de nouveau trouvé cette semaine. Chômage au plus haut depuis 11 ans. L'inflation du 21 octobre décidera de la hausse de taux du 28 octobre."},
+  "CAD": {"delta": -0.7, "raison": "Après 110 000 emplois perdus en deux mois, la banque centrale devrait rester immobile le 28 octobre. Le pétrole à 110 dollars limite la baisse du dollar canadien."},
+  "NOK": {"delta": 0.0, "raison": "Le pétrole a gagné environ 10 % sur la semaine, ce que le modèle voit déjà. Aucune nouvelle donnée norvégienne trouvée."},
+  "SEK": {"delta": 0.8, "raison": "La banque de Suède prépare une hausse de taux le 4 novembre. Le chiffre définitif de l'inflation de septembre n'a pas été trouvé."}
+ }
+}

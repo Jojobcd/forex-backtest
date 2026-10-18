@@ -10,7 +10,9 @@
  "analyse_id": "2026-10-12",
  "paire": "USDCHF",
  "ecart": 3.63,
- "statut": "idee",
+ "statut": "ecarte",
  "source": "analyse",
- "suit_modele": true
+ "suit_modele": true,
+ "date_sortie": "2026-10-18",
+ "note": "Reconduite dans l'analyse du 18 octobre."
 }

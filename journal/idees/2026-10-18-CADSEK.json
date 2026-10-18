@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "CAD",
+ "faible": "SEK",
+ "confiance": "faible",
+ "these": "L'écart repasse au-dessus du seuil de 3 points. C'est la paire la plus fiable du backtest depuis 2013, et le Canada profite du pétrole cher. Mais l'emploi canadien chute.",
+ "catalyseurs": "Inflation canadienne du 19 octobre, Banque du Canada le 28 octobre, prix du pétrole.",
+ "invalidation": "Encore des pertes d'emplois ou de nouvelles sanctions américaines contre le Canada. Avec NOKSEK, ce trade double le pari contre la couronne suédoise : réduire la taille si les deux sont pris.",
+ "cree_le": "2026-10-18T08:00:00Z",
+ "analyse_id": "2026-10-18",
+ "paire": "CADSEK",
+ "ecart": 3.14,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

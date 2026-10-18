@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "NOK",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "Toujours le plus grand écart du classement. La Norvège a des taux élevés et profite du pétrole à 110 dollars, la Suède a des taux bas et un chômage très élevé.",
+ "catalyseurs": "Prix du pétrole, décision suédoise du 4 novembre.",
+ "invalidation": "Un accord sur Ormuz qui fait chuter le pétrole, ou une hausse de taux suédoise plus forte que prévu le 4 novembre.",
+ "cree_le": "2026-10-18T08:00:00Z",
+ "analyse_id": "2026-10-18",
+ "paire": "NOKSEK",
+ "ecart": 5.41,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}
