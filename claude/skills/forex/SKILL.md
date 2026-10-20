@@ -1,6 +1,6 @@
 ---
 name: forex
-description: "Analyse fondamentale hebdomadaire du Forex G10 par force relative des devises. Met à jour le modèle quantitatif local, fait la recherche web (banques centrales, discours, macro, géopolitique, COT), produit le classement et le top 3 des setups, puis écrit l'analyse et les idées dans le journal web. À utiliser quand l'utilisateur tape /forex ou demande l'analyse Forex de la semaine, le classement des devises, ou une mise à jour du journal de trading. Accepte un argument optionnel : « mensuel » (relance aussi le backtest complet), « backtest <période> », ou une devise/paire à cibler."
+description: "Analyse fondamentale hebdomadaire du Forex G10 par force relative des devises. Met à jour le modèle quantitatif local, fait la recherche web (banques centrales, discours, macro, géopolitique, COT), produit le classement et le top 3 des setups, puis écrit l'analyse et les idées dans le journal web. À utiliser quand l'utilisateur tape /forex ou demande l'analyse Forex de la semaine, le classement des devises, ou une mise à jour du journal de trading. Accepte un argument optionnel : « mensuel » (relance aussi le backtest complet), « backtest <période> », ou une devise/paire à cibler, ou « avant » (avis avant les prochaines publications économiques)."
 ---
 
 # Analyse Forex G10 — force relative fondamentale
@@ -49,6 +49,9 @@ un score pour une décision de taux : elle passe par ce fichier, pour que le mod
 5. Géopolitique, pétrole, or. Sentiment de risque : VIX, actions.
 6. Positionnement : dernier rapport COT de la CFTC.
 7. Calendrier des 7 à 14 prochains jours, impact élevé.
+   RÈGLE : vérifier pour chaque événement s'il est DÉJÀ PUBLIÉ (y compris le jour même, souvent le matin en Europe).
+   Un chiffre déjà sorti n'apparaît jamais dans « À surveiller » : il est intégré comme FAIT dans l'analyse et les scores.
+   Dans le journal, retirer du calendrier de la dernière analyse tout événement dont la date est passée ou qui est publié.
 
 ## Étape 3 — Scores et classement
 
@@ -109,6 +112,26 @@ Le journal est un fichier local : `journal/Journal Forex.html`, dans le dossier 
 STYLE DU JOURNAL : il doit être compris par quelqu'un qui ne trade pas.
 Phrases courtes, mots simples, pas de jargon (ou expliqué dans la phrase). Écrire « la banque centrale a monté ses taux » plutôt que « hawkish hike ».
 Les champs `pourquoi`, `these`, `catalyseurs` et `invalidation` font une à trois phrases.
+
+## Mode avant (argument « avant », éventuellement suivi d'une publication : « avant », « avant inflation britannique »)
+
+Objectif : donner un avis AVANT une ou plusieurs publications, sans refaire toute l'analyse.
+
+1. Lire la dernière analyse (`journal/analyses/`, la plus récente) et les idées au statut `idee`,
+   ainsi que la dernière sauvegarde de l'utilisateur pour connaître ses trades ouverts.
+2. Sans précision : prendre les publications à fort impact des 3 prochains jours non encore publiées.
+   Avec précision : seulement celle demandée. Vérifier par WebSearch qu'elle n'est pas déjà sortie ;
+   si elle l'est, le dire et basculer en mise à jour (intégrer le chiffre, recalculer via `scores_ajustes.py`).
+3. Pour chaque publication, rechercher : date et heure (heure d'Abidjan, GMT), consensus, chiffre précédent,
+   prévision de la banque centrale, ce que le marché a déjà intégré (probabilités de hausse ou de baisse de taux).
+4. Sortie pour chaque publication :
+   - FAIT : attendu, précédent, ce qui est déjà dans le prix.
+   - Avis : le risque est-il équilibré ou déséquilibré ? (une bonne nouvelle déjà prévue fait peu bouger la devise,
+     une déception la fait davantage reculer).
+   - Tableau à 3 lignes : « au-dessus de X », « autour de Y », « sous Z », avec l'effet probable sur la devise.
+   - Effet sur les idées en cours et sur les trades ouverts de l'utilisateur, et ce qu'il doit faire (souvent : rien).
+5. Terminer par un résumé d'une ou deux phrases et les sources datées. Ne rien écrire dans le journal en mode avant.
+6. Rappeler qu'il faut relancer « /forex <devise> » APRÈS la publication pour intégrer le vrai chiffre.
 
 ## Mode backtest
 

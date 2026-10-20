@@ -5,6 +5,7 @@
  "resume": [
   "Fait : l'inflation canadienne atteint 3,1 % en septembre, contre 3,2 % attendus. Les mesures de fond suivies par la Banque du Canada passent sous 2 % (1,8 et 1,9 %).",
   "Fait : la croissance chinoise atteint 4,5 % au 3e trimestre, au-dessus des 4,4 % attendus. Les ventes au détail progressent plus que prévu.",
+  "Fait : le chômage britannique baisse à 4,7 % (4,9 % attendu) et les salaires hors primes progressent de 3,7 %, plus que prévu. La livre monte.",
   "Interprétation : la Banque du Canada a encore moins de raisons de monter ses taux le 28 octobre. Le dollar canadien recule au classement.",
   "Interprétation : une Chine plus solide soutient un peu l'Australie et la Nouvelle-Zélande, qui y vendent beaucoup.",
   "Conséquence : l'écart CADSEK tombe à 2,8 points, sous le seuil de 3. L'idée est retirée. NOKSEK et USDCHF restent valables.",
@@ -28,7 +29,7 @@
   },
   {
    "devise": "AUD",
-   "score": 1.0,
+   "score": 0.9,
    "modele": 1.44,
    "pourquoi": "Taux le plus élevé (4,60 %) et la bonne croissance chinoise aide, mais le chômage est au plus haut depuis cinq ans."
   },
@@ -46,7 +47,7 @@
   },
   {
    "devise": "JPY",
-   "score": 0.1,
+   "score": 0.0,
    "modele": 0.03,
    "pourquoi": "La Banque du Japon promet d'autres hausses, plutôt en décembre. Le Japon menace d'intervenir si le yen faiblit encore."
   },
@@ -58,9 +59,9 @@
   },
   {
    "devise": "GBP",
-   "score": -0.4,
+   "score": -0.2,
    "modele": -1.14,
-   "pourquoi": "L'économie a résisté en août et une hausse de taux en novembre paraît presque certaine."
+   "pourquoi": "Le chômage baisse (4,7 %) et les salaires progressent plus que prévu : une hausse de taux en novembre paraît presque certaine."
   },
   {
    "devise": "CHF",
@@ -70,17 +71,12 @@
   },
   {
    "devise": "SEK",
-   "score": -3.0,
+   "score": -3.1,
    "modele": -3.86,
    "pourquoi": "Taux bas et chômage très élevé. Une hausse de taux est attendue le 4 novembre, déjà largement prévue par les marchés."
   }
  ],
  "calendrier": [
-  {
-   "date": "20 oct.",
-   "evenement": "Emploi britannique",
-   "devises": "GBP"
-  },
   {
    "date": "21 oct.",
    "evenement": "Inflation britannique, inflation néo-zélandaise du 3e trimestre",
@@ -133,6 +129,11 @@
   }
  ],
  "sources": [
+  {
+   "titre": "AskTraders : chômage britannique à 4,7 %",
+   "url": "https://www.asktraders.com/analysis/uk-unemployment-falls-to-4-7-below-the-4-9-forecast-as-pay-growth-mixed/",
+   "date": "20/10/2026"
+  },
   {
    "titre": "Reuters : inflation canadienne de septembre",
    "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-rose-to-31-in-september-4957385",
