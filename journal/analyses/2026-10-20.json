@@ -1,0 +1,222 @@
+{
+ "date": "2026-10-20",
+ "titre": "Mise à jour du 20 octobre 2026",
+ "en_bref": "Deux chiffres publiés le 19 octobre modifient un peu le classement. L'inflation canadienne est plus faible que prévu, ce qui affaiblit le dollar canadien. La croissance chinoise dépasse les attentes, ce qui aide un peu les dollars australien et néo-zélandais. L'idée CADSEK passe sous le seuil et est retirée.",
+ "resume": [
+  "Fait : l'inflation canadienne atteint 3,1 % en septembre, contre 3,2 % attendus. Les mesures de fond suivies par la Banque du Canada passent sous 2 % (1,8 et 1,9 %).",
+  "Fait : la croissance chinoise atteint 4,5 % au 3e trimestre, au-dessus des 4,4 % attendus. Les ventes au détail progressent plus que prévu.",
+  "Interprétation : la Banque du Canada a encore moins de raisons de monter ses taux le 28 octobre. Le dollar canadien recule au classement.",
+  "Interprétation : une Chine plus solide soutient un peu l'Australie et la Nouvelle-Zélande, qui y vendent beaucoup.",
+  "Conséquence : l'écart CADSEK tombe à 2,8 points, sous le seuil de 3. L'idée est retirée. NOKSEK et USDCHF restent valables.",
+  "Fait : l'inflation américaine atteint 3,7 % en septembre (3,6 % attendus), et 2,6 % hors énergie et alimentation (2,5 % attendus).",
+  "Fait : le pétrole Brent a fini la semaine vers 110 dollars, environ 10 % de plus que la semaine précédente.",
+  "Scénarios : tensions qui durent (50 %), escalade au Moyen-Orient avec pétrole encore plus cher (30 %), accord sur Ormuz et chute du pétrole (20 %)."
+ ],
+ "confiance": "moyen",
+ "classement": [
+  {
+   "devise": "NOK",
+   "score": 2.4,
+   "modele": 2.35,
+   "pourquoi": "Taux élevé (4,50 %) et pétrole autour de 110 dollars : la couronne norvégienne reste la plus solide."
+  },
+  {
+   "devise": "USD",
+   "score": 1.4,
+   "modele": 1.29,
+   "pourquoi": "L'inflation américaine accélère (3,7 %) et une hausse de taux en décembre est très probable. Le président de la Fed n'a rien promis pour octobre."
+  },
+  {
+   "devise": "AUD",
+   "score": 1.0,
+   "modele": 1.44,
+   "pourquoi": "Taux le plus élevé (4,60 %) et la bonne croissance chinoise aide, mais le chômage est au plus haut depuis cinq ans."
+  },
+  {
+   "devise": "NZD",
+   "score": 0.9,
+   "modele": 1.3,
+   "pourquoi": "Taux en hausse et la bonne croissance chinoise aide, mais le chômage est au plus haut depuis 11 ans."
+  },
+  {
+   "devise": "EUR",
+   "score": 0.3,
+   "modele": 0.61,
+   "pourquoi": "La BCE ne devrait pas bouger fin octobre et la dette française inquiète toujours."
+  },
+  {
+   "devise": "JPY",
+   "score": 0.1,
+   "modele": 0.03,
+   "pourquoi": "La Banque du Japon promet d'autres hausses, plutôt en décembre. Le Japon menace d'intervenir si le yen faiblit encore."
+  },
+  {
+   "devise": "CAD",
+   "score": -0.2,
+   "modele": 0.78,
+   "pourquoi": "L'inflation de septembre est un peu sous les attentes et l'emploi chute : une hausse de taux s'éloigne. Le pétrole cher limite la baisse."
+  },
+  {
+   "devise": "GBP",
+   "score": -0.4,
+   "modele": -1.14,
+   "pourquoi": "L'économie a résisté en août et une hausse de taux en novembre paraît presque certaine."
+  },
+  {
+   "devise": "CHF",
+   "score": -2.4,
+   "modele": -2.81,
+   "pourquoi": "Taux à 0 %, le plus bas des dix pays, mais valeur refuge pendant les tensions."
+  },
+  {
+   "devise": "SEK",
+   "score": -3.0,
+   "modele": -3.86,
+   "pourquoi": "Taux bas et chômage très élevé. Une hausse de taux est attendue le 4 novembre, déjà largement prévue par les marchés."
+  }
+ ],
+ "calendrier": [
+  {
+   "date": "20 oct.",
+   "evenement": "Emploi britannique",
+   "devises": "GBP"
+  },
+  {
+   "date": "21 oct.",
+   "evenement": "Inflation britannique, inflation néo-zélandaise du 3e trimestre",
+   "devises": "GBP, NZD"
+  },
+  {
+   "date": "23 oct.",
+   "evenement": "Indices d'activité (zone euro, Royaume-Uni, États-Unis), inflation japonaise",
+   "devises": "EUR, GBP, USD, JPY"
+  },
+  {
+   "date": "27-28 oct.",
+   "evenement": "Décision de la Fed",
+   "devises": "USD"
+  },
+  {
+   "date": "28 oct.",
+   "evenement": "Décisions des banques du Canada et de Nouvelle-Zélande",
+   "devises": "CAD, NZD"
+  },
+  {
+   "date": "29 oct.",
+   "evenement": "Décision de la BCE",
+   "devises": "EUR"
+  },
+  {
+   "date": "29-30 oct.",
+   "evenement": "Décision de la Banque du Japon",
+   "devises": "JPY"
+  },
+  {
+   "date": "3 nov.",
+   "evenement": "Banque d'Australie, élections américaines de mi-mandat",
+   "devises": "AUD, USD"
+  },
+  {
+   "date": "4 nov.",
+   "evenement": "Décision de la banque de Suède : hausse attendue",
+   "devises": "SEK"
+  },
+  {
+   "date": "5 nov.",
+   "evenement": "Décision de la Banque d'Angleterre : hausse attendue",
+   "devises": "GBP"
+  },
+  {
+   "date": "En continu",
+   "evenement": "Moyen-Orient, prix du pétrole, dette française",
+   "devises": "NOK, CAD, EUR, CHF"
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Reuters : inflation canadienne de septembre",
+   "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-rose-to-31-in-september-4957385",
+   "date": "19/10/2026"
+  },
+  {
+   "titre": "RBC : mesures de fond de l'inflation canadienne",
+   "url": "https://www.rbc.com/en/economics/canadian-analysis/data-flashes/canadian-inflation-ticked-higher-in-september/",
+   "date": "19/10/2026"
+  },
+  {
+   "titre": "CNBC : croissance chinoise du 3e trimestre",
+   "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
+   "date": "19/10/2026"
+  },
+  {
+   "titre": "InvestingLive : PIB chinois et ventes au détail",
+   "url": "https://investinglive.com/news/china-q3-gdp-beats-forecasts-at-4-5-retail-sales-grow-at-fastest-pace-since-march/",
+   "date": "19/10/2026"
+  },
+  {
+   "titre": "CNBC : inflation américaine de septembre",
+   "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+   "date": "14/10/2026"
+  },
+  {
+   "titre": "ActionForex : le dollar recule après Warsh",
+   "url": "https://www.actionforex.com/action-insight/market-overview/657759-dollar-extends-slide-as-fed-warsh-refuses-to-revive-october-hike-bets/",
+   "date": "16/10/2026"
+  },
+  {
+   "titre": "Benzinga : chances de hausse de la Fed",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62408879/fed-rate-hike-odds-warsh-ai",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Babypips : bilan de la semaine",
+   "url": "https://www.babypips.com/analysis/financial-forex-market-weekly-recap-october-16-2026",
+   "date": "16/10/2026"
+  },
+  {
+   "titre": "ABC News : chômage australien de septembre",
+   "url": "https://www.abc.net.au/news/2026-10-15/unemployment-rate-september-2026-australia/107268870",
+   "date": "15/10/2026"
+  },
+  {
+   "titre": "CNBC : PIB britannique d'août",
+   "url": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
+   "date": "15/10/2026"
+  },
+  {
+   "titre": "FXStreet : Ueda promet d'autres hausses",
+   "url": "https://www.fxstreet.com/news/bojs-ueda-central-bank-will-continue-to-raise-policy-rates-202610160644",
+   "date": "16/10/2026"
+  },
+  {
+   "titre": "VT Markets : la BCE en pause en octobre",
+   "url": "https://www.vtmarkets.com/en-eu/live-updates/bny-mellons-yu-sees-ecb-october-pause-qt-flexibility-as-sovereign-spreads-and-budget-risks-loom/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Écart OAT-Bund au 16 octobre",
+   "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "date": "16/10/2026"
+  },
+  {
+   "titre": "Wealth Professional : la Banque du Canada et l'emploi",
+   "url": "https://www.wealthprofessional.ca/news/industry-news/job-losses-push-october-bank-of-canada-hike-odds-down-to-25/393757",
+   "date": "10/2026"
+  },
+  {
+   "titre": "CMC Markets : la semaine à venir",
+   "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-uk-cpi-meta-and-tesla-earnings",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Newsquawk : semaine du 19 au 23 octobre",
+   "url": "https://www.newsquawk.com/headlines/week-in-focus-19-23rd-october-2026-highlights-include-uk-japan-and-canada-inflation-china-activity-data-and-global-flash-pmis-",
+   "date": "10/2026"
+  },
+  {
+   "titre": "FXStreet : rapport COT du 9 octobre",
+   "url": "https://www.fxstreet.com/analysis/cot-report-october-09-2026-202610111854",
+   "date": "11/10/2026"
+  }
+ ]
+}
