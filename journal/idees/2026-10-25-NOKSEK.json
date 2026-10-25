@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "NOK",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "Toujours le plus grand écart du classement. Le pétrole au plus haut depuis avril profite à la Norvège, alors que la Suède a des taux bas et que sa couronne souffre quand les marchés ont peur.",
+ "catalyseurs": "Prix du pétrole et tensions avec l'Iran, décision suédoise du 4 novembre.",
+ "invalidation": "Un accord avec l'Iran qui fait chuter le pétrole, ou une hausse de taux suédoise plus forte que prévu le 4 novembre.",
+ "cree_le": "2026-10-25T08:00:00Z",
+ "analyse_id": "2026-10-25",
+ "paire": "NOKSEK",
+ "ecart": 5.71,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

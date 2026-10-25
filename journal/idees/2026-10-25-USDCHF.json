@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "moyenne",
+ "these": "L'écart de taux dépasse 3,75 points en faveur du dollar, et l'activité américaine reste très forte. Dans les moments de peur, le dollar résiste mieux face au franc que les autres monnaies.",
+ "catalyseurs": "Décision de la Fed le 28 octobre à 18h00 (GMT), croissance et inflation américaines le 29 octobre à 12h30.",
+ "invalidation": "Une Fed qui écarte toute hausse d'ici la fin de l'année, ou une panique très forte qui ferait fuir les investisseurs vers le franc.",
+ "cree_le": "2026-10-25T08:00:00Z",
+ "analyse_id": "2026-10-25",
+ "paire": "USDCHF",
+ "ecart": 3.65,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}
