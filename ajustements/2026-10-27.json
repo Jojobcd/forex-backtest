@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-27",
+ "ajustements": {
+  "USD": {
+   "delta": -0.2,
+   "raison": "L'activité américaine reste très forte et les prix montent, mais la Fed ne devrait pas bouger le 28 octobre (environ 10 % de chances de hausse). Les spéculateurs ont déjà beaucoup acheté de dollars, et le modèle compte déjà son rôle de refuge."
+  },
+  "EUR": {
+   "delta": -0.3,
+   "raison": "Le moral des entreprises allemandes (enquête Ifo) s'améliore plus que prévu en octobre. Mais l'activité de la zone euro ralentit et la dette française inquiète toujours."
+  },
+  "GBP": {
+   "delta": 1.0,
+   "raison": "Tout va dans le même sens : inflation à 3,5 % (3,4 % attendu), activité au plus haut depuis février, chômage en baisse. Une hausse de taux le 5 novembre paraît certaine."
+  },
+  "JPY": {
+   "delta": 0.2,
+   "raison": "L'inflation japonaise dépasse l'objectif (2,1 %, et 2,4 % hors énergie) : une hausse de taux en décembre est très probable. Le yen profite aussi de la peur sur les marchés."
+  },
+  "CHF": {
+   "delta": 0.2,
+   "raison": "Rien de nouveau en Suisse. Le modèle compte déjà le rôle de refuge du franc, d'où un ajustement réduit."
+  },
+  "AUD": {
+   "delta": -0.3,
+   "raison": "Chômage au plus haut depuis cinq ans. Le modèle compte déjà l'effet de la peur sur le dollar australien. Inflation de septembre le 28 octobre."
+  },
+  "NZD": {
+   "delta": -0.4,
+   "raison": "L'inflation est un peu plus faible que prévu (3,7 %), mais une hausse de taux le 28 octobre reste attendue à environ 80 % : elle est déjà dans le prix."
+  },
+  "CAD": {
+   "delta": -0.2,
+   "raison": "Changement de ton : la plupart des économistes attendent maintenant une hausse de taux canadienne le 28 octobre, et le pétrole est au plus haut depuis avril. L'emploi reste faible."
+  },
+  "NOK": {
+   "delta": 0.1,
+   "raison": "Le pétrole recule un peu (environ 116 dollars) grâce à des discussions entre l'Arabie saoudite et l'Iran, mais reste au plus haut depuis six mois. La banque de Norvège prévoit encore une hausse."
+  },
+  "SEK": {
+   "delta": 0.8,
+   "raison": "La banque de Suède prépare une hausse de taux le 4 novembre, déjà largement prévue. Le modèle pénalise aussi la couronne quand les marchés ont peur."
+  }
+ }
+}

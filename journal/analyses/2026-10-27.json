@@ -1,0 +1,227 @@
+{
+ "date": "2026-10-27",
+ "titre": "Mise à jour du 27 octobre 2026",
+ "en_bref": "Peu de changements depuis samedi. Le pétrole recule un peu grâce à des discussions entre l'Arabie saoudite et l'Iran, et le moral des entreprises allemandes s'améliore. Les trois idées restent valables. Tout se joue maintenant avec les banques centrales du 28 au 30 octobre.",
+ "resume": [
+  "Fait : le moral des entreprises allemandes (enquête Ifo) monte à 90,2 en octobre, au-dessus des 90,0 attendus.",
+  "Fait : le pétrole Brent recule légèrement, à environ 116 dollars, grâce à des discussions entre l'Arabie saoudite et l'Iran. Les Houthis, alliés de l'Iran, disent avoir frappé un oléoduc saoudien.",
+  "Fait : la Fed a commencé sa réunion de deux jours. Décision mercredi à 18h00 (GMT).",
+  "Donnée non trouvée : la confiance des consommateurs américains d'octobre.",
+  "Fait : l'inflation britannique atteint 3,5 % en septembre (3,4 % attendu) et l'activité britannique est au plus haut depuis février.",
+  "Fait : l'inflation japonaise atteint 2,1 %, et 2,4 % hors énergie et produits frais, au-dessus de l'objectif de 2 %.",
+  "Attention : quatre des cinq paires possibles parient contre la couronne suédoise. Deux idées sur trois le font : réduire la taille si les deux sont prises. CADSEK est une alternative valable, mais l'emploi canadien chute.",
+  "Scénarios : tensions qui durent (45 %), escalade avec l'Iran (30 %), accord et chute du pétrole (25 %, un peu plus probable qu'il y a deux jours)."
+ ],
+ "confiance": "moyen",
+ "classement": [
+  {
+   "devise": "NOK",
+   "score": 2.0,
+   "modele": 1.99,
+   "pourquoi": "Taux élevé (4,50 %) et pétrole autour de 116 dollars, au plus haut depuis six mois : la couronne norvégienne est la plus solide."
+  },
+  {
+   "devise": "USD",
+   "score": 1.8,
+   "modele": 2.08,
+   "pourquoi": "Activité très forte et inflation élevée, et le dollar sert de refuge quand les marchés ont peur. La Fed ne devrait pas bouger le 28 octobre."
+  },
+  {
+   "devise": "JPY",
+   "score": 1.0,
+   "modele": 0.92,
+   "pourquoi": "L'inflation japonaise dépasse enfin l'objectif : une hausse de taux en décembre est très probable. Le yen profite aussi de la peur sur les marchés."
+  },
+  {
+   "devise": "CAD",
+   "score": 0.3,
+   "modele": 0.62,
+   "pourquoi": "Une hausse de taux est maintenant attendue le 28 octobre et le pétrole est cher, mais l'emploi chute."
+  },
+  {
+   "devise": "AUD",
+   "score": 0.3,
+   "modele": 0.72,
+   "pourquoi": "Taux élevé, mais chômage au plus haut depuis cinq ans, et le dollar australien souffre quand les marchés ont peur."
+  },
+  {
+   "devise": "EUR",
+   "score": 0.2,
+   "modele": 0.62,
+   "pourquoi": "Le moral des entreprises allemandes s'améliore, mais l'activité de la zone euro ralentit et la dette française inquiète."
+  },
+  {
+   "devise": "NZD",
+   "score": 0.0,
+   "modele": 0.5,
+   "pourquoi": "Une hausse de taux le 28 octobre est attendue et déjà dans le prix. L'inflation est un peu plus faible que prévu."
+  },
+  {
+   "devise": "GBP",
+   "score": -0.0,
+   "modele": -0.94,
+   "pourquoi": "Inflation, activité et emploi meilleurs que prévu : une hausse de taux le 5 novembre paraît certaine."
+  },
+  {
+   "devise": "CHF",
+   "score": -1.9,
+   "modele": -1.96,
+   "pourquoi": "Taux à 0 %, le plus bas des dix pays, mais le franc attire les investisseurs inquiets."
+  },
+  {
+   "devise": "SEK",
+   "score": -3.8,
+   "modele": -4.54,
+   "pourquoi": "Taux bas et chômage très élevé. Une hausse de taux le 4 novembre est attendue et déjà dans le prix."
+  }
+ ],
+ "calendrier": [
+  {
+   "date": "28 oct. 00h30",
+   "evenement": "Inflation australienne de septembre",
+   "devises": "AUD"
+  },
+  {
+   "date": "28 oct. 01h00",
+   "evenement": "Banque de Nouvelle-Zélande : hausse attendue à 3 %",
+   "devises": "NZD"
+  },
+  {
+   "date": "28 oct. 13h45",
+   "evenement": "Banque du Canada : hausse attendue à 2,50 %",
+   "devises": "CAD"
+  },
+  {
+   "date": "28 oct. 18h00",
+   "evenement": "Fed : statu quo attendu, conférence de Kevin Warsh à 18h30",
+   "devises": "USD"
+  },
+  {
+   "date": "29 oct. 12h30",
+   "evenement": "Croissance américaine du 3e trimestre et inflation PCE de septembre",
+   "devises": "USD"
+  },
+  {
+   "date": "29 oct. 13h15",
+   "evenement": "BCE : statu quo attendu",
+   "devises": "EUR"
+  },
+  {
+   "date": "30 oct.",
+   "evenement": "Banque du Japon : statu quo attendu, nouvelles prévisions",
+   "devises": "JPY"
+  },
+  {
+   "date": "3 nov.",
+   "evenement": "Banque d'Australie, élections américaines de mi-mandat",
+   "devises": "AUD, USD"
+  },
+  {
+   "date": "4 nov.",
+   "evenement": "Banque de Suède : hausse attendue",
+   "devises": "SEK"
+  },
+  {
+   "date": "5 nov.",
+   "evenement": "Banque d'Angleterre : hausse attendue",
+   "devises": "GBP"
+  },
+  {
+   "date": "En continu",
+   "evenement": "Iran et prix du pétrole, dette française",
+   "devises": "NOK, CAD, EUR, CHF, JPY"
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Ifo : climat des affaires d'octobre",
+   "url": "https://www.ifo.de/en/press-release/2026-10-26/ifo-business-climate-rises-october-2026",
+   "date": "26/10/2026"
+  },
+  {
+   "titre": "CNBC : le pétrole recule sur l'espoir de négociations",
+   "url": "https://cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+   "date": "27/10/2026"
+  },
+  {
+   "titre": "Oil & Gas Middle East : le Brent sous 116 dollars",
+   "url": "https://www.oilandgasmiddleeast.com/news/brent-crude-tehran-talks-houthi",
+   "date": "26/10/2026"
+  },
+  {
+   "titre": "Business Recorder : le yen recule avant les banques centrales",
+   "url": "https://www.brecorder.com/news/40446087/yen-slips-ahead-of-central-bank-bonanza-dollar-firms-on-tech-rebound",
+   "date": "26/10/2026"
+  },
+  {
+   "titre": "FXStreet : inflation britannique à 3,5 %",
+   "url": "https://www.fxstreet.com/news/uk-cpi-set-to-accelerate-paving-the-way-for-a-boe-interest-rate-hike-in-november-202610210200",
+   "date": "21/10/2026"
+  },
+  {
+   "titre": "CNBC : inflation japonaise de septembre",
+   "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
+   "date": "23/10/2026"
+  },
+  {
+   "titre": "FXStreet : activité de la zone euro en octobre",
+   "url": "https://www.fxstreet.com/news/eurozone-hcob-composite-pmi-declines-to-519-in-october-vs-527-expected-202610230806",
+   "date": "23/10/2026"
+  },
+  {
+   "titre": "InvestingLive : activité britannique en octobre",
+   "url": "https://investinglive.com/news/uk-october-flash-services-pmi-53-1-vs-51-8-expected/",
+   "date": "23/10/2026"
+  },
+  {
+   "titre": "CNBC : marchés du 23 octobre, pétrole et Iran",
+   "url": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
+   "date": "23/10/2026"
+  },
+  {
+   "titre": "Babypips : bilan de la semaine",
+   "url": "https://www.babypips.com/analysis/financial-forex-market-weekly-recap-october-23-2026",
+   "date": "23/10/2026"
+  },
+  {
+   "titre": "Reuters : la Banque du Canada attendue en hausse",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-23/bank-of-canada-to-raise-rates-to-2-50-on-october-28-and-once-again-by-end-march",
+   "date": "23/10/2026"
+  },
+  {
+   "titre": "ING : la RBNZ devrait monter ses taux",
+   "url": "https://think.ing.com/articles/rbnz-to-hike-next-week-as-inflation-risks-mount/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Admiral Markets : décision de la Fed d'octobre",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026",
+   "date": "10/2026"
+  },
+  {
+   "titre": "FXStreet : la BCE en pause en octobre",
+   "url": "https://www.fxstreet.com/analysis/ecb-october-pause-mrr-in-focus-202610201244",
+   "date": "20/10/2026"
+  },
+  {
+   "titre": "Rio Times : la Banque du Japon le 30 octobre",
+   "url": "https://www.riotimesonline.com/bank-of-japan-rate-decision-october-2026/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Newsquawk : semaine du 26 au 30 octobre",
+   "url": "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Continuum : croissance américaine du 3e trimestre",
+   "url": "https://continuumeconomics.com/a/0a71ba0d/preview-due-october-29-us-q3-gdp-stronger-growth-slower-inflation",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Saxo : positions des spéculateurs au 13 octobre",
+   "url": "https://www.home.saxo/content/articles/commodities/cot-on-forex-and-commodities---week-to-13-october-2026-19102026",
+   "date": "19/10/2026"
+  }
+ ]
+}
