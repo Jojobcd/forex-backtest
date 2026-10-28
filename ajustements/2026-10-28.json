@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-28",
+ "ajustements": {
+  "USD": {
+   "delta": -0.1,
+   "raison": "La Fed n'a pas bougé, comme prévu, mais deux responsables ont voté pour une hausse. Les taux américains à 2 ans montent : une hausse en décembre reste probable. Le dollar a peu réagi."
+  },
+  "EUR": {
+   "delta": -0.3,
+   "raison": "Le moral des entreprises allemandes (enquête Ifo) s'améliore plus que prévu en octobre. Mais l'activité de la zone euro ralentit et la dette française inquiète toujours."
+  },
+  "GBP": {
+   "delta": 1.0,
+   "raison": "Tout va dans le même sens : inflation à 3,5 % (3,4 % attendu), activité au plus haut depuis février, chômage en baisse. Une hausse de taux le 5 novembre paraît certaine."
+  },
+  "JPY": {
+   "delta": 0.2,
+   "raison": "L'inflation japonaise dépasse l'objectif (2,1 %, et 2,4 % hors énergie) : une hausse de taux en décembre est très probable. Le yen profite aussi de la peur sur les marchés."
+  },
+  "CHF": {
+   "delta": 0.2,
+   "raison": "Rien de nouveau en Suisse. Le modèle compte déjà le rôle de refuge du franc, d'où un ajustement réduit."
+  },
+  "AUD": {
+   "delta": 0.1,
+   "raison": "L'inflation australienne monte à 4,3 % en septembre et l'inflation de fond dépasse la prévision (3,7 % contre 3,6 %). Une hausse de taux le 3 novembre est maintenant donnée à environ 90 %. Le chômage reste au plus haut depuis cinq ans."
+  },
+  "NZD": {
+   "delta": -1.0,
+   "raison": "Surprise : la banque de Nouvelle-Zélande n'a pas monté ses taux (vote serré, 4 contre 3), alors que le marché attendait une hausse à 90 %. Le dollar néo-zélandais a chuté. La banque dit que d'autres hausses restent probables."
+  },
+  "CAD": {
+   "delta": -0.3,
+   "raison": "La hausse à 2,50 % est passée dans le modèle. Elle était attendue et le dollar canadien n'a pas bougé : la banque ne promet rien pour décembre et l'emploi reste faible."
+  },
+  "NOK": {
+   "delta": 0.1,
+   "raison": "Le pétrole remonte vers 115 dollars : les États-Unis préparent peut-être de nouvelles frappes contre l'Iran après les élections du 3 novembre. Des discussions de paix continuent en parallèle."
+  },
+  "SEK": {
+   "delta": 0.8,
+   "raison": "La banque de Suède prépare une hausse de taux le 4 novembre, déjà largement prévue. Le modèle pénalise aussi la couronne quand les marchés ont peur."
+  }
+ }
+}
