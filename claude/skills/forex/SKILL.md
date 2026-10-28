@@ -18,6 +18,25 @@ Rappeler que ce n'est pas un conseil financier.
 - Journal local : `journal/Journal Forex.html` (données : `journal/donnees.js`, construit par `journal/maj_donnees.py`).
 - Rapport du backtest : `results/rapport_backtest.html`.
 
+## Étape 0 — Bilan des prévisions précédentes
+
+Avant toute nouvelle analyse, reprendre les prévisions faites depuis la dernière analyse
+(tableaux « si… alors… », scénarios, avis sur une décision) et les comparer aux résultats publiés.
+Pour chaque prévision fausse, écrire la cause en une phrase et, si elle est nouvelle, ajouter une leçon
+dans la liste ci-dessous (dans ce fichier ET dans la copie installée `~/.claude/skills/forex/SKILL.md`).
+Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le consensus et ce qui était un avis personnel.
+
+### Leçons apprises (à appliquer à chaque analyse)
+
+1. (28/10/2026, RBNZ) Quand l'inflation sort sous la prévision de la banque centrale elle-même, ou qu'une élection
+   approche, baisser la probabilité de la hausse attendue même si le marché la donne à 80-90 %. Le dire comme un vrai risque.
+2. (28/10/2026, Banque du Canada) Pendant un choc pétrolier, les banques centrales protègent d'abord l'inflation :
+   un emploi faible ne suffit pas à parier contre une hausse que le consensus attend.
+3. (27-28/10/2026, Iran) Ne pas changer les probabilités des scénarios sur les titres d'une seule journée : attendre un fait
+   (accord signé, frappe confirmée).
+4. (28/10/2026, Fed) Toujours prévoir une ligne « ton partagé » dans les tableaux de réaction : c'est souvent ce qui arrive,
+   et la devise bouge alors peu.
+
 ## Étape 1 — Modèle quantitatif
 
 Dans le dossier du projet (Bash, `PYTHONIOENCODING=utf-8`, option `-W ignore`) :
@@ -129,6 +148,7 @@ Objectif : donner un avis AVANT une ou plusieurs publications, sans refaire tout
    - Avis : le risque est-il équilibré ou déséquilibré ? (une bonne nouvelle déjà prévue fait peu bouger la devise,
      une déception la fait davantage reculer).
    - Tableau à 3 lignes : « au-dessus de X », « autour de Y », « sous Z », avec l'effet probable sur la devise.
+     Pour une banque centrale, ajouter la ligne « ton partagé » (leçon 4).
    - Effet sur les idées en cours et sur les trades ouverts de l'utilisateur, et ce qu'il doit faire (souvent : rien).
 5. Terminer par un résumé d'une ou deux phrases et les sources datées. Ne rien écrire dans le journal en mode avant.
 6. Rappeler qu'il faut relancer « /forex <devise> » APRÈS la publication pour intégrer le vrai chiffre.
