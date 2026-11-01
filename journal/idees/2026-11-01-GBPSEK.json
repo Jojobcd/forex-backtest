@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "GBP",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "Les chiffres britanniques sont meilleurs que prévu et la Banque d'Angleterre devrait monter ses taux, alors que la Suède a des taux bas et une inflation faible. La paire a bien marché dans le backtest, avant comme après 2013.",
+ "catalyseurs": "Banque de Suède le 4 novembre, puis Banque d'Angleterre le 5 novembre à 12h00 (GMT).",
+ "invalidation": "Une Banque d'Angleterre qui renonce à monter ses taux, ou une hausse suédoise avec un message très ferme. Avec NOKSEK, ce trade double le pari contre la couronne suédoise : réduire la taille si les deux sont pris.",
+ "cree_le": "2026-11-01T08:00:00Z",
+ "analyse_id": "2026-11-01",
+ "paire": "GBPSEK",
+ "ecart": 3.45,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

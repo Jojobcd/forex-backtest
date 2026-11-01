@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "faible",
+ "these": "Le seul pari qui ne dépend pas de la couronne suédoise. L'écart de taux est très large en faveur du dollar, et la croissance américaine reste forte. L'écart de score (3,2) est juste au-dessus du seuil, d'où une confiance faible.",
+ "catalyseurs": "Élections américaines du 3 novembre, emploi américain le 6 novembre à 13h30 (GMT), inflation suisse le 3 novembre.",
+ "invalidation": "Un emploi américain très faible qui fait douter d'une hausse de la Fed en décembre, ou une panique qui fait fuir les investisseurs vers le franc. Sortir si l'écart passe sous 2 points.",
+ "cree_le": "2026-11-01T08:00:00Z",
+ "analyse_id": "2026-11-01",
+ "paire": "USDCHF",
+ "ecart": 3.18,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

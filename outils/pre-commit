@@ -13,7 +13,7 @@ if [ -n "$bad_names" ]; then
   exit 1
 fi
 
-pattern='(api[_-]?key|secret[_-]?key|access[_-]?token|client[_-]?secret|password|passwd)[[:space:]]*[:=][[:space:]]*["'"'"']?[A-Za-z0-9_\-]{12,}|sk-[A-Za-z0-9_-]{20,}|sk-ant-[A-Za-z0-9_-]{20,}|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{35}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
+pattern='(api[_-]?key|secret[_-]?key|access[_-]?token|client[_-]?secret|password|passwd)[[:space:]]*[:=][[:space:]]*["'"'"']?[A-Za-z0-9_\-]{12,}|(^|[^A-Za-z0-9])sk-(ant-)?[A-Za-z0-9_-]{20,}|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{35}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
 hits=$(git diff --cached -U0 -- $files | grep -E '^\+' | grep -v '^+++' | grep -E -i -n "$pattern")
 if [ -n "$hits" ]; then
   echo "COMMIT BLOQUÉ : ce qui ressemble à une clé ou un mot de passe a été trouvé :"

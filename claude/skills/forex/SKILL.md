@@ -30,12 +30,14 @@ Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le
 
 1. (28/10/2026, RBNZ) Quand l'inflation sort sous la prévision de la banque centrale elle-même, ou qu'une élection
    approche, baisser la probabilité de la hausse attendue même si le marché la donne à 80-90 %. Le dire comme un vrai risque.
-2. (28/10/2026, Banque du Canada) Pendant un choc pétrolier, les banques centrales protègent d'abord l'inflation :
-   un emploi faible ne suffit pas à parier contre une hausse que le consensus attend.
+2. (28/10/2026, Banque du Canada ; confirmé le 29/10/2026, BCE) Quand l'inflation est élevée (choc pétrolier, plus haut
+   depuis plusieurs années), les banques centrales penchent vers la fermeté : un emploi faible ou une dette fragile
+   ne suffit pas à prévoir un ton prudent. Erreur faite deux fois : ne pas parier contre ce penchant sans fait nouveau.
 3. (27-28/10/2026, Iran) Ne pas changer les probabilités des scénarios sur les titres d'une seule journée : attendre un fait
    (accord signé, frappe confirmée).
-4. (28/10/2026, Fed) Toujours prévoir une ligne « ton partagé » dans les tableaux de réaction : c'est souvent ce qui arrive,
-   et la devise bouge alors peu.
+4. (28/10/2026, Fed ; 29/10/2026, croissance américaine) Chaque tableau de réaction a une ligne du milieu
+   (« ton partagé » pour une banque centrale, « proche du consensus » pour un chiffre) : c'est souvent ce qui arrive.
+   Le 29/10, le tableau sur la croissance américaine n'en avait pas, et le chiffre (3,4 %) est tombé entre les deux lignes.
 
 ## Étape 1 — Modèle quantitatif
 

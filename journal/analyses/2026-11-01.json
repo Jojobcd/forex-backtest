@@ -1,0 +1,217 @@
+{
+ "date": "2026-11-01",
+ "titre": "Semaine du 1er novembre 2026",
+ "en_bref": "Semaine chargée : élections américaines, quatre banques centrales (Australie, Suède, Angleterre, Norvège) et l'emploi américain. La couronne norvégienne reste la plus forte grâce au pétrole, la couronne suédoise la plus fragile. Le dollar recule dans le classement : sa bonne croissance est déjà dans le prix. Trois idées, dont deux contre la couronne suédoise.",
+ "resume": [
+  "Fait : la croissance américaine atteint 3,4 % au 3e trimestre (3,2 % attendu). L'inflation de fond de septembre est conforme (+0,3 % sur le mois).",
+  "Fait : la BCE garde son taux à 2,50 %, mais a discuté d'une hausse. L'inflation de la zone euro est à 3,8 %. Christine Lagarde quittera la BCE plus tôt que prévu, en février 2027.",
+  "Fait : la Banque du Japon garde son taux à 1,25 % (un membre voulait monter). Elle estime avoir atteint son objectif d'inflation : une hausse en décembre est probable.",
+  "Fait : l'économie canadienne n'a pas progressé en août et aurait reculé de 0,1 % en septembre.",
+  "Fait : le pétrole Brent finit octobre en hausse de 13,6 %, au plus haut depuis fin avril, après des attaques de pétroliers dans le détroit d'Ormuz. Le Qatar a proposé dimanche un nouveau projet d'accord à l'Iran.",
+  "Fait : l'indice de peur VIX est vers 17, un niveau moyen. La méthode marche moins bien quand les marchés sont calmes : garder des positions modestes.",
+  "Attention : deux idées sur trois parient contre la couronne suédoise. Diviser la taille de chacune par deux si les deux sont prises.",
+  "Scénarios : tensions qui durent (45 %), escalade avec l'Iran après les élections du 3 novembre (35 %), accord et chute du pétrole (20 %)."
+ ],
+ "confiance": "moyen",
+ "classement": [
+  {
+   "devise": "NOK",
+   "score": 2.1,
+   "modele": 2.21,
+   "pourquoi": "Taux élevé (4,50 %) et pétrole au plus haut depuis six mois : la couronne norvégienne reste la plus solide."
+  },
+  {
+   "devise": "CAD",
+   "score": 1.4,
+   "modele": 2.05,
+   "pourquoi": "La Banque du Canada a monté ses taux et le pétrole est cher. Mais l'économie canadienne n'a pas progressé en août et a sans doute reculé en septembre."
+  },
+  {
+   "devise": "AUD",
+   "score": 0.9,
+   "modele": 0.93,
+   "pourquoi": "L'inflation monte à 4,3 % : une hausse de taux le 3 novembre est attendue à environ 80 %. Le chômage reste au plus haut depuis cinq ans."
+  },
+  {
+   "devise": "USD",
+   "score": 0.8,
+   "modele": 1.04,
+   "pourquoi": "Croissance forte au 3e trimestre (3,4 %) et une hausse de la Fed probable en décembre. Mais c'est déjà dans le prix, et les élections du 3 novembre ajoutent de l'incertitude."
+  },
+  {
+   "devise": "EUR",
+   "score": 0.7,
+   "modele": 0.58,
+   "pourquoi": "L'inflation est au plus haut depuis trois ans et la BCE a discuté d'une hausse : une hausse en décembre est probable. La dette française inquiète toujours."
+  },
+  {
+   "devise": "JPY",
+   "score": 0.2,
+   "modele": -0.19,
+   "pourquoi": "La Banque du Japon estime avoir atteint son objectif d'inflation : une hausse de taux en décembre est probable."
+  },
+  {
+   "devise": "GBP",
+   "score": -0.1,
+   "modele": -0.89,
+   "pourquoi": "Tous les chiffres récents sont meilleurs que prévu. Une hausse de taux le 5 novembre est très attendue."
+  },
+  {
+   "devise": "NZD",
+   "score": -0.2,
+   "modele": 0.86,
+   "pourquoi": "La banque centrale a renoncé à monter ses taux le 28 octobre, contre l'avis de tous les économistes."
+  },
+  {
+   "devise": "CHF",
+   "score": -2.4,
+   "modele": -2.44,
+   "pourquoi": "Taux à 0 %, le plus bas des dix pays. Inflation faible (1 %) et banque centrale sans urgence."
+  },
+  {
+   "devise": "SEK",
+   "score": -3.5,
+   "modele": -4.14,
+   "pourquoi": "Taux bas, chômage élevé et inflation faible. Une hausse de taux est attendue le 4 novembre, mais le marché y croit de moins en moins."
+  }
+ ],
+ "calendrier": [
+  {
+   "date": "3 nov. 03h30",
+   "evenement": "Banque d'Australie : hausse attendue à 4,85 %",
+   "devises": "AUD"
+  },
+  {
+   "date": "3 nov.",
+   "evenement": "Inflation suisse d'octobre (environ 1,3 % attendu)",
+   "devises": "CHF"
+  },
+  {
+   "date": "3 nov.",
+   "evenement": "Élections américaines de mi-mandat",
+   "devises": "USD"
+  },
+  {
+   "date": "4 nov. 08h30",
+   "evenement": "Banque de Suède : hausse attendue à 2 %, mais pas certaine",
+   "devises": "SEK"
+  },
+  {
+   "date": "4 nov.",
+   "evenement": "Inflation de la zone euro d'octobre (environ 3,9 % attendu)",
+   "devises": "EUR"
+  },
+  {
+   "date": "3 au 6 nov.",
+   "evenement": "Chômage néo-zélandais du 3e trimestre (date à confirmer, 5,5 % attendu)",
+   "devises": "NZD"
+  },
+  {
+   "date": "5 nov. 12h00",
+   "evenement": "Banque d'Angleterre : hausse attendue à 4 %",
+   "devises": "GBP"
+  },
+  {
+   "date": "5 nov.",
+   "evenement": "Banque de Norvège : statu quo attendu à 4,50 %",
+   "devises": "NOK"
+  },
+  {
+   "date": "6 nov. 13h30",
+   "evenement": "Emploi américain d'octobre (environ 55 000 à 63 000 emplois attendus)",
+   "devises": "USD"
+  },
+  {
+   "date": "En continu",
+   "evenement": "Iran, détroit d'Ormuz et prix du pétrole",
+   "devises": "NOK, CAD, CHF, JPY"
+  }
+ ],
+ "sources": [
+  {
+   "titre": "InvestingLive : croissance américaine du 3e trimestre",
+   "url": "https://investinglive.com/news/us-gdp-advance-for-the-3rd-quarter-3-4-vs-3-2-estimate/",
+   "date": "29/10/2026"
+  },
+  {
+   "titre": "Babypips : croissance, inflation et hausse de la Fed",
+   "url": "https://www.babypips.com/news/headline-us-q3-gdp-core-pce-december-fed-rate-hike-focus-2026-10-30",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "CNBC : la BCE garde son taux à 2,50 %",
+   "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+   "date": "29/10/2026"
+  },
+  {
+   "titre": "Irish Times : la BCE et le départ de Lagarde",
+   "url": "https://www.irishtimes.com/business/2026/10/29/ecb-holds-rates-steady-as-lagardes-departure-overshadows-decision/",
+   "date": "29/10/2026"
+  },
+  {
+   "titre": "Bloomberg : la Banque du Japon garde son taux",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "Yahoo Finance : la Banque du Japon vise décembre",
+   "url": "https://finance.yahoo.com/economy/policy/articles/bank-japan-hold-rates-signal-210126915.html",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "Statistique Canada : PIB d'août",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "CNBC : le pétrole au plus haut depuis six mois",
+   "url": "https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "CBS : pétroliers touchés, projet d'accord du Qatar",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/",
+   "date": "01/11/2026"
+  },
+  {
+   "titre": "Investing.com : Goldman et les banques de Suède et de Norvège",
+   "url": "https://www.investing.com/news/economy-news/goldman-sees-riksbank-rate-hike-in-november-norges-bank-on-hold-93CH-4987310",
+   "date": "10/2026"
+  },
+  {
+   "titre": "ING : la Riksbank devrait monter malgré une inflation faible",
+   "url": "https://think.ing.com/articles/riksbank-to-hike-despite-soft-inflation-and-rallying-krona/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "InvestingLive : la Banque d'Australie vers 4,85 %",
+   "url": "https://investinglive.com/central-banks/rba-set-for-fifth-2026-hike-to-4-85-as-banks-flag-risk-of-another-move-in-february/",
+   "date": "10/2026"
+  },
+  {
+   "titre": "Finchiefs : la Banque d'Angleterre le 5 novembre",
+   "url": "https://finchiefs.com/central-banks/bank-of-england/meetings/2026-11-05",
+   "date": "11/2026"
+  },
+  {
+   "titre": "Swissinfo : inflation suisse au plus haut depuis deux ans",
+   "url": "https://www.swissinfo.ch/eng/swiss-inflation-quickens-to-2-year-high-driven-by-oil,-franc/92148287",
+   "date": "01/10/2026"
+  },
+  {
+   "titre": "FXStreet : la semaine à venir",
+   "url": "https://www.fxstreet.com/analysis/week-ahead-nonfarm-payrolls-and-us-midterm-elections-take-center-stage-202610301019",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "FX Tribune : positions des spéculateurs sur le yen",
+   "url": "https://fxtribune.com/news/cftc-cot-report-speculators-add-japanese-yen-net-longs-by-31-713-contracts-in-week-to-27-october/",
+   "date": "30/10/2026"
+  },
+  {
+   "titre": "Westpac : chômage néo-zélandais du 3e trimestre",
+   "url": "https://www.westpaciq.com.au/economics/2026/10/nz-labour-market-preview-q3-2026",
+   "date": "10/2026"
+  }
+ ]
+}

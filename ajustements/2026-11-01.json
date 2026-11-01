@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-01",
+ "ajustements": {
+  "USD": {
+   "delta": -0.2,
+   "raison": "Croissance américaine forte au 3e trimestre (3,4 % contre 3,2 % attendu), inflation de fond conforme. Une hausse de la Fed en décembre est attendue à environ 80 %, donc déjà dans le prix. Élections du 3 novembre et emploi faible attendu vendredi."
+  },
+  "EUR": {
+   "delta": 0.2,
+   "raison": "La BCE n'a pas bougé mais a discuté d'une hausse : l'inflation est au plus haut depuis trois ans (3,8 %), et une hausse en décembre est probable. Christine Lagarde partira plus tôt que prévu. Les spéculateurs parient déjà beaucoup contre l'euro."
+  },
+  "GBP": {
+   "delta": 0.9,
+   "raison": "Inflation, activité et emploi meilleurs que prévu ces dernières semaines. Une hausse de taux le 5 novembre est très attendue, donc déjà en grande partie dans le prix."
+  },
+  "JPY": {
+   "delta": 0.5,
+   "raison": "La Banque du Japon n'a pas bougé, mais un membre voulait monter les taux et la banque estime avoir atteint son objectif d'inflation : une hausse en décembre est probable. Les spéculateurs achètent du yen."
+  },
+  "CHF": {
+   "delta": 0.1,
+   "raison": "Inflation à 1 %, la banque suisse se dit à l'aise. Le franc a un peu baissé depuis juin. Inflation d'octobre le 3 novembre."
+  },
+  "AUD": {
+   "delta": 0.0,
+   "raison": "L'inflation est plus forte que prévu et une hausse le 3 novembre est attendue à environ 80 %. Le chômage reste élevé : rien à ajouter au modèle."
+  },
+  "NZD": {
+   "delta": -1.0,
+   "raison": "La banque de Nouvelle-Zélande a renoncé à monter ses taux le 28 octobre, contre l'avis du marché, à l'approche des élections. Le modèle ne voit pas encore cette déception."
+  },
+  "CAD": {
+   "delta": -0.6,
+   "raison": "La hausse de taux à 2,50 % était attendue. L'économie canadienne n'a pas progressé en août, et a sans doute reculé en septembre. Le pétrole cher aide un peu."
+  },
+  "NOK": {
+   "delta": 0.0,
+   "raison": "Pétrole au plus haut depuis six mois, mais l'inflation de fond est plus faible que prévu. La banque de Norvège devrait garder son taux le 5 novembre."
+  },
+  "SEK": {
+   "delta": 0.7,
+   "raison": "Une hausse de taux suédoise le 4 novembre reste attendue et la croissance du 3e trimestre surprend en bien (0,4 %). Mais l'inflation est faible et le marché y croit moins : vrai risque d'attente."
+  }
+ }
+}
