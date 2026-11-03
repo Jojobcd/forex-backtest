@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-03",
+ "ajustements": {
+  "USD": {
+   "delta": -0.1,
+   "raison": "L'industrie américaine accélère (indice ISM à 55,5 contre 54,6 attendu) et les offres d'emploi montent à 7,5 millions. Mais une hausse de la Fed en décembre est déjà dans le prix, et le résultat des élections de ce soir n'est pas connu."
+  },
+  "EUR": {
+   "delta": 0.2,
+   "raison": "La BCE se rapproche d'une hausse : l'inflation est au plus haut depuis trois ans. Inflation d'octobre demain."
+  },
+  "GBP": {
+   "delta": 0.9,
+   "raison": "Chiffres récents meilleurs que prévu. Une hausse de taux jeudi 5 novembre est très attendue, donc déjà en grande partie dans le prix."
+  },
+  "JPY": {
+   "delta": 0.5,
+   "raison": "La Banque du Japon vise une hausse de taux en décembre. Les spéculateurs achètent du yen."
+  },
+  "CHF": {
+   "delta": 0.4,
+   "raison": "L'inflation suisse monte à 1,5 % (1,3 % attendu), son plus haut depuis plus de deux ans. Le franc est au plus haut depuis sept semaines. L'inflation de fond reste faible (0,5 %) : la banque suisse n'est pas pressée."
+  },
+  "AUD": {
+   "delta": -0.6,
+   "raison": "La Banque d'Australie a monté son taux à 4,85 % (vote de 6 contre 3), mais sa gouverneure parle de faire une pause. Le dollar australien a baissé : le marché pense que c'est la dernière hausse."
+  },
+  "NZD": {
+   "delta": -1.3,
+   "raison": "Le chômage néo-zélandais monte à 5,7 % (5,5 % attendu), troisième hausse de suite. La banque centrale a déjà renoncé à monter ses taux le 28 octobre."
+  },
+  "CAD": {
+   "delta": -0.7,
+   "raison": "L'économie canadienne stagne et le pétrole a reculé. La hausse de taux d'octobre était attendue."
+  },
+  "NOK": {
+   "delta": -0.4,
+   "raison": "Le pétrole a chuté d'environ 8 % lundi, vers 103 dollars, sur l'espoir d'un accord avec l'Iran. Il reste cher, et la banque de Norvège devrait garder son taux jeudi."
+  },
+  "SEK": {
+   "delta": 0.6,
+   "raison": "Une hausse de taux suédoise demain reste attendue, mais le marché y croit moins (environ 15 à 18 centièmes de point dans les prix, contre 22 à 24 il y a deux semaines). L'inflation est faible."
+  }
+ }
+}

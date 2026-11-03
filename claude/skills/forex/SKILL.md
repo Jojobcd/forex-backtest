@@ -39,6 +39,11 @@ Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le
    (« ton partagé » pour une banque centrale, « proche du consensus » pour un chiffre) : c'est souvent ce qui arrive.
    Le 29/10, le tableau sur la croissance américaine n'en avait pas, et le chiffre (3,4 %) est tombé entre les deux lignes.
 
+5. (03/11/2026, Banque d'Australie) Dans l'analyse de la semaine, donner un tableau de réaction (avec la ligne du milieu)
+   pour CHAQUE banque centrale du calendrier, pas seulement la date. Le 1er novembre, la hausse australienne était
+   annoncée sans tableau : elle a eu lieu, mais avec un message de pause, et le dollar australien a baissé.
+   Une hausse attendue suivie d'un signal de pause fait baisser la devise.
+
 ## Étape 1 — Modèle quantitatif
 
 Dans le dossier du projet (Bash, `PYTHONIOENCODING=utf-8`, option `-W ignore`) :

@@ -1827,6 +1827,185 @@ window.JOURNAL_DATA = {
     }
    ],
    "id": "2026-11-01"
+  },
+  {
+   "date": "2026-11-03",
+   "titre": "Mise à jour du 3 novembre 2026",
+   "en_bref": "Le pétrole a chuté d'environ 8 % lundi, car l'Iran évoque un plan de deux jours pour rouvrir le détroit d'Ormuz. Rien n'est signé. La Banque d'Australie a monté ses taux mais parle de pause, et l'inflation suisse surprend en hausse. Les trois paires possibles parient toutes contre la couronne suédoise, dont la banque centrale décide demain matin.",
+   "resume": [
+    "Fait : la Banque d'Australie monte son taux de 4,60 % à 4,85 % (vote de 6 contre 3). Sa gouverneure parle de pause, et le dollar australien a baissé.",
+    "Fait : l'inflation suisse atteint 1,5 % en octobre (1,3 % attendu), son plus haut depuis plus de deux ans. L'inflation de fond reste à 0,5 %. Le franc est au plus haut depuis sept semaines.",
+    "Fait : le pétrole Brent a chuté d'environ 8 % lundi, puis oscille vers 103 dollars. L'Iran parle d'un plan en deux jours pour rouvrir le détroit d'Ormuz, mais le Qatar ne confirme aucun accord, et Donald Trump menace toujours de frapper.",
+    "Fait : l'industrie américaine accélère (indice ISM à 55,5, contre 54,6 attendu) et les offres d'emploi montent à 7,5 millions.",
+    "Fait : le chômage néo-zélandais monte à 5,7 % (5,5 % attendu), troisième hausse de suite.",
+    "Fait : élections américaines de mi-mandat aujourd'hui. Résultats inconnus au moment de l'analyse. L'indice de peur VIX remonte à 21.",
+    "Changements de plus d'un point : le franc passe de -2,4 à -1,1 (inflation et nervosité des marchés), la couronne norvégienne de +2,2 à +1,1 (chute du pétrole), le dollar néo-zélandais de -0,2 à -1,2 (chômage).",
+    "Attention : les trois paires possibles parient toutes contre la couronne suédoise. C'est en réalité un seul pari : ne pas cumuler plusieurs positions de taille normale.",
+    "Scénarios : tensions qui durent (40 %), accord et chute du pétrole (30 %, plus probable car l'Iran et le Qatar parlent d'un plan précis), escalade avec l'Iran (30 %)."
+   ],
+   "confiance": "moyen",
+   "classement": [
+    {
+     "devise": "USD",
+     "score": 1.6,
+     "modele": 1.68,
+     "pourquoi": "L'industrie américaine accélère et les offres d'emploi montent. Une hausse de la Fed en décembre reste probable. Résultat des élections inconnu ce soir."
+    },
+    {
+     "devise": "NOK",
+     "score": 1.1,
+     "modele": 1.49,
+     "pourquoi": "Taux élevé (4,50 %), mais le pétrole a chuté d'environ 8 % lundi sur l'espoir d'un accord avec l'Iran."
+    },
+    {
+     "devise": "JPY",
+     "score": 1.1,
+     "modele": 0.51,
+     "pourquoi": "La Banque du Japon estime avoir atteint son objectif d'inflation : une hausse de taux en décembre est probable."
+    },
+    {
+     "devise": "CAD",
+     "score": 1.0,
+     "modele": 1.61,
+     "pourquoi": "La Banque du Canada a monté ses taux et le pétrole est cher. Mais l'économie canadienne n'a pas progressé en août et a sans doute reculé en septembre."
+    },
+    {
+     "devise": "EUR",
+     "score": 0.8,
+     "modele": 0.57,
+     "pourquoi": "L'inflation est au plus haut depuis trois ans et la BCE a discuté d'une hausse : une hausse en décembre est probable. La dette française inquiète toujours."
+    },
+    {
+     "devise": "AUD",
+     "score": 0.8,
+     "modele": 1.3,
+     "pourquoi": "La banque centrale a monté ses taux à 4,85 %, mais parle maintenant de pause. Le dollar australien a baissé."
+    },
+    {
+     "devise": "GBP",
+     "score": 0.1,
+     "modele": -0.89,
+     "pourquoi": "Tous les chiffres récents sont meilleurs que prévu. Une hausse de taux le 5 novembre est très attendue."
+    },
+    {
+     "devise": "CHF",
+     "score": -1.1,
+     "modele": -1.55,
+     "pourquoi": "Taux à 0 %, mais l'inflation monte à 1,5 % (1,3 % attendu) et le franc profite de la nervosité des marchés."
+    },
+    {
+     "devise": "NZD",
+     "score": -1.2,
+     "modele": 0.05,
+     "pourquoi": "Le chômage monte pour le troisième trimestre de suite (5,7 %), et la banque centrale a renoncé à monter ses taux."
+    },
+    {
+     "devise": "SEK",
+     "score": -4.1,
+     "modele": -4.78,
+     "pourquoi": "Taux bas, chômage élevé et inflation faible. Décision demain : une hausse est attendue, mais le marché y croit de moins en moins."
+    }
+   ],
+   "calendrier": [
+    {
+     "date": "4 nov. 08h30",
+     "evenement": "Banque de Suède : hausse attendue à 2 %, mais pas certaine",
+     "devises": "SEK"
+    },
+    {
+     "date": "4 nov.",
+     "evenement": "Résultats des élections américaines, inflation de la zone euro d'octobre",
+     "devises": "USD, EUR"
+    },
+    {
+     "date": "5 nov. 09h00",
+     "evenement": "Banque de Norvège : statu quo attendu à 4,50 % (heure habituelle, à confirmer)",
+     "devises": "NOK"
+    },
+    {
+     "date": "5 nov. 12h00",
+     "evenement": "Banque d'Angleterre : hausse attendue à 4 %",
+     "devises": "GBP"
+    },
+    {
+     "date": "6 nov. 13h30",
+     "evenement": "Emploi américain d'octobre (environ 55 000 à 63 000 emplois attendus)",
+     "devises": "USD"
+    },
+    {
+     "date": "En continu",
+     "evenement": "Plan pour rouvrir le détroit d'Ormuz, prix du pétrole",
+     "devises": "NOK, CAD, CHF, JPY"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "ABC : la Banque d'Australie monte à 4,85 %",
+     "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "FXStreet : le dollar australien après une hausse prudente",
+     "url": "https://www.fxstreet.com/news/australian-dollar-recovers-some-ground-after-rbas-dovish-hike-202611031352",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "Office fédéral de la statistique : inflation suisse d'octobre",
+     "url": "https://www.admin.ch/en/newnsb/UA8hylpLYO6i",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "FXStreet : le franc au plus haut depuis sept semaines",
+     "url": "https://www.fxstreet.com/news/swiss-franc-hits-fresh-seven-week-highs-as-inflation-growth-beats-expectations-202611030822",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "InvestingLive : plan en deux jours pour Ormuz",
+     "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "Euronews : le pétrole recule, Trump garde la menace",
+     "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table",
+     "date": "02/11/2026"
+    },
+    {
+     "titre": "PR Newswire : indice ISM de l'industrie d'octobre",
+     "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
+     "date": "02/11/2026"
+    },
+    {
+     "titre": "BLS : offres d'emploi de septembre",
+     "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "1News : chômage néo-zélandais à 5,7 %",
+     "url": "https://www.1news.co.nz/2026/11/04/new-jobless-figures-unemployment-rate-rises-to-57/",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "NBC : élections de mi-mandat en direct",
+     "url": "https://www.nbcwashington.com/elections/election-day-2026-midterms-congress-results-live-updates/4175504/",
+     "date": "03/11/2026"
+    },
+    {
+     "titre": "Investing.com : Goldman et les banques de Suède et de Norvège",
+     "url": "https://www.investing.com/news/economy-news/goldman-sees-riksbank-rate-hike-in-november-norges-bank-on-hold-93CH-4987310",
+     "date": "10/2026"
+    },
+    {
+     "titre": "ING : la Riksbank devrait monter malgré une inflation faible",
+     "url": "https://think.ing.com/articles/riksbank-to-hike-despite-soft-inflation-and-rallying-krona/",
+     "date": "10/2026"
+    },
+    {
+     "titre": "Finchiefs : la Banque d'Angleterre le 5 novembre",
+     "url": "https://finchiefs.com/central-banks/bank-of-england/meetings/2026-11-05",
+     "date": "11/2026"
+    }
+   ],
+   "id": "2026-11-03"
   }
  ],
  "idees": [
@@ -2088,7 +2267,7 @@ window.JOURNAL_DATA = {
    "cree_le": "2026-11-01T08:00:00Z",
    "analyse_id": "2026-11-01",
    "paire": "GBPSEK",
-   "ecart": 3.45,
+   "ecart": 4.19,
    "statut": "idee",
    "source": "analyse",
    "suit_modele": true,
@@ -2105,7 +2284,7 @@ window.JOURNAL_DATA = {
    "cree_le": "2026-11-01T08:00:00Z",
    "analyse_id": "2026-11-01",
    "paire": "NOKSEK",
-   "ecart": 5.65,
+   "ecart": 5.27,
    "statut": "idee",
    "source": "analyse",
    "suit_modele": true,
@@ -2122,10 +2301,12 @@ window.JOURNAL_DATA = {
    "cree_le": "2026-11-01T08:00:00Z",
    "analyse_id": "2026-11-01",
    "paire": "USDCHF",
-   "ecart": 3.18,
-   "statut": "idee",
+   "ecart": 2.73,
+   "statut": "ecarte",
    "source": "analyse",
    "suit_modele": true,
+   "date_sortie": "2026-11-03",
+   "note": "Écart tombé à 2.7 points, sous le seuil de 3 : l'inflation suisse surprend en hausse et le franc profite de la nervosité des marchés. Si le trade est déjà pris, le garder tant que l'écart reste au-dessus de 2.",
    "id": "2026-11-01-USDCHF"
   }
  ]
