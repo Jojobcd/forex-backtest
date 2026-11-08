@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "GBP",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "La Grande-Bretagne a maintenant un taux deux fois plus élevé que la Suède (4 % contre 2 %), et l'inflation suédoise est très faible, ce qui limite les prochaines hausses. La paire a bien marché dans le backtest, avant comme après 2013.",
+ "catalyseurs": "Croissance britannique le 12 novembre, emploi britannique le 17 novembre.",
+ "invalidation": "Une croissance britannique très décevante, ou une remontée nette de l'inflation suédoise. La couronne suédoise souffre quand les marchés ont peur : une détente brutale lui profiterait.",
+ "cree_le": "2026-11-08T08:00:00Z",
+ "analyse_id": "2026-11-08",
+ "paire": "GBPSEK",
+ "ecart": 5.2,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

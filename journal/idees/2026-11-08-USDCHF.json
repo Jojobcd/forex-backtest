@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "moyenne",
+ "these": "Le dollar est en tête du classement grâce à un emploi très solide, et le franc a le taux le plus bas des dix pays (0 %). C'est la seule idée qui ne parie pas contre la couronne suédoise.",
+ "catalyseurs": "Inflation américaine le 10 novembre à 13h30 (GMT), prix à la production le 13 novembre.",
+ "invalidation": "Une inflation américaine nettement plus faible que prévu, ou une panique sur les marchés qui ferait fuir les investisseurs vers le franc. Sortir si l'écart passe sous 2 points.",
+ "cree_le": "2026-11-08T08:00:00Z",
+ "analyse_id": "2026-11-08",
+ "paire": "USDCHF",
+ "ecart": 4.28,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

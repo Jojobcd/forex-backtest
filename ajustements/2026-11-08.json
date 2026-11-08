@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-08",
+ "ajustements": {
+  "USD": {
+   "delta": 0.3,
+   "raison": "L'emploi américain surprend fortement : 165 000 emplois créés en octobre contre environ 60 000 attendus, et le chômage baisse à 4,1 %. Une hausse de la Fed en décembre est donnée à environ 78 %. Les démocrates prennent le Congrès, ce qui a d'abord fait baisser le dollar."
+  },
+  "EUR": {
+   "delta": 0.2,
+   "raison": "L'inflation de la zone euro atteint 4 % en octobre, comme prévu, son plus haut depuis plus de trois ans. Une hausse de la BCE en décembre est probable."
+  },
+  "GBP": {
+   "delta": 0.4,
+   "raison": "La hausse à 4 % est maintenant dans le modèle. Le vote est large (8 contre 1, et le seul opposant voulait monter plus), mais Andrew Bailey dit que ce n'est pas le début d'une série. La livre a peu réagi."
+  },
+  "JPY": {
+   "delta": 0.4,
+   "raison": "Le compte rendu de la Banque du Japon confirme une hausse probable en décembre. Le yen sert aussi de refuge pendant la chute des valeurs technologiques. Le Japon peut intervenir si le dollar approche 160 yens."
+  },
+  "CHF": {
+   "delta": 0.3,
+   "raison": "L'inflation suisse est montée à 1,5 % et le franc attire les investisseurs inquiets : l'indice de peur VIX a bondi à 28 jeudi."
+  },
+  "AUD": {
+   "delta": -0.6,
+   "raison": "La hausse à 4,85 % est dans le modèle, mais la banque d'Australie a annoncé une pause. Le dollar australien souffre quand les marchés ont peur."
+  },
+  "NZD": {
+   "delta": -1.0,
+   "raison": "Chômage à 5,7 %, en hausse pour le troisième trimestre de suite. Les élections du 7 novembre n'ont pas de vainqueur clair : des semaines d'incertitude politique s'annoncent."
+  },
+  "CAD": {
+   "delta": -1.0,
+   "raison": "Le Canada a perdu 4 700 emplois en octobre alors qu'on attendait 13 600 créations, et le chômage monte à 6,7 %. Le pétrole a aussi fortement baissé."
+  },
+  "NOK": {
+   "delta": -0.5,
+   "raison": "Le pétrole Brent a perdu environ 13 % dans la semaine, vers 98 dollars, sur l'espoir d'un accord avec l'Iran. La banque de Norvège garde son taux élevé et pourrait encore le monter."
+  },
+  "SEK": {
+   "delta": -0.2,
+   "raison": "La hausse à 2 % est maintenant dans le modèle. Mais l'inflation suédoise d'octobre est très faible (1,1 %, contre 1,4 % attendu, et 0,1 % hors énergie) : de nouvelles hausses deviennent moins probables."
+  }
+ }
+}

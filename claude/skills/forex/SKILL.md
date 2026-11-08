@@ -30,6 +30,8 @@ Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le
 
 1. (28/10/2026, RBNZ) Quand l'inflation sort sous la prévision de la banque centrale elle-même, ou qu'une élection
    approche, baisser la probabilité de la hausse attendue même si le marché la donne à 80-90 %. Le dire comme un vrai risque.
+   Exception (04/11/2026, Banque de Suède) : quand les dirigeants de la banque ont eux-mêmes annoncé la hausse dans leurs
+   discours, elle a lieu malgré une inflation faible. J'avais présenté l'absence de hausse comme un vrai risque : c'était faux.
 2. (28/10/2026, Banque du Canada ; confirmé le 29/10/2026, BCE) Quand l'inflation est élevée (choc pétrolier, plus haut
    depuis plusieurs années), les banques centrales penchent vers la fermeté : un emploi faible ou une dette fragile
    ne suffit pas à prévoir un ton prudent. Erreur faite deux fois : ne pas parier contre ce penchant sans fait nouveau.
@@ -40,9 +42,13 @@ Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le
    Le 29/10, le tableau sur la croissance américaine n'en avait pas, et le chiffre (3,4 %) est tombé entre les deux lignes.
 
 5. (03/11/2026, Banque d'Australie) Dans l'analyse de la semaine, donner un tableau de réaction (avec la ligne du milieu)
-   pour CHAQUE banque centrale du calendrier, pas seulement la date. Le 1er novembre, la hausse australienne était
+   pour CHAQUE banque centrale du calendrier ET pour les chiffres majeurs (emploi et inflation américains), pas seulement la date. Le 1er novembre, la hausse australienne était
    annoncée sans tableau : elle a eu lieu, mais avec un message de pause, et le dollar australien a baissé.
    Une hausse attendue suivie d'un signal de pause fait baisser la devise.
+
+6. (05/11/2026, Banque d'Angleterre) Ne pas recopier la dernière surprise. Après la pause australienne, j'ai prévu la même
+   baisse pour la livre en cas de ton partagé : elle n'a presque pas bougé. Par défaut, la ligne du milieu veut dire
+   « peu de réaction ».
 
 ## Étape 1 — Modèle quantitatif
 
