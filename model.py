@@ -97,6 +97,14 @@ def factors(d):
     f["risque"] = xz(raw)
     return f
 
+def derniere_decision(S):
+    """Dernière fin de mois utilisable : les prix doivent aller jusqu'à 7 jours avant sa fin au moins.
+    Sinon la ligne du mois en cours recopie des données pas encore publiées (CPI, chômage) et décale les calculs."""
+    last_px = pd.read_csv(D / "DEXUSEU.csv", parse_dates=["date"]).date.max()
+    S = S.dropna(how="all")
+    return S.index[S.index <= last_px + pd.Timedelta(days=7)][-1]
+
+
 def scores(d, weights=WEIGHTS):
     f = factors(d)
     comp = sum(weights[k] * f[k] for k in weights)

@@ -2210,6 +2210,223 @@ window.JOURNAL_DATA = {
     }
    ],
    "id": "2026-11-08"
+  },
+  {
+   "date": "2026-11-10",
+   "titre": "Mise à jour du 10 novembre 2026",
+   "en_bref": "L'inflation américaine d'octobre est plus forte que prévu, ce qui renforce le dollar en tête du classement. Le pétrole passe sous 90 dollars sur l'espoir d'un accord avec l'Iran. Les deux idées restent valables : USDCHF et GBPSEK.",
+   "resume": [
+    "Fait (une seule source pour l'instant) : l'inflation américaine d'octobre atteint +0,4 % sur le mois (+0,3 % attendu), et +0,3 % hors énergie et alimentation (+0,2 % attendu). C'est le dernier chiffre d'inflation avant la décision de la Fed des 8 et 9 décembre.",
+    "Fait : Christopher Waller, membre de la Fed, a dit qu'une hausse d'un demi-point serait à envisager si l'inflation hors énergie et alimentation atteint 0,3 % sur le mois.",
+    "Fait : le pétrole Brent passe sous 90 dollars pour la première fois depuis août. Le Qatar a porté à la Maison-Blanche un plan iranien pour rouvrir le détroit d'Ormuz. Rien n'est signé.",
+    "Fait : l'inflation norvégienne monte à 3,6 %, mais l'inflation de fond ralentit à 2,7 %, comme prévu : une nouvelle hausse de taux en Norvège devient moins probable.",
+    "Fait : lundi, les valeurs technologiques rebondissent fortement et le franc suisse recule.",
+    "Donnée non trouvée : l'inflation chinoise d'octobre.",
+    "Scénarios : tensions qui durent (40 %), accord et chute du pétrole (30 %), escalade avec l'Iran (30 %)."
+   ],
+   "confiance": "moyen",
+   "classement": [
+    {
+     "devise": "USD",
+     "score": 2.4,
+     "modele": 1.68,
+     "pourquoi": "L'inflation et l'emploi américains sont plus forts que prévu : une hausse de la Fed en décembre devient très probable."
+    },
+    {
+     "devise": "AUD",
+     "score": 1.5,
+     "modele": 1.86,
+     "pourquoi": "Taux le plus élevé des dix pays (4,85 %), mais la banque centrale a annoncé une pause, et le dollar australien souffre quand les marchés ont peur."
+    },
+    {
+     "devise": "JPY",
+     "score": 1.1,
+     "modele": 0.48,
+     "pourquoi": "Une hausse de taux en décembre est probable, et le yen sert de refuge pendant la chute des valeurs technologiques."
+    },
+    {
+     "devise": "GBP",
+     "score": 0.9,
+     "modele": 0.26,
+     "pourquoi": "La Banque d'Angleterre a monté ses taux à 4 %, mais ne promet pas d'autres hausses."
+    },
+    {
+     "devise": "CAD",
+     "score": 0.7,
+     "modele": 1.56,
+     "pourquoi": "Le Canada perd des emplois (chômage à 6,7 %) et le pétrole passe sous 90 dollars."
+    },
+    {
+     "devise": "EUR",
+     "score": 0.6,
+     "modele": 0.19,
+     "pourquoi": "L'inflation atteint 4 %, son plus haut depuis plus de trois ans : la BCE devrait monter ses taux en décembre."
+    },
+    {
+     "devise": "NOK",
+     "score": 0.6,
+     "modele": 1.16,
+     "pourquoi": "Taux élevé (4,50 %), mais le pétrole passe sous 90 dollars et l'inflation de fond ralentit à 2,7 %."
+    },
+    {
+     "devise": "NZD",
+     "score": -1.0,
+     "modele": -0.24,
+     "pourquoi": "Chômage en hausse (5,7 %), banque centrale qui a renoncé à monter ses taux, et élections sans vainqueur clair."
+    },
+    {
+     "devise": "CHF",
+     "score": -2.2,
+     "modele": -2.6,
+     "pourquoi": "Taux à 0 %, maintenant très loin des autres pays qui montent leurs taux. Le franc garde un rôle de refuge quand les marchés ont peur."
+    },
+    {
+     "devise": "SEK",
+     "score": -4.3,
+     "modele": -4.34,
+     "pourquoi": "La Banque de Suède a monté ses taux à 2 %, mais l'inflation suédoise est très faible (1,1 %) : d'autres hausses deviennent moins probables."
+    }
+   ],
+   "calendrier": [
+    {
+     "date": "12 nov. 07h00",
+     "evenement": "Croissance britannique du 3e trimestre",
+     "devises": "GBP"
+    },
+    {
+     "date": "13 nov. 13h30",
+     "evenement": "Prix à la production américains, croissance de la zone euro (2e estimation)",
+     "devises": "USD, EUR"
+    },
+    {
+     "date": "17 nov.",
+     "evenement": "Emploi britannique",
+     "devises": "GBP"
+    },
+    {
+     "date": "19 nov.",
+     "evenement": "Emploi australien (date à confirmer)",
+     "devises": "AUD"
+    },
+    {
+     "date": "En continu",
+     "evenement": "Iran et détroit d'Ormuz, chute des valeurs technologiques",
+     "devises": "NOK, CAD, CHF, JPY"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "CNBC : l'inflation d'octobre plus forte que prévu (direct)",
+     "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+     "date": "10/11/2026"
+    },
+    {
+     "titre": "InvestingLive : Waller évoque une hausse d'un demi-point",
+     "url": "https://investinglive.com/technical-analysis/morning-kickstart-oil-slides-as-waller-puts-a-half-point-hike-in-play-markets-brace-for-cpi/",
+     "date": "10/11/2026"
+    },
+    {
+     "titre": "CNBC : le Brent passe sous 90 dollars",
+     "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+     "date": "10/11/2026"
+    },
+    {
+     "titre": "Invezz : le Qatar porte le plan iranien à Trump",
+     "url": "https://invezz.com/news/2026/11/09/oil-price-today-brent-sinks-qatar-iran-hormuz-plan-trump/",
+     "date": "09/11/2026"
+    },
+    {
+     "titre": "Norway Post : l'inflation de fond norvégienne à 2,7 %",
+     "url": "https://norwaypost.net/business/norway-core-inflation-cools-to-2-7-weakening-rationale-for-norges-bank-interest-rate-hikes",
+     "date": "10/11/2026"
+    },
+    {
+     "titre": "Babypips : bilan du 9 novembre",
+     "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-09",
+     "date": "09/11/2026"
+    },
+    {
+     "titre": "BLS : emploi américain d'octobre",
+     "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+     "date": "06/11/2026"
+    },
+    {
+     "titre": "Babypips : 165 000 emplois créés",
+     "url": "https://www.babypips.com/news/headline-us-jobs-report-october-2026-payrolls-beat-fed",
+     "date": "06/11/2026"
+    },
+    {
+     "titre": "CNBC : le dollar baisse après les élections",
+     "url": "https://www.cnbc.com/2026/11/04/dollar-dips-with-us-midterm-results-in-focus.html",
+     "date": "04/11/2026"
+    },
+    {
+     "titre": "CNN : résultats des élections de mi-mandat",
+     "url": "https://www.cnn.com/2026/11/05/politics/live-news/midterm-election-congress",
+     "date": "05/11/2026"
+    },
+    {
+     "titre": "Riksbank : taux relevé à 2 %",
+     "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent/",
+     "date": "04/11/2026"
+    },
+    {
+     "titre": "Briefs : inflation suédoise au plus bas depuis six mois",
+     "url": "https://www.briefs.co/news/sweden-core-inflation-cools-to-six-month-low-trimming-near-t/",
+     "date": "05/11/2026"
+    },
+    {
+     "titre": "Banque d'Angleterre : taux relevé à 4 %",
+     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+     "date": "05/11/2026"
+    },
+    {
+     "titre": "Babypips : pourquoi la livre n'a pas réagi",
+     "url": "https://www.babypips.com/analysis/headline-boe-hiked-rates-why-gbp-just-shrugged-2026-11-06",
+     "date": "06/11/2026"
+    },
+    {
+     "titre": "Norges Bank : décision de novembre",
+     "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/november-2026/",
+     "date": "05/11/2026"
+    },
+    {
+     "titre": "Statistique Canada : emploi d'octobre",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm",
+     "date": "06/11/2026"
+    },
+    {
+     "titre": "CNBC : inflation de la zone euro à 4 %",
+     "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+     "date": "04/11/2026"
+    },
+    {
+     "titre": "Investomine : bilan de la semaine",
+     "url": "https://investomine.substack.com/p/weekly-market-report6-november-2026",
+     "date": "06/11/2026"
+    },
+    {
+     "titre": "Straits.live : état du détroit d'Ormuz",
+     "url": "https://straits.live/",
+     "date": "08/11/2026"
+    },
+    {
+     "titre": "FXStreet : le yen et le compte rendu de la Banque du Japon",
+     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245",
+     "date": "05/11/2026"
+    },
+    {
+     "titre": "CNN : élections néo-zélandaises sans vainqueur clair",
+     "url": "https://www.cnn.com/2026/11/07/world/new-zealand-election-result-uncertain-intl-hnk",
+     "date": "07/11/2026"
+    },
+    {
+     "titre": "FinancialJuice : la semaine du 9 au 13 novembre",
+     "url": "https://features.financialjuice.com/2026/11/06/week-ahead-economic-indicators-9th-13th-november-us/",
+     "date": "06/11/2026"
+    }
+   ],
+   "id": "2026-11-10"
   }
  ],
  "idees": [
@@ -2545,7 +2762,7 @@ window.JOURNAL_DATA = {
    "cree_le": "2026-11-08T08:00:00Z",
    "analyse_id": "2026-11-08",
    "paire": "USDCHF",
-   "ecart": 4.28,
+   "ecart": 4.58,
    "statut": "idee",
    "source": "analyse",
    "suit_modele": true,

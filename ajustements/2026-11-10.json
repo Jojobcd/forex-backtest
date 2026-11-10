@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-10",
+ "ajustements": {
+  "USD": {
+   "delta": 0.5,
+   "raison": "L'inflation américaine d'octobre est plus forte que prévu : +0,4 % sur le mois (+0,3 % attendu), et +0,3 % hors énergie et alimentation (+0,2 % attendu), selon une première source. Un membre de la Fed, Christopher Waller, a dit qu'une hausse d'un demi-point serait à envisager si ce chiffre atteint 0,3 %. L'emploi est aussi très solide."
+  },
+  "EUR": {
+   "delta": 0.2,
+   "raison": "L'inflation de la zone euro atteint 4 % en octobre, comme prévu, son plus haut depuis plus de trois ans. Une hausse de la BCE en décembre est probable."
+  },
+  "GBP": {
+   "delta": 0.4,
+   "raison": "La hausse à 4 % est maintenant dans le modèle. Le vote est large (8 contre 1, et le seul opposant voulait monter plus), mais Andrew Bailey dit que ce n'est pas le début d'une série. La livre a peu réagi."
+  },
+  "JPY": {
+   "delta": 0.4,
+   "raison": "Le compte rendu de la Banque du Japon confirme une hausse probable en décembre. Le yen sert aussi de refuge pendant la chute des valeurs technologiques. Le Japon peut intervenir si le dollar approche 160 yens."
+  },
+  "CHF": {
+   "delta": 0.2,
+   "raison": "L'inflation suisse est montée à 1,5 %. Mais le franc a reculé lundi, quand les marchés se sont rassurés : son rôle de refuge compte moins si la peur retombe."
+  },
+  "AUD": {
+   "delta": -0.6,
+   "raison": "La hausse à 4,85 % est dans le modèle, mais la banque d'Australie a annoncé une pause. Le dollar australien souffre quand les marchés ont peur."
+  },
+  "NZD": {
+   "delta": -1.0,
+   "raison": "Chômage à 5,7 %, en hausse pour le troisième trimestre de suite. Les élections du 7 novembre n'ont pas de vainqueur clair : des semaines d'incertitude politique s'annoncent."
+  },
+  "CAD": {
+   "delta": -1.1,
+   "raison": "Le Canada perd des emplois (chômage à 6,7 %) et le pétrole passe sous 90 dollars."
+  },
+  "NOK": {
+   "delta": -0.8,
+   "raison": "Le pétrole Brent passe sous 90 dollars pour la première fois depuis août : le Qatar a porté à la Maison-Blanche un plan iranien pour rouvrir le détroit d'Ormuz, et Donald Trump dit que la guerre pourrait finir bientôt. L'inflation de fond norvégienne ralentit à 2,7 %, ce qui rend une nouvelle hausse de taux moins probable."
+  },
+  "SEK": {
+   "delta": -0.2,
+   "raison": "La hausse à 2 % est maintenant dans le modèle. Mais l'inflation suédoise d'octobre est très faible (1,1 %, contre 1,4 % attendu, et 0,1 % hors énergie) : de nouvelles hausses deviennent moins probables."
+  }
+ }
+}

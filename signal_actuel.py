@@ -15,7 +15,7 @@ NOMS = dict(USD="dollar américain", EUR="euro", GBP="livre sterling", JPY="yen 
 def main():
     d = model.load()
     S, F = model.scores(d)
-    last = S.dropna(how="all").index[-1]
+    last = model.derniere_decision(S)
     cur = S.loc[last].sort_values(ascending=False)
     hist = pd.read_csv(R / "toutes_les_paires.csv").set_index("paire") if (R / "toutes_les_paires.csv").exists() else None
     pairs = []

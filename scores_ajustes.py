@@ -23,7 +23,7 @@ def main(path, as_json=False):
     adj = json.loads(Path(path).read_text(encoding="utf-8"))
     d = model.load()
     S, _ = model.scores(d)
-    base = S.dropna(how="all").iloc[-1]
+    base = S.loc[model.derniere_decision(S)]
     raw = pd.Series({c: float(adj["ajustements"].get(c, {}).get("delta", 0.0)) for c in model.CCY})
     clipped = raw.clip(-MAX_DELTA, MAX_DELTA)
     mean = clipped.mean()
