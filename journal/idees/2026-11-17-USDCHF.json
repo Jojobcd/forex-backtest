@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "moyenne",
+ "these": "Le dollar est le plus fort du classement : inflation et emploi solides, hausse de la Fed presque certaine en décembre. Le franc a le taux le plus bas des dix pays (0 %).",
+ "catalyseurs": "Compte rendu de la Fed le 18 novembre, croissance américaine le 25 novembre, décision de la Fed le 9 décembre.",
+ "invalidation": "Des chiffres américains nettement plus faibles qui font douter de la hausse de décembre, ou une panique qui fait fuir les investisseurs vers le franc. La hausse est déjà presque entièrement dans le prix : le dollar peut baisser si elle a lieu sans promesse pour la suite.",
+ "cree_le": "2026-11-17T14:00:00Z",
+ "analyse_id": "2026-11-17",
+ "paire": "USDCHF",
+ "ecart": 4.78,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

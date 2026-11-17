@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "GBP",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "La Grande-Bretagne a un taux deux fois plus élevé que la Suède (4 % contre 2 %), une croissance solide et un chômage en baisse. La Suède a une inflation très faible et n'attend pas de hausse avant février.",
+ "catalyseurs": "Inflation britannique le 18 novembre à 07h00 (GMT), ventes au détail britanniques le 20 novembre.",
+ "invalidation": "Une inflation britannique nettement plus faible que prévu, qui ferait douter d'une nouvelle hausse, ou une hausse suédoise en décembre.",
+ "cree_le": "2026-11-17T14:00:00Z",
+ "analyse_id": "2026-11-17",
+ "paire": "GBPSEK",
+ "ecart": 5.2,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-17",
+ "ajustements": {
+  "USD": {
+   "delta": 0.6,
+   "raison": "L'inflation américaine d'octobre est plus forte que prévu (+0,4 % sur le mois, +0,3 % hors énergie et alimentation). Une hausse de la Fed le 9 décembre est donnée à environ 90 %, et une hausse d'un demi-point n'est plus exclue. Les ventes au détail ralentissent (+0,2 %), et la hausse est déjà largement dans le prix."
+  },
+  "EUR": {
+   "delta": 0.3,
+   "raison": "Inflation à 4 % : la BCE devrait monter son taux à 2,75 % le 17 décembre."
+  },
+  "GBP": {
+   "delta": 0.5,
+   "raison": "Croissance de 0,7 % au 3e trimestre, comme prévu, et chômage en baisse à 4,6 % (4,7 % attendu). Mais les salaires ralentissent (3,5 %) et 34 000 emplois salariés ont disparu en octobre. Inflation d'octobre demain."
+  },
+  "JPY": {
+   "delta": 0.2,
+   "raison": "L'économie japonaise a légèrement reculé au 3e trimestre, plus mal que prévu. Mais le Japon menace d'intervenir quand le dollar dépasse 160 yens, et une hausse de taux en décembre reste probable."
+  },
+  "CHF": {
+   "delta": 0.1,
+   "raison": "Rien de nouveau en Suisse. Le franc a baissé face au dollar après l'inflation américaine."
+  },
+  "AUD": {
+   "delta": -0.8,
+   "raison": "Les marchés pensent que la banque d'Australie a fini de monter ses taux, et le chômage approche 5 %. Le dollar australien recule face au dollar néo-zélandais. Emploi d'octobre jeudi."
+  },
+  "NZD": {
+   "delta": -0.4,
+   "raison": "Chômage à 5,7 %, mais une hausse de taux en décembre est de nouveau attendue (taux à 3 %), et le dollar néo-zélandais remonte face à l'australien."
+  },
+  "CAD": {
+   "delta": -1.0,
+   "raison": "Inflation canadienne stable à 3,1 % (3,2 % attendu), inflation de fond proche de 2 %, et emplois en baisse : la Banque du Canada devrait faire une pause en décembre. Le pétrole a reculé."
+  },
+  "NOK": {
+   "delta": -0.6,
+   "raison": "Le pétrole Brent reste sous 100 dollars (environ 92 à 96) sans accord signé avec l'Iran, et l'inflation de fond norvégienne ralentit."
+  },
+  "SEK": {
+   "delta": -0.1,
+   "raison": "La Banque de Suède devrait attendre février pour monter à nouveau ses taux, même si son vice-gouverneur juge décembre possible. L'inflation suédoise est très faible."
+  }
+ }
+}

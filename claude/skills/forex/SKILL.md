@@ -50,6 +50,11 @@ Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le
    baisse pour la livre en cas de ton partagé : elle n'a presque pas bougé. Par défaut, la ligne du milieu veut dire
    « peu de réaction ».
 
+7. (10/11/2026, inflation américaine) La ligne du milieu correspond EXACTEMENT au consensus, jamais à une fourchette.
+   J'avais mis +0,2 et +0,3 % dans la même ligne « peu de réaction » : le chiffre est sorti à +0,3 % (0,1 point au-dessus,
+   le seuil cité par un membre de la Fed), et le dollar a atteint son plus haut depuis 19 mois. Un chiffre qu'un
+   dirigeant a présenté comme un seuil est une surprise, pas un chiffre « proche du consensus ».
+
 ## Étape 1 — Modèle quantitatif
 
 Dans le dossier du projet (Bash, `PYTHONIOENCODING=utf-8`, option `-W ignore`) :
