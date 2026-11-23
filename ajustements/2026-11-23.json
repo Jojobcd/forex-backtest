@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-23",
+ "ajustements": {
+  "USD": {
+   "delta": 0.7,
+   "raison": "Le compte rendu de la Fed montre que presque tous les membres jugent d'autres hausses justifiées. Une hausse le 9 décembre est donnée à environ 90 %, et le dollar atteint son plus haut depuis 19 mois. C'est déjà largement dans le prix."
+  },
+  "EUR": {
+   "delta": 0.2,
+   "raison": "Activité de la zone euro stable en novembre (51,7), mais les services déçoivent et la France s'enfonce. La BCE devrait quand même monter ses taux le 17 décembre."
+  },
+  "GBP": {
+   "delta": 0.4,
+   "raison": "L'inflation britannique monte à 3,6 %, comme prévu, mais sous la prévision de la Banque d'Angleterre (3,7 %) : les paris sur une hausse en décembre reculent. Les ventes au détail surprennent en hausse (+0,7 %), mais l'activité des services ralentit en novembre."
+  },
+  "JPY": {
+   "delta": 0.4,
+   "raison": "L'inflation japonaise atteint 2,3 %, son plus haut depuis un an, et 86 % des économistes attendent une hausse de taux le 18 décembre. Le Japon menace d'intervenir si le dollar dépasse 160 yens."
+  },
+  "CHF": {
+   "delta": 0.1,
+   "raison": "Rien de nouveau en Suisse. Décision de la banque suisse le 10 décembre."
+  },
+  "AUD": {
+   "delta": -1.2,
+   "raison": "Le chômage australien saute à 4,9 % (4,7 % attendu) et 43 500 emplois ont disparu en octobre. Les marchés commencent à parier sur des baisses de taux l'an prochain. Le dollar australien est à son plus bas de l'année."
+  },
+  "NZD": {
+   "delta": -0.4,
+   "raison": "Chômage élevé (5,7 %), mais une nouvelle hausse de taux reste possible. Le dollar néo-zélandais résiste mieux que l'australien."
+  },
+  "CAD": {
+   "delta": -1.0,
+   "raison": "Emplois en baisse et inflation de fond proche de 2 % : la Banque du Canada devrait faire une pause le 9 décembre. Le pétrole recule pour la troisième semaine."
+  },
+  "NOK": {
+   "delta": -0.6,
+   "raison": "Le pétrole Brent recule pour la troisième semaine de suite, vers 92 dollars : le passage des pétroliers par Ormuz est revenu près de son niveau d'avant-guerre, selon plusieurs sources. L'inflation de fond norvégienne ralentit."
+  },
+  "SEK": {
+   "delta": -0.3,
+   "raison": "La couronne suédoise est la plus faible des dix devises cette année (environ -10 % face au dollar) : des épargnants suédois la vendent pour acheter des actions technologiques américaines. La prochaine hausse de taux n'est pas attendue avant février."
+  }
+ }
+}

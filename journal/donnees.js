@@ -2615,6 +2615,199 @@ window.JOURNAL_DATA = {
     }
    ],
    "id": "2026-11-17"
+  },
+  {
+   "date": "2026-11-23",
+   "titre": "Semaine du 23 novembre 2026",
+   "en_bref": "Le dollar reste le plus fort : la Fed devrait monter ses taux le 9 décembre. Le dollar australien chute à son plus bas de l'année après un mauvais chiffre de l'emploi. La couronne suédoise reste la plus faible. Semaine courte aux États-Unis (Thanksgiving jeudi), avec l'inflation PCE mercredi. Les deux idées restent valables : USDCHF et GBPSEK.",
+   "resume": [
+    "Fait : le compte rendu de la Fed montre que presque tous les membres jugent d'autres hausses justifiées. Le dollar atteint son plus haut depuis 19 mois (indice vers 104).",
+    "Fait : le chômage australien saute à 4,9 % en octobre (4,7 % attendu), avec 43 500 emplois perdus. Le dollar australien tombe à son plus bas de l'année.",
+    "Fait : l'inflation britannique monte à 3,6 %, comme prévu, mais sous la prévision de la Banque d'Angleterre (3,7 %). Les ventes au détail progressent de 0,7 % (0 % attendu). L'activité des services ralentit en novembre (52,0).",
+    "Fait : l'inflation japonaise atteint 2,3 %, son plus haut depuis un an, et le yen monte. 86 % des économistes attendent une hausse de taux le 18 décembre.",
+    "Fait : l'activité de la zone euro reste stable en novembre (51,7) : l'Allemagne accélère, la France recule nettement.",
+    "Fait : le pétrole Brent recule pour la troisième semaine, vers 92 dollars. Le passage des pétroliers par Ormuz est revenu près de son niveau d'avant-guerre selon CNBC, mais des mines et des attaques houthies ont été signalées vendredi.",
+    "Fait : la couronne suédoise a perdu près de 10 % face au dollar cette année, la pire des dix devises.",
+    "Scénarios : tensions qui durent (45 %), détente et pétrole plus bas (35 %, car le trafic par Ormuz reprend), escalade avec l'Iran (20 %)."
+   ],
+   "confiance": "moyen",
+   "classement": [
+    {
+     "devise": "USD",
+     "score": 2.5,
+     "modele": 1.68,
+     "pourquoi": "Presque tous les membres de la Fed jugent d'autres hausses justifiées : une hausse le 9 décembre est donnée à environ 90 %. Le dollar est à son plus haut depuis 19 mois."
+    },
+    {
+     "devise": "JPY",
+     "score": 1.1,
+     "modele": 0.48,
+     "pourquoi": "L'inflation japonaise est à son plus haut depuis un an et une hausse de taux le 18 décembre est très attendue. Le Japon menace d'intervenir vers 160 yens."
+    },
+    {
+     "devise": "AUD",
+     "score": 0.8,
+     "modele": 1.86,
+     "pourquoi": "Taux élevé (4,85 %), mais le chômage saute à 4,9 % et des emplois disparaissent : le dollar australien est à son plus bas de l'année."
+    },
+    {
+     "devise": "GBP",
+     "score": 0.8,
+     "modele": 0.26,
+     "pourquoi": "Inflation à 3,6 %, sous la prévision de la Banque d'Angleterre, donc moins de chances d'une hausse en décembre. Les ventes au détail surprennent en hausse."
+    },
+    {
+     "devise": "NOK",
+     "score": 0.7,
+     "modele": 1.16,
+     "pourquoi": "Taux élevé (4,50 %), mais le pétrole recule pour la troisième semaine de suite, vers 92 dollars."
+    },
+    {
+     "devise": "CAD",
+     "score": 0.7,
+     "modele": 1.56,
+     "pourquoi": "Emplois en baisse et inflation de fond proche de 2 % : pause attendue de la Banque du Canada en décembre."
+    },
+    {
+     "devise": "EUR",
+     "score": 0.6,
+     "modele": 0.19,
+     "pourquoi": "Activité stable mais la France s'enfonce. La BCE devrait monter ses taux le 17 décembre."
+    },
+    {
+     "devise": "NZD",
+     "score": -0.5,
+     "modele": -0.24,
+     "pourquoi": "Chômage élevé (5,7 %), mais une nouvelle hausse de taux reste possible."
+    },
+    {
+     "devise": "CHF",
+     "score": -2.3,
+     "modele": -2.6,
+     "pourquoi": "Taux à 0 %, le plus bas des dix pays. Décision de la banque suisse le 10 décembre."
+    },
+    {
+     "devise": "SEK",
+     "score": -4.5,
+     "modele": -4.34,
+     "pourquoi": "La plus faible des dix devises cette année : taux bas, inflation très faible, et des épargnants suédois vendent la couronne pour acheter des actions américaines."
+    }
+   ],
+   "calendrier": [
+    {
+     "date": "23 nov. 14h45",
+     "evenement": "Activité américaine de novembre (première estimation)",
+     "devises": "USD"
+    },
+    {
+     "date": "25 nov. 00h30",
+     "evenement": "Inflation australienne d'octobre (4,3 % en septembre)",
+     "devises": "AUD"
+    },
+    {
+     "date": "25 nov. 13h30",
+     "evenement": "Inflation PCE d'octobre (+0,3 % attendu hors énergie et alimentation) et croissance américaine du 3e trimestre (2e estimation)",
+     "devises": "USD"
+    },
+    {
+     "date": "26 nov.",
+     "evenement": "Thanksgiving : marchés américains fermés",
+     "devises": "USD"
+    },
+    {
+     "date": "26 nov. 23h30",
+     "evenement": "Inflation de Tokyo de novembre (prévisions divergentes)",
+     "devises": "JPY"
+    },
+    {
+     "date": "9 déc.",
+     "evenement": "Fed (hausse attendue à environ 90 %) et Banque du Canada (pause attendue)",
+     "devises": "USD, CAD"
+    },
+    {
+     "date": "10 déc.",
+     "evenement": "Banque nationale suisse",
+     "devises": "CHF"
+    },
+    {
+     "date": "17-18 déc.",
+     "evenement": "BCE et Banque d'Angleterre le 17, Banque du Japon le 18",
+     "devises": "EUR, GBP, JPY"
+    },
+    {
+     "date": "En continu",
+     "evenement": "Détroit d'Ormuz, intervention possible du Japon vers 160 yens",
+     "devises": "NOK, CAD, JPY"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "FXStreet : le compte rendu de la Fed",
+     "url": "https://www.fxstreet.com/news/fed-minutes-set-to-provide-further-clues-on-the-central-banks-hiking-pace-202611181500",
+     "date": "18/11/2026"
+    },
+    {
+     "titre": "FXStreet : le dollar au plus haut depuis 19 mois",
+     "url": "https://www.fxstreet.com/news/10400-united-states-dollar-index-hits-fresh-19-month-high-on-feds-hawkish-undertone-202611190504",
+     "date": "19/11/2026"
+    },
+    {
+     "titre": "FXStreet : chômage australien à 4,9 %",
+     "url": "https://www.fxstreet.com/news/australia-unemployment-rate-expected-to-remain-at-47-202611182030",
+     "date": "19/11/2026"
+    },
+    {
+     "titre": "Forex.com : le dollar australien et la fin des hausses",
+     "url": "https://www.forex.com/en-us/news-and-analysis/australian-dollar-extends-slump-as-rba-rate-hikes-look-dead-and-buried/",
+     "date": "11/2026"
+    },
+    {
+     "titre": "BBN Times : inflation britannique à 3,6 %",
+     "url": "https://www.bbntimes.com/global-economy/uk-inflation-october-2026-bank-of-england",
+     "date": "18/11/2026"
+    },
+    {
+     "titre": "InvestingLive : ventes au détail britanniques",
+     "url": "https://investinglive.com/news/uk-october-retail-sales-0-7-vs-0-0-m-m-expected/",
+     "date": "20/11/2026"
+    },
+    {
+     "titre": "FXStreet : l'inflation japonaise et le yen",
+     "url": "https://www.fxstreet.com/analysis/the-japanese-yen-gains-as-japans-inflation-hits-its-highest-since-november-2025-202611201713",
+     "date": "20/11/2026"
+    },
+    {
+     "titre": "ActionForex : activité de la zone euro en novembre",
+     "url": "https://www.actionforex.com/live-comments/661769-eurozone-pmi-holds-steady-as-german-growth-hits-four-year-high-france-slumps-further/",
+     "date": "23/11/2026"
+    },
+    {
+     "titre": "TMGM : activité britannique en novembre",
+     "url": "https://www.tmgm.com/en-in/analysis/market-news/article/united-kingdom-flash-sp-global-services-pmi-unexpectedly-drops-to-52-in-november-202611230933",
+     "date": "23/11/2026"
+    },
+    {
+     "titre": "CNBC : le pétrole et Ormuz",
+     "url": "https://cnbc.com/2026/11/20/oil-wti-brent-hormuz.html",
+     "date": "20/11/2026"
+    },
+    {
+     "titre": "Sweden Herald : la couronne, pire devise du G10",
+     "url": "https://swedenherald.com/article/swedish-krona-has-fallen-nearly-10-against-the-us-dollar-this-year-worst-among-g10-currencies",
+     "date": "11/2026"
+    },
+    {
+     "titre": "FXStreet : la semaine à venir",
+     "url": "https://www.fxstreet.com/analysis/forecasting-the-upcoming-week-its-pmi-week-along-with-more-us-inflation-202611201835",
+     "date": "20/11/2026"
+    },
+    {
+     "titre": "InvestingLive : la semaine du 23 au 27 novembre",
+     "url": "https://investinglive.com/forex/market-outlook-for-the-week-of-23rd-27th-november/",
+     "date": "11/2026"
+    }
+   ],
+   "id": "2026-11-23"
   }
  ],
  "idees": [
@@ -2972,9 +3165,11 @@ window.JOURNAL_DATA = {
    "analyse_id": "2026-11-17",
    "paire": "GBPSEK",
    "ecart": 5.2,
-   "statut": "idee",
+   "statut": "ecarte",
    "source": "analyse",
    "suit_modele": true,
+   "date_sortie": "2026-11-23",
+   "note": "Reconduite dans l'analyse du 23 novembre.",
    "id": "2026-11-17-GBPSEK"
   },
   {
@@ -2989,10 +3184,46 @@ window.JOURNAL_DATA = {
    "analyse_id": "2026-11-17",
    "paire": "USDCHF",
    "ecart": 4.78,
+   "statut": "ecarte",
+   "source": "analyse",
+   "suit_modele": true,
+   "date_sortie": "2026-11-23",
+   "note": "Reconduite dans l'analyse du 23 novembre.",
+   "id": "2026-11-17-USDCHF"
+  },
+  {
+   "sens": "ACHAT",
+   "forte": "GBP",
+   "faible": "SEK",
+   "confiance": "moyenne",
+   "these": "La Grande-Bretagne a un taux deux fois plus élevé que la Suède (4 % contre 2 %) et des ventes au détail solides. La couronne suédoise est la plus faible des dix devises cette année.",
+   "catalyseurs": "Activité britannique de novembre, décision de la Banque d'Angleterre le 17 décembre.",
+   "invalidation": "Une Banque d'Angleterre qui écarte toute nouvelle hausse, ou une remontée nette de l'inflation suédoise. L'inflation britannique, sous la prévision de la banque, est un premier signal à surveiller.",
+   "cree_le": "2026-11-23T11:00:00Z",
+   "analyse_id": "2026-11-23",
+   "paire": "GBPSEK",
+   "ecart": 5.3,
    "statut": "idee",
    "source": "analyse",
    "suit_modele": true,
-   "id": "2026-11-17-USDCHF"
+   "id": "2026-11-23-GBPSEK"
+  },
+  {
+   "sens": "ACHAT",
+   "forte": "USD",
+   "faible": "CHF",
+   "confiance": "moyenne",
+   "these": "Le dollar est le plus fort du classement : la Fed devrait monter ses taux le 9 décembre. Le franc a le taux le plus bas des dix pays (0 %).",
+   "catalyseurs": "Inflation PCE et croissance américaine le 25 novembre à 13h30 (GMT), décision de la Fed le 9 décembre, banque suisse le 10 décembre.",
+   "invalidation": "Une inflation PCE nettement plus faible que prévu, ou une hausse de la Fed sans promesse pour la suite : elle est déjà presque entièrement dans le prix.",
+   "cree_le": "2026-11-23T11:00:00Z",
+   "analyse_id": "2026-11-23",
+   "paire": "USDCHF",
+   "ecart": 4.88,
+   "statut": "idee",
+   "source": "analyse",
+   "suit_modele": true,
+   "id": "2026-11-23-USDCHF"
   }
  ]
 };

@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "USD",
+ "faible": "CHF",
+ "confiance": "moyenne",
+ "these": "Le dollar est le plus fort du classement : la Fed devrait monter ses taux le 9 décembre. Le franc a le taux le plus bas des dix pays (0 %).",
+ "catalyseurs": "Inflation PCE et croissance américaine le 25 novembre à 13h30 (GMT), décision de la Fed le 9 décembre, banque suisse le 10 décembre.",
+ "invalidation": "Une inflation PCE nettement plus faible que prévu, ou une hausse de la Fed sans promesse pour la suite : elle est déjà presque entièrement dans le prix.",
+ "cree_le": "2026-11-23T11:00:00Z",
+ "analyse_id": "2026-11-23",
+ "paire": "USDCHF",
+ "ecart": 4.88,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}

@@ -55,6 +55,12 @@ Donner ce bilan à l'utilisateur sans l'enjoliver : séparer ce qui reprenait le
    le seuil cité par un membre de la Fed), et le dollar a atteint son plus haut depuis 19 mois. Un chiffre qu'un
    dirigeant a présenté comme un seuil est une surprise, pas un chiffre « proche du consensus ».
 
+8. (18-20/11/2026, inflations britannique et japonaise) Avant un tableau chiffré, trouver le consensus dans DEUX sources
+   et noter aussi la prévision de la banque centrale. Le 17/11, j'ai fait le tableau japonais sur un consensus de 2,6 %
+   que les sources contredisaient : le chiffre est sorti à 2,3 % et le yen a MONTÉ (plus haut depuis un an). Pour la
+   Grande-Bretagne, 3,6 % était le consensus mais sous la prévision de la banque (3,7 %), d'où la baisse de la livre.
+   Si les sources divergent, le dire et donner seulement le sens du risque, sans seuils chiffrés.
+
 ## Étape 1 — Modèle quantitatif
 
 Dans le dossier du projet (Bash, `PYTHONIOENCODING=utf-8`, option `-W ignore`) :

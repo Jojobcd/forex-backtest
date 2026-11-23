@@ -1,0 +1,16 @@
+{
+ "sens": "ACHAT",
+ "forte": "GBP",
+ "faible": "SEK",
+ "confiance": "moyenne",
+ "these": "La Grande-Bretagne a un taux deux fois plus élevé que la Suède (4 % contre 2 %) et des ventes au détail solides. La couronne suédoise est la plus faible des dix devises cette année.",
+ "catalyseurs": "Activité britannique de novembre, décision de la Banque d'Angleterre le 17 décembre.",
+ "invalidation": "Une Banque d'Angleterre qui écarte toute nouvelle hausse, ou une remontée nette de l'inflation suédoise. L'inflation britannique, sous la prévision de la banque, est un premier signal à surveiller.",
+ "cree_le": "2026-11-23T11:00:00Z",
+ "analyse_id": "2026-11-23",
+ "paire": "GBPSEK",
+ "ecart": 5.3,
+ "statut": "idee",
+ "source": "analyse",
+ "suit_modele": true
+}
