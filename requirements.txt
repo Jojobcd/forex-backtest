@@ -2,3 +2,6 @@ pandas
 numpy
 matplotlib
 requests
+# Seulement pour ml_experience.py (expérience d'apprentissage automatique) :
+scikit-learn>=1.5
+torch>=2.4  # version CPU : pip install torch --index-url https://download.pytorch.org/whl/cpu
